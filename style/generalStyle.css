@@ -1,0 +1,29 @@
+:root{
+    --White1 : #fff2e2;
+    scroll-behavior: smooth ;
+}
+
+
+body{
+    margin: 0;
+    color: var(--White1);
+    background-color: #0c0a30;
+}
+
+.s1{
+    height:100%;
+}
+.s2{
+    height:100%;
+}
+.s3{
+    height:100%;
+}
+.presentation{
+    background-color: rgb(55, 60, 65);
+    min-height: 300px;
+}
+footer{
+    min-height: 300px;
+    background-color: #000000;
+}

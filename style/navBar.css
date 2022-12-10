@@ -1,0 +1,9 @@
+nav {
+    height: 60px;
+    backdrop-filter: blur(15);
+    background-color: #000c26;
+
+}
+nav a{
+    width: 20%;
+}
