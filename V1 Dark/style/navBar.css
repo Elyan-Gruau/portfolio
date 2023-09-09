@@ -1,0 +1,44 @@
+nav {
+    height: 60px;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    background-color: var(--colNavBackground);
+    padding-right: 10px ;
+
+
+
+    z-index: 9;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+
+}
+nav a{
+    width: 20%;
+    color: white;
+}
+
+.titleContainer{
+    background-image: linear-gradient(90deg, var(--colDarkGrey1) 0%, transparent 100%);
+    padding: 0 10px ;
+
+}
+
+.clickableLogo{
+    width: 30px;
+    height: 30px;
+}
+
+.clickableLogo img{
+    width: 30px;
+    height: 30px;
+}
+
+.contactContainer{
+    display: flex;
+
+}
+
