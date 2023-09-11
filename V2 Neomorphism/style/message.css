@@ -26,9 +26,10 @@
     width: 80%;
     border-radius:  var(--borderRadius);
     border: none;
-    box-shadow: var(--Neomorphism);
+    box-shadow: var(--NeomorphismIn);
     padding: 0 30px ;
     background-color: var(--White2);
+    filter: brightness(98%);
     letter-spacing: 1px;
 }
 

@@ -12,7 +12,7 @@
     --black :#123456;
     --colNavBackground : rgba(1, 5, 21, 0.29);
     --colweirdBlue :#123456;
-    --borderRadius : 50px;
+    --borderRadius : 20px;
     --colDarkGrey1 : #141414;
     --colGray1: rgb(55, 60, 65);
     --colAccentMajor: #e17070;
@@ -26,8 +26,10 @@
     --CleanBlack : #211e1e;
 
     --bShad : rgba(5, 5, 50, 0.2);
-    --wShad : rgba(255, 255, 255, 1);
+    --wShad : rgba(250, 250, 255, 1);
 
+    --mainWidth : 80%;
+    --mainPadding : 0 10%;
 
 
     --font-family: "Monsterat", sans-serif;
@@ -35,13 +37,14 @@
     --font-style: normal;
 
     --Neomorphism :
-            -3px 3px 8px 0px var(--bShad),
+            -3px 3px 8px 2px var(--bShad),
             inset -2px 2px 4px 1px var(--bShad),
             inset 3px -5px 12px 1px var(--wShad),
-            3px -3px 4px 1px var(--wShad)
-
-            ;
+            3px -3px 4px 1px var(--wShad);
     /* -9px 9px 8px 0px var(--wShad) */
+    --NeomorphismIn:
+            inset -2px 2px 4px 1px var(--bShad),
+            inset 3px -5px 12px 1px var(--wShad);
 }
 
 
@@ -58,7 +61,6 @@ h1{
     font-style: var(--font-style);
     font-variant: all-petite-caps;
     color: var(--RoyalBlue);
-    padding: 0 20px;
 
 }
 
@@ -83,8 +85,8 @@ h1{
 main{
     display: flex;
     flex-direction: column;
-    width: 80%;
-    margin: 0 10%;
+    width: var(--mainWidth);
+    margin: var(--mainPadding);
 }
 
 .presentation h2{
