@@ -8,6 +8,7 @@
     scroll-behavior: smooth ;
 
     --White1 : #f8fdff;
+    --White2 : #E6EEFE;
     --black :#123456;
     --colNavBackground : rgba(1, 5, 21, 0.29);
     --colweirdBlue :#123456;
@@ -24,6 +25,9 @@
     --Beige2 : #fff2e2;
     --CleanBlack : #211e1e;
 
+    --bShad : rgba(5, 5, 50, 0.2);
+    --wShad : rgba(255, 255, 255, 1);
+
 
 
     --font-family: "Monsterat", sans-serif;
@@ -31,16 +35,19 @@
     --font-style: normal;
 
     --Neomorphism :
-            -3px 3px 8px -5px rgba(0, 0, 0, 0.5),
-            inset -2px 2px 4px 1px rgba(0,0,0,0.1),
-            inset 3px -3px 0px 1px rgba(255,255,255,1),
-            3px -3px 0px 0px white;
+            -3px 3px 8px 0px var(--bShad),
+            inset -2px 2px 4px 1px var(--bShad),
+            inset 3px -5px 12px 1px var(--wShad),
+            3px -3px 4px 1px var(--wShad)
+
+            ;
+    /* -9px 9px 8px 0px var(--wShad) */
 }
 
 
 body{
     margin: 0;
-    background-color: var(--White1);
+    background-color: var(--White2);
     font-family: "Monsterat", sans-serif;
 }
 
