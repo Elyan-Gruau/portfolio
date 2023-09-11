@@ -37,9 +37,14 @@ nav a{
 
 }
 
+.sectionJumpingContainer{
+    display: flex;
+    width: 65%;
+}
+
 .clickableLogo{
-    width: 30px;
-    height: 30px;
+    justify-content: flex-end;
+
 }
 
 .clickableLogo img{
@@ -49,6 +54,8 @@ nav a{
 
 .contactContainer{
     display: flex;
+    justify-content: flex-end;
+    width: 17%;
 
 }
 
