@@ -44,7 +44,10 @@
     /* -9px 9px 8px 0px var(--wShad) */
     --NeomorphismIn:
             inset -2px 2px 4px 1px var(--bShad),
-            inset 3px -5px 12px 1px var(--wShad);
+            inset 3px -5px 12px 3px var(--wShad);
+    --NeomorphismOut:
+            -3px 3px 8px 3px var(--bShad),
+            3px -3px 4px 3px var(--wShad);
 }
 
 
@@ -87,6 +90,10 @@ main{
     flex-direction: column;
     width: var(--mainWidth);
     margin: var(--mainPadding);
+}
+
+button:hover, a:hover {
+    cursor: pointer;
 }
 
 .presentation h2{

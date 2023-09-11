@@ -1,10 +1,12 @@
 footer{
-    -moz-border-radius-topleft: var(--borderRadius);
-    -moz-border-radius-topright: var(--borderRadius);
+    border-top-right-radius: var(--borderRadius);
+    border-top-left-radius: var(--borderRadius);
     background: #e0e0e0;
-    box-shadow:  -20px 20px 60px #bebebe,
-    20px -20px 60px #ffffff;
+    box-shadow:
+            inset -6px 6px 8px 0px var(--bShad),
+            inset 6px -6px 8px 0px var(--wShad);
     display: flex;
+    height: 200px;
 
 }
 

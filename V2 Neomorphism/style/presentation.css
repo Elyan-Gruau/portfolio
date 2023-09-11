@@ -1,8 +1,27 @@
 #profile img {
-    border-radius: 50px;
+    border-radius: 180px;
     max-width: 300px;
+    max-height: 300px;
+
     aspect-ratio: 1;
+    filter: opacity(0);
+
+
+}
+
+#profile{
+    border-radius: 180px;
+    max-width: 300px;
+    max-height: 300px;
     padding: 10px;
     background-color: white;
-    box-shadow: var(--Neomorphism);
+    box-shadow: var(--NeomorphismOut);
+}
+
+#profile>div{
+    box-shadow: inset 5px -5px 5px -4px var(--wShad), inset -5px 5px 8px 0px var(--bShad)  ;
+    border-radius: 180px;
+    background: url("https://cdn.discordapp.com/avatars/484843311849537536/1103c524a996a50203b4001f4d0e5da9.png?size=1024");
+    background-origin: border-box;
+    background-size: contain;
 }
