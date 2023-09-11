@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'Monsterat';
+    src:  url('../font/Montserrat-VariableFont_wght.ttf') format('tff'),
+    url('../font/Montserrat-VariableFont_wght.ttf') format('tff');
+}
+
+:root{
+    scroll-behavior: smooth ;
+
+    --White1 : #f8fdff;
+    --black :#123456;
+    --colNavBackground : rgba(1, 5, 21, 0.29);
+    --colweirdBlue :#123456;
+    --borderRadius : 50px;
+    --colDarkGrey1 : #141414;
+    --colGray1: rgb(55, 60, 65);
+    --colAccentMajor: #e17070;
+    --colAccentMinor: #c27878;
+    --backgroundOffset : -44px;
+
+    --RoyalBlue : #0B59A4;
+    --DarkBrown : #362013;
+    --Beige : #e5dfd6;
+    --Beige2 : #fff2e2;
+    --CleanBlack : #211e1e;
+
+
+
+    --font-family: "Monsterat", sans-serif;
+    --font-weight : normal;
+    --font-style: normal;
+
+    --Neomorphism :
+            -3px 3px 8px -5px rgba(0, 0, 0, 0.5),
+            inset -2px 2px 4px 1px rgba(0,0,0,0.1),
+            inset 3px -3px 0px 1px rgba(255,255,255,1),
+            3px -3px 0px 0px white;
+}
+
+
+body{
+    margin: 0;
+    background-color: var(--White1);
+    font-family: "Monsterat", sans-serif;
+}
+
+h1{
+    letter-spacing: 3px;
+    font-family: var(--font-family);
+    font-weight : var(--font-weight);
+    font-style: var(--font-style);
+    font-variant: all-petite-caps;
+    color: var(--RoyalBlue);
+    padding: 0 20px;
+
+}
+
+.s1{
+    height:100%;
+}
+.s2{
+    height:100%;
+}
+.s3{
+    height:100%;
+}
+
+
+.presentation{
+    padding-top: 0px;
+    height: 50%;
+    width: 100%;
+    min-height: 300px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 10%;
+}
+
+.presentation h2{
+    font-family: var(--font-family);
+    font-weight : var(--font-weight);
+    font-style: var(--font-style);
+    font-size: 50px;
+    text-align: center;
+    font-variant: unicase;
+    letter-spacing: 2px;
+    color: var(--RoyalBlue);
+
+    max-width: 100%;
+
+    width: 100%;
+    height:100%;
+
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0;
+    float: inherit;
+
+    animation-name: titleFadeIn;
+    animation-duration: 1s;
+
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+
+    padding: 55px 0px;
+}
+
+.spacer{
+    width: 100%;
+    height: 200px;
+
+
+}
+
