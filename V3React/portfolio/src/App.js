@@ -10,7 +10,7 @@ import './style/scrollBar.css'
 import Presentation from "./components/sections/Presentation";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import Works from "./components/sections/Works";
+import Works from "./components/sections/works/Works";
 import Skills from "./components/sections/skills/Skills";
 import Parcour from "./components/sections/Parcour";
 import Contact from "./components/sections/Contact";
@@ -34,8 +34,11 @@ function App() {
           <Spacer/>
         <Presentation/>
           <Parcour/>
+          <Spacer/>
           <Skills/>
+          <Spacer/>
           <Works/>
+          <Spacer/>
           <Contact/>
           <Spacer/>
       </main>

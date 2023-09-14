@@ -100,6 +100,10 @@ button:hover, a:hover {
     cursor: pointer;
 }
 
+h2{
+    text-align: center;
+}
+
 .presentation h2{
     font-family: var(--font-family);
     font-weight : bold;

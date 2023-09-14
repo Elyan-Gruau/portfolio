@@ -9,6 +9,10 @@ function Skill(props){
 
             </div>
 
+            <div className="skillButton">
+                <a>Pipo</a>
+            </div>
+
         </div>
     );
 }

@@ -1,3 +1,6 @@
 
 V3React/portfolio/node_modules/.cache/.eslintcache
 *.json
+/V3React/portfolio/node_modules/
+*.pack
+*.pack
