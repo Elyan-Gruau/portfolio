@@ -12,7 +12,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Works from "./components/sections/works/Works";
 import Skills from "./components/sections/skills/Skills";
-import Parcour from "./components/sections/Parcour";
+import Formations from "./components/sections/formations/Formations";
 import Contact from "./components/sections/Contact";
 import Spacer from "./components/Spacer";
 
@@ -33,7 +33,7 @@ function App() {
       <main>
           <Spacer/>
         <Presentation/>
-          <Parcour/>
+          <Formations/>
           <Spacer/>
           <Skills/>
           <Spacer/>
