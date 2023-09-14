@@ -1,7 +1,35 @@
 .skill {
-    box-shadow: var(--NeomorphismIn);
-    border-radius: 50px;
-    padding: 0px 20px;
-    margin: 5px 0 ;
     height: 30px;
+    width: 80%;
+    filter: brightness(100%);
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.skill p{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.skillName {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    width: 150px;
+    height: 100%;
+    background-color: #68818e;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+
+.skillBar {
+    box-shadow: var(--NeomorphismIn);
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    height: 100%;
+    width: 100%;
 }
