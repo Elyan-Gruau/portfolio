@@ -1,0 +1,47 @@
+import './App.css';
+import './style/generalStyle.css';
+import './style/navBar.css';
+import './style/presentation.css';
+import './style/message.css';
+import './style/footer.css';
+import './style/scrollBar.css'
+
+
+import Presentation from "./components/sections/Presentation";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import Works from "./components/sections/Works";
+import Skills from "./components/sections/skills/Skills";
+import Parcour from "./components/sections/Parcour";
+import Contact from "./components/sections/Contact";
+import Spacer from "./components/Spacer";
+
+function App() {
+  return (
+    <div className="App">
+      <head>
+        <meta charSet="UTF-8"/>
+        <title> Elyan GRUAU | Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+          <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+          <script src="js/inverted-scroll.js"></script>
+          <script defer="defer" src="js/typing.js"></script>
+      </head>
+      <header >
+        <Navbar/>
+      </header>
+      <main>
+          <Spacer/>
+        <Presentation/>
+          <Parcour/>
+          <Skills/>
+          <Works/>
+          <Contact/>
+          <Spacer/>
+      </main>
+      <Footer/>
+    </div>
+  );
+}
+
+export default App;

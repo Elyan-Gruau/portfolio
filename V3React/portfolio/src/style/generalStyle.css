@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'Monsterat';
+    src:  url('../../public/font/Montserrat-VariableFont_wght.ttf') format('tff'),
+    url('../../public/font/Montserrat-VariableFont_wght.ttf') format('tff');
+}
+
+:root{
+    scroll-behavior: smooth ;
+
+    --White1 : #f8fdff;
+    --White2 : #fdfdfd;
+    --black :#123456;
+    --colNavBackground : rgba(1, 5, 21, 0.29);
+    --colweirdBlue :#123456;
+    --borderRadius : 20px;
+    --colDarkGrey1 : #141414;
+    --colGray1: rgb(55, 60, 65);
+    --colAccentMajor: #e17070;
+    --colAccentMinor: #c27878;
+    --backgroundOffset : -44px;
+
+    --RoyalBlue : #0B59A4;
+    --DarkBrown : #362013;
+    --Beige : #e5dfd6;
+    --Beige2 : #fff2e2;
+    --CleanBlack : #211e1e;
+    --MetalGray : #68818e;
+
+    --bShad : rgba(5, 5, 50, 0.2);
+    --wShad : rgba(250, 250, 255, 1);
+
+    --mainWidth : 80%;
+    --mainPadding : 0 10%;
+
+
+    --font-family: "Monsterat", sans-serif;
+    --font-weight : normal;
+    --font-style: normal;
+
+    --Neomorphism :
+            -3px 3px 8px 2px var(--bShad),
+            inset -2px 2px 4px 1px var(--bShad),
+            inset 3px -5px 12px 1px var(--wShad),
+            3px -3px 4px 1px var(--wShad);
+    /* -9px 9px 8px 0px var(--wShad) */
+    --NeomorphismIn:
+            inset -2px 2px 4px 1px var(--bShad),
+            inset 3px -5px 12px 3px var(--wShad);
+    --NeomorphismOut:
+            -3px 3px 8px 3px var(--bShad),
+            3px -3px 4px 3px var(--wShad);
+}
+
+
+body{
+    margin: 0;
+    background-color: var(--White2);
+    font-family: "Monsterat", sans-serif;
+}
+
+h1{
+    color: var(--RoyalBlue);
+}
+
+h1, h2,h3, h4, h5, h6{
+    text-decoration: none;
+    font-family: var(--font-family);
+    font-weight : var(--font-weight);
+    font-style: var(--font-style);
+    font-variant: all-petite-caps;
+    letter-spacing: 3px;
+}
+
+.s1{
+    height:100%;
+}
+.s2{
+    height:100%;
+}
+.s3{
+    height:100%;
+}
+
+
+.presentation{
+    padding-top: 0px;
+    height: 50%;
+    width: 100%;
+    min-height: 300px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: var(--mainWidth);
+    margin: var(--mainPadding);
+}
+
+button:hover, a:hover {
+    cursor: pointer;
+}
+
+.presentation h2{
+    font-family: var(--font-family);
+    font-weight : bold;
+    font-style: var(--font-style);
+    font-size: 50px;
+    text-align: center;
+    font-variant: unicase;
+    letter-spacing: 3px;
+
+    max-width: 100%;
+
+    width: 100%;
+    height:100%;
+
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0;
+    float: inherit;
+
+    padding: 55px 0px;
+    -webkit-background-clip: text;
+    text-shadow: -3px 2px 4px rgb(255 255 255 / 50%);
+    color: transparent;
+    background-color: var(--MetalGray);
+}
+
+.spacer{
+    width: 100%;
+    height: 200px;
+
+
+}
+

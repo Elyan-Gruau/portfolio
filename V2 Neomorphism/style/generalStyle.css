@@ -8,7 +8,7 @@
     scroll-behavior: smooth ;
 
     --White1 : #f8fdff;
-    --White2 : #E6EEFE;
+    --White2 : #fdfdfd;
     --black :#123456;
     --colNavBackground : rgba(1, 5, 21, 0.29);
     --colweirdBlue :#123456;
@@ -24,6 +24,7 @@
     --Beige : #e5dfd6;
     --Beige2 : #fff2e2;
     --CleanBlack : #211e1e;
+    --MetalGray : #68818e;
 
     --bShad : rgba(5, 5, 50, 0.2);
     --wShad : rgba(250, 250, 255, 1);
@@ -58,13 +59,16 @@ body{
 }
 
 h1{
-    letter-spacing: 3px;
+    color: var(--RoyalBlue);
+}
+
+h1, h2,h3, h4, h5, h6{
+    text-decoration: none;
     font-family: var(--font-family);
     font-weight : var(--font-weight);
     font-style: var(--font-style);
     font-variant: all-petite-caps;
-    color: var(--RoyalBlue);
-
+    letter-spacing: 3px;
 }
 
 .s1{
@@ -98,13 +102,12 @@ button:hover, a:hover {
 
 .presentation h2{
     font-family: var(--font-family);
-    font-weight : var(--font-weight);
+    font-weight : bold;
     font-style: var(--font-style);
     font-size: 50px;
     text-align: center;
     font-variant: unicase;
-    letter-spacing: 2px;
-    color: var(--RoyalBlue);
+    letter-spacing: 3px;
 
     max-width: 100%;
 
@@ -116,13 +119,11 @@ button:hover, a:hover {
     margin: 0;
     float: inherit;
 
-    animation-name: titleFadeIn;
-    animation-duration: 1s;
-
-    animation-timing-function: ease-in-out;
-    -webkit-animation-timing-function: ease-in-out;
-
     padding: 55px 0px;
+    -webkit-background-clip: text;
+    text-shadow: -3px 2px 4px rgb(255 255 255 / 50%);
+    color: transparent;
+    background-color: var(--MetalGray);
 }
 
 .spacer{
