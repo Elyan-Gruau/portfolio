@@ -32,7 +32,7 @@ function App() {
       </header>
       <main>
           <Spacer/>
-        <Presentation/>
+            <Presentation/>
           <Formations/>
           <Spacer/>
           <Skills/>

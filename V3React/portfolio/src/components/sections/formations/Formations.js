@@ -2,7 +2,7 @@ import Formation from "./formation/Formation";
 
 function Formations(){
     return (
-        <section className="s3 parcours">
+        <section className="formations">
             <h3>Parcour</h3>
             BARRE HORIZONTALE MINIMALISTE AVEC MES EXPERIENCES
             Ajout d'un bouton en savoir plus qui amène vers linkedin

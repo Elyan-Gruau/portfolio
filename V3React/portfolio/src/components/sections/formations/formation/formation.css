@@ -1,0 +1,19 @@
+.formation {
+    box-shadow: var(--Neomorphism);
+    width: 300px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.formations{
+    display: flex;
+    overflow: scroll;
+    width: 100%;
+    flex-direction: row;
+}
+
+.formation h2{
+    text-align: left;
+}
