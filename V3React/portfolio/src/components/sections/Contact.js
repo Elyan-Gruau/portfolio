@@ -1,7 +1,8 @@
+import './../../style/message.css';
 function Contact(){
     return (
         <section id="contactForm">
-            <h2>Contacte</h2>
+            <h2>Contact</h2>
             <form>
                 <label htmlFor="email">Email</label>
                 <input type="email" id="email" placeholder="test@gmail.com"/>

@@ -4,13 +4,15 @@
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
+    width: 55%;
+    margin:auto;
 }
 
 #contactForm form {
     display: flex;
     flex-direction: column;
-    width: 80%;
-    padding: 10px 10%;
+    width: 100%;
+    padding: 10px 0;
 }
 
 #contactForm label{
@@ -23,7 +25,7 @@
 
 #contactForm input {
     height: 50px;
-    width: 80%;
+    width: 90%;
     border-radius:  var(--borderRadius);
     border: none;
     box-shadow: var(--NeomorphismIn);
@@ -50,4 +52,8 @@
     3px -3px 3px 0px white,
     inset 3px -3px 0px 0px rgba(0,0,0,0.1),
     inset -3px 3px 11px 0px rgba(255,255,255,0.2);
+}
+
+input#message{
+    height: 200px;
 }
