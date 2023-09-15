@@ -7,7 +7,7 @@ function Navbar () {
                 <div class="sectionJumpingContainer">
                     <a href="#presentation">Présentation</a>
                     <a href="#work">Travaux</a>
-                <a href="#contact">Contacte</a>
+                <a href="#contact">Contact</a>
                 <a href="#curiculum">Curiculum</a>
             </div>
             <div class="contactContainer">

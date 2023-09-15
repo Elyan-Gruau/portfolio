@@ -2,14 +2,11 @@ import Formation from "./formation/Formation";
 
 function Formations(){
     return (
+    //     BARRE HORIZONTALE MINIMALISTE AVEC MES EXPERIENCES
+    // Ajout d'un bouton en savoir plus qui amène vers linkedin
         <section className="formations">
-            <h3>Parcour</h3>
-            BARRE HORIZONTALE MINIMALISTE AVEC MES EXPERIENCES
-            Ajout d'un bouton en savoir plus qui amène vers linkedin
-
-
-            <div className="invertedScrollArea">
-
+            <h2>Parcour</h2>
+            <div className="formationsCont">
                 <div className="lifeLine">
                 </div>
                 <Formation title="Baccalauréat général"

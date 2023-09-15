@@ -1,17 +1,28 @@
 .formation {
     box-shadow: var(--Neomorphism);
     width: 300px;
+    height: 500px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
+    margin: 50px 30px;
+    padding: 10px;
 
 }
 
 .formations{
-    display: flex;
-    overflow: scroll;
+
     width: 100%;
+
+}
+.formationsCont{
+    display: flex;
+    overflow-x: scroll;
     flex-direction: row;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: var(--NeomorphismIn);
+
 }
 
 .formation h2{
