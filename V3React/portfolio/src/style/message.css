@@ -30,8 +30,8 @@
     border: none;
     box-shadow: var(--NeomorphismIn);
     padding: 0 30px ;
-    background-color: var(--White2);
-    filter: brightness(98%);
+    background-color: var(--WhiteDarker);
+
     letter-spacing: 1px;
 }
 
