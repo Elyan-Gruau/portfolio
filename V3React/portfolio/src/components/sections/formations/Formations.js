@@ -16,6 +16,7 @@ function Formations(){
                            location=" Lycée Thomas Edison - Lorgues, Var" />
 
                 <Formation title="DUT Informatique"
+                           subtitle="Diplome Universitaire de Technologie"
                            year="2021 - 2023"
                            mention="Diplome Universitaire de Technologie"
                            desc="Parcours Réalisation d’applications : conception, développement, validation"
@@ -28,11 +29,11 @@ function Formations(){
                            desc="Méthodes Informatiques Appliquées à la Gestion des Entreprises"
                            location="DESCRIPTIODNnndsdsdssdsdsddssddssddssd" />
 
-                <Formation title="Master MIAGE"
-                           year="2024 - 2026"
-                           mention="Mention bien"
-                           desc="Numerique et science de l'informatique, Mathématiques"
-                           location=" DESCRIPTIODNnndsdsdssdsdsddssddssddssd" />
+                {/*<Formation title="Master MIAGE"*/}
+                {/*           year="2024 - 2026"*/}
+                {/*           mention="Mention bien"*/}
+                {/*           desc="Numerique et science de l'informatique, Mathématiques"*/}
+                {/*           location=" DESCRIPTIODNnndsdsdssdsdsddssddssddssd" />*/}
 
             </div>
 

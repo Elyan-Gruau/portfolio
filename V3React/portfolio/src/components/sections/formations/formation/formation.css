@@ -1,19 +1,43 @@
 .formation {
-    box-shadow: var(--NeomorphismOut);
-    width: 300px;
+    /* box-shadow: var(--NeomorphismOut); */
+    min-width: 325px;
+    width: fit-content;
     height: 500px;
-    border-radius: 20px;
+    /* border-radius: 20px; */
     display: flex;
     flex-direction: column;
     margin: 50px 30px;
     padding: 10px;
+    border-top: 1px solid var(--CleanBlack);
+    border-bottom: 1px solid var(--CleanBlack);
+}
 
+.formation:last-child{
+    /*background-color: #0B59A4;*/
+    margin-right: 50px;
+}
+
+.formation:first-line{
+    background-color: #61dafb;
 }
 
 .formations{
     background-color: var(--White2);
     width: 100%;
 
+}
+.formation .title{
+    margin-bottom: 0;
+}
+
+.formation .subtitle{
+    margin: 0;
+    font-size: large;
+    filter: opacity(0.8);
+}
+
+.formation .year{
+    margin-top: 5px;
 }
 .formationsCont{
     display: flex;
@@ -27,4 +51,10 @@
 
 .formation h2{
     text-align: left;
+}
+
+.formation .description{
+    text-align: justify;
+    height: fit-content;
+    width: fit-content;
 }
