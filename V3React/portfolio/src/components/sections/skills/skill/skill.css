@@ -20,7 +20,7 @@
     border-bottom-left-radius: 50px;
     width: 150px;
     height: 100%;
-    background-color: #d6dadc;
+    background-color: var(--WhiteDarker);
     display: flex;
     flex-direction: column;
     padding: 0 10px;
@@ -32,6 +32,7 @@
     border-bottom-right-radius: 50px;
     height: 100%;
     width: 80%;
+    background-color: var(--WhiteDarker);
 }
 
 .skillButton {

@@ -1,0 +1,24 @@
+.skills .leftPart, .skills .rightPart{
+    min-width: 49%;
+}
+
+.skills{
+
+}
+
+.skills .leftPart{
+    display: flex;
+    flex-direction: column;
+}
+
+.skills .rightPart{
+    display: flex;
+    flex-direction: column;
+}
+
+.skillCont{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
