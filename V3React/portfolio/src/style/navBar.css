@@ -16,10 +16,13 @@ nav {
     display: flex;
     align-items: center;
 
-    box-shadow: 0px 6px 10px -11px black;
-
-
 }
+
+.withBoxShadow{
+    transition: all ease-in-out 0.2s;
+    box-shadow: 0px 6px 10px -11px black;
+}
+
 nav a{
     width: 20%;
     color: var(--CleanBlack);
