@@ -2,7 +2,7 @@ import './App.css';
 import './style/generalStyle.css';
 import './style/navBar.css';
 import './style/presentation.css';
-import './style/message.css';
+
 import './style/footer.css';
 import './style/scrollBar.css'
 
@@ -15,6 +15,7 @@ import Skills from "./components/sections/skills/Skills";
 import Formations from "./components/sections/formations/Formations";
 import Contact from "./components/sections/Contact";
 import Spacer from "./components/Spacer";
+import Divider from "./components/Divider";
 
 function App() {
   return (
@@ -32,13 +33,20 @@ function App() {
       </header>
       <main>
           <Spacer/>
-            <Presentation/>
+          <Presentation/>
+
           <Formations/>
           <Spacer/>
+          <Divider/>
+
           <Skills/>
           <Spacer/>
+          <Divider/>
+
           <Works/>
           <Spacer/>
+          <Divider/>
+
           <Contact/>
           <Spacer/>
       </main>
