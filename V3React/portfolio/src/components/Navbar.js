@@ -9,7 +9,7 @@ function Navbar () {
     const onScroll = () => {
         let scroll = document.documentElement.scrollTop;
         let classList = navElement.classList;
-        if (scroll === 0 && classList.contains("withBoxShadow") ){
+        if (scroll ===0 ){
             navElement.classList.remove("withBoxShadow");
         }else if (!classList.contains("withBoxShadow")){
             navElement.classList.add("withBoxShadow");
