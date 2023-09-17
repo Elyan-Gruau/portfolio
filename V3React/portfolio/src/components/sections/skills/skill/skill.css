@@ -31,13 +31,25 @@
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
     height: 100%;
-    width: 80%;
+    width: 58%;
     background-color: var(--WhiteDarker);
 }
 
 .skillButton {
     display: flex;
     filter: opacity(0);
+    border-radius: 180px;
+    border: none;
+    background-color: var(--White2);
+    margin-left: 10px;
+    box-shadow: var(--NeomorphismOut);
+    width: 30px;
+    height: 30px;
+    color: var(--CleanBlack);
+    font-size: larger;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-in-out 0.2s;
 }
 
 .skill:hover .skillButton {
