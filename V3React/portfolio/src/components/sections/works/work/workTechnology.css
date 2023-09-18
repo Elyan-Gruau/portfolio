@@ -1,0 +1,66 @@
+.workTechnology{
+    display: flex;
+    min-width: 50px;
+    height: 21px;
+    background-color: var(--WhiteDarker);
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    letter-spacing: 2px;
+    font-variant: all-petite-caps;
+    text-align: center;
+    justify-content: center;
+    margin: 0 5px 5px 0;
+}
+
+.workTechnology:hover{
+    filter : brightness(110%);
+}
+
+.wt_toto{
+    background-color: #eebebe;
+}
+
+.wt_react{
+    background-color: #62D9FC;
+}
+
+.wt_java{
+    background-color: #d29251;
+}
+
+.wt_javafx{
+    background-color: #7dbbc9;
+}
+
+.wt_html{
+    background-color: #becfee;
+}
+
+.wt_css{
+    background-color: #d7beee;
+}
+
+.wt_javascript{
+    background-color: #eeecbe;
+}
+
+.wt_python{
+    background-color: #eebebe;
+}
+
+.wt_php{
+    background-color: #beeee3;
+}
+
+.wt_sql{
+    background-color: #e0a9c8;
+}
+
+.wt_spring_boot{
+    background-color: #b3be93;
+}
+
+.wt_active_directory{
+    background-color: #965656;
+}

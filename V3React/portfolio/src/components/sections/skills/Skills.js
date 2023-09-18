@@ -9,14 +9,19 @@ function Skills(){
             {/*en oeuvre cette techo*/}
             <div className="skillCont">
                 <div className="leftPart">
-                    <Skill name="Java"/>
-                    <Skill name="JavaScript"/>
-                    <Skill name="HTML/CSS"/>
-                    <Skill name="React"/>
-                    <Skill name="Android (Java)"/>
+                    <Skill name="Java" value="0"/>
+                    <Skill name="JavaScript "  value="50"/>
+                    <Skill name="HTML/CSS"  value="100"/>
+                    <Skill name="React"  value="50"/>
+                    <Skill name="Android (Java)"  value="50"/>
                 </div>
                 <div className="rightPart">
-                    <Skill name="PHP"/>
+                    <Skill name="PHP"  value="50"/>
+                    <Skill name="SQL" value="50"/>
+                    <Skill name="Python" value="50"/>
+                    <Skill name="JSP" value="50"/>
+                    <Skill name="C" value="50"/>
+                    <Skill name="Git" value="50"/>
                 </div>
             </div>
         </div>

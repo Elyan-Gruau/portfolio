@@ -16,6 +16,7 @@ import Formations from "./components/sections/formations/Formations";
 import Contact from "./components/sections/Contact";
 import Spacer from "./components/Spacer";
 import Divider from "./components/Divider";
+import Experiences from "./components/sections/experiences/Experiences";
 
 function App() {
   return (
@@ -42,6 +43,11 @@ function App() {
           <Skills/>
           <Spacer/>
           <Divider/>
+
+          <Divider/>
+          <Experiences/>
+          <Spacer/>
+
 
           <Works/>
           <Spacer/>
