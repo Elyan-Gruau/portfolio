@@ -16,11 +16,22 @@ footer a {
     text-decoration: none;
     width: 250px;
     text-align: center;
-    box-shadow: var(--NeomorphismOut);
-    border-radius: 25px;
+    -box-shadow: var(--NeomorphismOut);
+    /*border-radius: 25px;*/
     margin: 0 35px;
     padding: 35px 0;
-    background-color: var(--White2);
+    transition: all ease-in-out 0.2s;
+    /*border-top: 1px solid var(--CleanBlack);*/
+    /*border-bottom: 1px solid var(--CleanBlack);*/
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+}
+
+footer a:hover{
+    /*box-shadow: var(--NeomorphismOut);*/
+    border-top: 1px solid var(--CleanBlack);
+    border-bottom: 1px solid var(--CleanBlack);
+    transition: all ease-in-out 0.2s;
 }
 
 footer .lookLikeButton{
