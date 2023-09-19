@@ -1,0 +1,30 @@
+.searchBar{
+    display: flex;
+    margin: 50px auto auto auto;
+    justify-content: center;
+    height: 50px;
+    width: 90%;
+
+    border-radius: 20px ;
+}
+
+#searchWorkInput {
+    border: none;
+    box-shadow: var(--NeomorphismIn);
+    background-color: var(--WhiteDarker);
+    width: 50%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-left: 20px ;
+    letter-spacing: 2px;
+}
+
+#searchWorkInput:focus-visible{
+    outline: none;
+    /*background-color: var(--White2);*/
+}
+
+#searchWorkButton{
+    border: none;
+
+}
