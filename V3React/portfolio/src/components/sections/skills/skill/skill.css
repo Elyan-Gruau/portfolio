@@ -27,13 +27,25 @@
 }
 
 .skillBar {
-    box-shadow: var(--NeomorphismIn);
+
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
     height: 100%;
-    width: 58%;
-    background-color: var(--WhiteDarker);
+    width: 100%;
+    box-shadow: var(--NeomorphismIn);
 }
+
+.skillBarValue{
+    height: 100%;
+    width: 100%;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: var(--WhiteDarker);
+    z-index: 100;
+    box-shadow: inherit;
+}
+
+
 
 .skillButton {
     display: flex;
