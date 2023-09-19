@@ -57,6 +57,7 @@ body{
     margin: 0;
     background-color: var(--White2);
     font-family: "Monsterat", sans-serif;
+    min-width: 780px;
 }
 
 h1{
