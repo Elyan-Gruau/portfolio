@@ -22,45 +22,45 @@
 }
 
 .wt_react{
-    background-color: #62D9FC;
+    background-color: var(--color_react);
 }
 
 .wt_java{
-    background-color: #d29251;
+    background-color: var(--color_java);
 }
 
 .wt_javafx{
-    background-color: #7dbbc9;
+    background-color: var(--color_javafx);
 }
 
 .wt_html{
-    background-color: #becfee;
+    background-color: var(--color_html);
 }
 
 .wt_css{
-    background-color: #d7beee;
+    background-color: var(--color_css);
 }
 
 .wt_javascript{
-    background-color: #eeecbe;
+    background-color: var(--color_javascript);
 }
 
 .wt_python{
-    background-color: #eebebe;
+    background-color: var(--color_python);
 }
 
 .wt_php{
-    background-color: #beeee3;
+    background-color: var(--color_php);
 }
 
 .wt_sql{
-    background-color: #e0a9c8;
+    background-color: var(--color_sql);
 }
 
 .wt_spring_boot{
-    background-color: #b3be93;
+    background-color: var(--color_spring_boot);
 }
 
 .wt_active_directory{
-    background-color: #965656;
+    background-color: var(--color_active_directory);
 }
