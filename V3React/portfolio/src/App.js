@@ -4,7 +4,8 @@ import './style/navBar.css';
 import './style/presentation.css';
 
 import './style/footer.css';
-import './style/scrollBar.css'
+import './style/scrollBar.css';
+import './style/colors.css';
 
 
 import Presentation from "./components/sections/Presentation";
@@ -42,13 +43,13 @@ function App() {
 
           <Skills/>
           <Spacer/>
-          <Divider/>
+
 
           <Divider/>
           <Experiences/>
           <Spacer/>
 
-
+          <Divider/>
           <Works/>
           <Spacer/>
           <Divider/>
