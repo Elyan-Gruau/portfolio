@@ -10,7 +10,7 @@ import Footer from "./components/footer/Footer";
 import Works from "./components/sections/works/Works";
 import Skills from "./components/sections/skills/Skills";
 import Formations from "./components/sections/formations/Formations";
-import Contact from "./components/sections/Contact";
+import Contact from "./components/message/Contact";
 import Spacer from "./components/Spacer";
 import Divider from "./components/Divider";
 import Experiences from "./components/sections/experiences/Experiences";
