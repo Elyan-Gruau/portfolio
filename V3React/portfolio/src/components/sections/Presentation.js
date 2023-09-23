@@ -1,10 +1,10 @@
 import Spacer from "../Spacer";
-
+import "./presentation.css";
 function Presentation () {
     return (
-        <section className="presentation">
-            <h2 id="firstTitle"> Étudiant </h2>
-            <h2 id="secondTitle"> Développeur </h2>
+        <section className="presentation presentationBackground">
+            <h2 id="firstTitle presentationBackground"> Étudiant </h2>
+            <h2 id="secondTitle presentationBackground"> Développeur </h2>
             <div id="profile">
                 <div>
                     <img alt="profilePic"
