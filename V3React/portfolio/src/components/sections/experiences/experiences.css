@@ -1,0 +1,88 @@
+.experiences{
+    display: flex;
+
+}
+
+.experience{
+    width: 400px;
+    min-height: 600px;
+    color: white;
+    backdrop-filter: blur(50px);
+    background-color: rgba(250,250,255,0.1);
+    border-radius: var(--borderRadius);
+}
+
+.experience .textContainer{
+    padding: 0 10px  10px 10px;
+}
+
+.companyLogoContainer{
+    background-image: radial-gradient(#ffdabf, transparent);
+
+    height: fit-content;
+    display: flex;
+    border-radius: var(--borderRadius);
+    padding: 20px;
+}
+
+.companyLogoContainer>img{
+    width: 100%;
+    height: fit-content;
+}
+
+.experiencesContainer{
+    flex-direction: row;
+    max-width: 100%;
+    flex-wrap: wrap;
+    margin-top: var(--cardContainerMargin);
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+
+.experienceHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.experience .date{
+    font-size: larger;
+    letter-spacing: 2px;
+    display: flex;
+}
+.experience .title{
+    margin: 10px 0;
+}
+
+.experience .type{
+    font-size: larger;
+    letter-spacing: 2px;
+}
+
+.experience .status{
+    display: flex;
+    border-radius: var(--borderRadius);
+    color: black;
+    background-color: #eedbc882;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.experience .description{
+    text-align: justify;
+}
+
+.experience .location{
+    color: rgba(255,255,255,0.8);
+    margin: 0;
+}
+
+.experienceHeader>p{
+    margin: 2px 0;
+    font-size: larger;
+    color: rgba(255,255,255,0.9);
+}
+
