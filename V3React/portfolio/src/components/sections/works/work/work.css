@@ -1,11 +1,13 @@
 .work{
     display: flex;
     flex-direction: column;
-    border-top: 1px solid var(--CleanBlack);
-    border-bottom: 1px solid var(--CleanBlack);
-    width: 400px;
+    width: 450px;
     margin: 10px;
-    padding: 25px 10px;
+    border-radius: var(--borderRadius);
+    background-image: radial-gradient(rgba(58,255,255,0.5) -42%, #0000001a 100%);
+    color: var(--Beige);
+    backdrop-filter: blur(25px);
+
 }
 
 .imageContainer {
@@ -16,6 +18,11 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-color: var(--WhiteDarker);
+}
+
+.textContainer{
+    padding: 25px 10px;
+    line-height: 1.4;
 }
 
 
@@ -42,11 +49,12 @@
 
 #work :is(.date,.person_count,.state){
     margin : 0;
-    color: var(--CleanBlack);
+    color: var(--White2);
 }
 
 #work .description{
     text-align: justify;
+    font-size: larger;
 }
 
 #work .person_count{
@@ -59,6 +67,7 @@
     background-color: var(--WhiteDarker);
     padding: 0 5px;
     border-radius: 10px;
+    color: black;
 }
 
 #work .person_count:after{
@@ -84,4 +93,8 @@
     width: 100%;
     flex-wrap: wrap;
 
+}
+
+.workLogo{
+    width: 100%;
 }
