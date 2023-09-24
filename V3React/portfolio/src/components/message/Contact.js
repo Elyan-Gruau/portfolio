@@ -1,7 +1,7 @@
 import './message.css';
 function Contact(){
     return (
-        <section id="contactForm">
+        <div id="contactForm">
             <h2>Contact</h2>
             <form>
                 <label htmlFor="email">Email</label>
@@ -13,7 +13,7 @@ function Contact(){
                     <button className="btnSender">Envoyer</button>
                 </div>
             </form>
-        </section>
+        </div>
     );
 }
 export default Contact;
