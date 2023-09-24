@@ -1,15 +1,14 @@
 .formation {
-    /* box-shadow: var(--NeomorphismOut); */
-    min-width: 325px;
-    width: fit-content;
+    width: 400px;
     height: 500px;
-    /* border-radius: 20px; */
     display: flex;
     flex-direction: column;
-    margin: 50px 30px;
+    margin: 20px;
     padding: 10px;
-    border-top: 1px solid var(--CleanBlack);
-    border-bottom: 1px solid var(--CleanBlack);
+    border-radius: var(--borderRadius);
+    backdrop-filter: blur(15px);
+    background-color: var(--lightGlass);
+
 }
 
 .formation:last-child{
@@ -22,7 +21,6 @@
 }
 
 .formations{
-    background-color: var(--White2);
     width: 100%;
 
 }
@@ -41,12 +39,12 @@
 }
 .formationsCont{
     display: flex;
-    overflow-x: scroll;
     flex-direction: row;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    box-shadow: var(--NeomorphismIn);
-    background-color: var(--WhiteDarker);
+    color: white;
+    margin-top: var(--cardContainerMargin);
+    flex-wrap: wrap;
+
+
 }
 
 .formation h2{
