@@ -25,6 +25,9 @@
     --Beige2 : #fff2e2;
     --CleanBlack : #211e1e;
     --MetalGray : #68818e;
+    --brown2 : #5c3d1d;
+
+    --footerHeight: 300px;
 
     --bShad : rgba(5, 5, 50, 0.2);
     --wShad : rgba(250, 250, 255, 1);
@@ -37,6 +40,9 @@
     --font-family: "Monsterat", sans-serif;
     --font-weight : normal;
     --font-style: normal;
+
+    --cardContainerMargin: 125px;
+    --lightGlass : rgba(250,250,255,0.1);
 
     --Neomorphism :
             -3px 3px 8px 2px var(--bShad),
@@ -55,7 +61,7 @@
 
 body{
     margin: 0;
-    background-image: linear-gradient(45deg, black, transparent);
+    background-image: linear-gradient(45deg, rgb(10,10,10), rgb(0,0,25));
     font-family: "Monsterat", sans-serif;
     min-width: 780px;
     background-attachment: fixed;
@@ -72,31 +78,23 @@ h1, h2,h3, h4, h5, h6{
     font-style: var(--font-style);
     font-variant: all-petite-caps;
     letter-spacing: 3px;
-}
-
-.s1{
-    height:100%;
-}
-.s2{
-    height:100%;
-}
-.s3{
-    height:100%;
+    color: var(--White2);
 }
 
 
-.presentation{
-    padding-top: 0px;
-    height: 50%;
-    width: 100%;
-    min-height: 300px;
-}
+
+
 
 main{
     display: flex;
     flex-direction: column;
     width: var(--mainWidth);
-    margin: var(--mainPadding);
+    padding: var(--mainPadding);
+    position: relative;
+    z-index: 0;
+    background-color: black;
+    background-image: url(https://media4.giphy.com/media/LbMERa15Q6clA1NLcz/giphy.gif?cid=ecf05e47n7wkisu5dmo2rswzwly6aqq9picl8msua0lpgzne&rid=giphy.gif&ct=g);
+    margin-bottom: var(--footerHeight);
 }
 
 button:hover, a:hover {
@@ -115,10 +113,15 @@ h2{
     width: 50%;
     display: flex;
     margin: auto;
-    border-bottom: 2px solid var(--CleanBlack) ;
+    border-bottom: 2px solid var(--White2) ;
 }
 
 .glass {
     backdrop-filter: blur(15px);
+}
+
+section>h2{
+    font-size: xx-large;
+    letter-spacing: 10px;
 }
 
