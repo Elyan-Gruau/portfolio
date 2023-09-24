@@ -3,7 +3,7 @@ import "./Skills.css";
 
 function Skills(){
     return (
-        <div className="skills">
+        <section className="skills">
             <h2>Technologies</h2>
             {/*TODO lors du hover d'une compétence, un bouton tout a droite pop permetant d'afficher les projet métant*/}
             {/*en oeuvre cette techo*/}
@@ -25,7 +25,7 @@ function Skills(){
                     <Skill name="Git" value="70"/>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 export default Skills;

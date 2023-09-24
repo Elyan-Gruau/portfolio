@@ -17,7 +17,7 @@ function Skill(props){
     }
 
     return (
-        <div className="skill">
+        <div className="skill glass">
             <div className="skillName">
                 <p>{props.name}</p>
             </div>
