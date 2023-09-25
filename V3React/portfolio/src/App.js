@@ -2,6 +2,7 @@ import './App.css';
 import './style/generalStyle.css';
 import './style/scrollBar.css';
 import './style/colors.css';
+import './style/glass.css';
 
 
 import Presentation from "./components/sections/Presentation";
