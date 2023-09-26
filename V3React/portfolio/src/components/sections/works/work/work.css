@@ -4,9 +4,7 @@
     width: 450px;
     margin: 10px;
     border-radius: var(--borderRadius);
-    background-image: radial-gradient(rgba(58,255,255,0.5) -42%, #0000001a 100%);
     color: var(--Beige);
-    backdrop-filter: blur(25px);
 
 }
 
@@ -97,4 +95,8 @@
 
 .workLogo{
     width: 100%;
+}
+
+.work .glass{
+    background-image: radial-gradient(rgba(58,255,255,0.5) -42%, #0000001a 100%);
 }
