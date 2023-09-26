@@ -4,9 +4,9 @@ function Panel (props){
     return (
         <div id="panel" className={state}>
             <div className="container">
-                <a>Travaux</a>
-                <a>Experience</a>
-                <a>Contact</a>
+                <a href="#work">Travaux</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact">Contact</a>
                 <a>Curiculum</a>
             </div>
         </div>

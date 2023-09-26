@@ -8,14 +8,18 @@ function Navbar () {
         navElement = document.getElementById("nav");
     }
 
-    const handlePanel = () =>{
-        console.log("panel handling")
+    const handlePanel = (e) =>{
         let panelElement = document.getElementById("panel");
         let classlist = panelElement.classList;
+        let target =  document.getElementById("menuButton");
+        let targetClassList = target.classList;
+
         if (classlist.contains("open")){
             classlist.replace("open","closed");
+            targetClassList.replace("open","closed");
         }else if (classlist.contains("closed")){
             classlist.replace("closed","open");
+            targetClassList.replace("closed","open");
         }
     }
     const onScroll = () => {
@@ -38,34 +42,24 @@ function Navbar () {
 
     return (
             <nav id="nav">
+                <div className="contactContainer">
+                    <div className="clickableLogo">
+                        <a href="https://www.linkedin.com/in/elyan-gruau/"  target="_blank">
+                            <img src="/img/linkedin.png" alt="linkedin"/>
+                        </a>
+                    </div>
+                </div>
                 <div className="titleContainer">
                     <h1>Elyan GRUAU</h1>
                 </div>
-                <div className="sectionJumpingContainer">
-                {/*    <a href="#presentation">Présentation</a>*/}
-                {/*    <a href="#work">Travaux</a>*/}
-                {/*<a href="#contact">Contact</a>*/}
-                {/*<a href="#curiculum">Curiculum</a>*/}
-            </div>
-            <div className="contactContainer">
-                {/*<div className="clickableLogo">*/}
-                {/*    <a href="https://www.linkedin.com/in/elyan-gruau/"  target="_blank">*/}
-                {/*        <img src="../../../public/img/linkedin.png" alt="linkedin"/>*/}
-                {/*    </a>*/}
-                {/*</div>*/}
-                {/*<div className="clickableLogo">*/}
-                {/*    <a href="https://github.com/Elyan-Gruau" target="_blank">*/}
-                {/*        <img src="../../../public/img/github.png" alt="github"/>*/}
-                {/*    </a>*/}
-                {/*</div>*/}
-                {/*<div className="clickableLogo">*/}
-                {/*    <a href="https://www.linkedin.com/in/elyan-gruau/"  target="_blank">*/}
-                {/*        <img src="../../../public/img/mail.png" alt="mail"/>*/}
-                {/*    </a>*/}
-                {/*</div>*/}
-            </div>
-                <button id="menuButton" className="menu" onClick={handlePanel}>M
-                </button>
+                <div className="menuContainer">
+                    <button id="menuButton" className="menu closed" onClick={handlePanel}>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
         </nav>
     );
 }

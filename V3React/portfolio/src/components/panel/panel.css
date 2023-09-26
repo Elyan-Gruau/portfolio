@@ -24,12 +24,13 @@
 
 #panel a {
     color: rgba(255, 255, 255, 0.6);
+    font-feature-settings: "pcap", "c2pc";
     font-variant: all-petite-caps;
-    letter-spacing: 2px;
-    width: 100px;
+    width: fit-content;
     margin: 10px 0;
     font-size: xx-large;
-    text-decoration:  none;
+    text-decoration: none;
+    letter-spacing: 5px;
 }
 
 #panel a:hover{
