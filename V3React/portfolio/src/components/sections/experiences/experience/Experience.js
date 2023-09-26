@@ -12,24 +12,27 @@ function Experience (props) {
         }
     }
     return (
-        <div className="experience">
-            <a className="companyLogoContainer"
-               href={props.companyWebsite} target="_blank">
-                <img src={imgPath} alt={props.company} />
-            </a>
-            <h2 className="title" >{props.title}</h2>
-            <div className="textContainer">
-                <div className="experienceHeader">
-                    <p className="date">{props.date}</p>
-                    <p className="type">{props.type}</p>
-                    <p className="status">{props.status}</p>
+        <div className="experience movingBackground">
+            <div className="glass lightGlass">
+                <a className="companyLogoContainer"
+                   href={props.companyWebsite} target="_blank">
+                    <img src={imgPath} alt={props.company} />
+                </a>
+                <h2 className="title" >{props.title}</h2>
+                <div className="textContainer">
+                    <div className="experienceHeader">
+                        <p className="date">{props.date}</p>
+                        <p className="type">{props.type}</p>
+                        <p className="status">{props.status}</p>
+                    </div>
+                    <p className="description">{props.desc}</p>
+                    <p className="location">{props.location}</p>
+                    {/*<p>{props.company}</p>*/}
+                    <div className="workTechnoContainer">
+                        {technos}
+                    </div>
                 </div>
-                <p className="description">{props.desc}</p>
-                <p className="location">{props.location}</p>
-                {/*<p>{props.company}</p>*/}
-            </div>
-            <div className="workTechnoContainer">
-                {technos}
+
             </div>
         </div>
     );
