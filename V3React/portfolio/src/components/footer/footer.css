@@ -1,6 +1,6 @@
 footer{
 
-    background: rgba(15,15,20);
+    background:var(--footerBlack);
     display: flex;
     height: var(--footerHeight);
     position: fixed;
