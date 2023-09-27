@@ -1,7 +1,7 @@
 .workTechnology{
     display: flex;
     min-width: 50px;
-    height: 21px;
+    height: 23px;
     background-color: var(--WhiteDarker);
     border-radius: 20px;
     padding-left: 10px;
@@ -63,4 +63,8 @@
 
 .wt_active_directory{
     background-color: var(--color_active_directory);
+}
+
+.wt_jsp{
+    background-color: var(--blueMetal);
 }
