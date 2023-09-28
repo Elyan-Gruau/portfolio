@@ -2,12 +2,12 @@ import Experience from "./experience/Experience";
 import "./experiences.css";
 function Experiences () {
     return (
-        <section className="Experiences">
+        <section className="Experiences" id="experience">
             <h2>Experience</h2>
             <div className="experiencesContainer">
                 <Experience title="Consultant Technique"
                             type="Stage"
-                            desc="Conception et développement d'une solution de reporting automatique"
+                            desc="Conception, développement et implémentation d'une solution de reporting automatique au sein du progitiel Planisware Orchestra."
                             company="Planisware"
                             companyWebsite="https://fr.planisware.com/"
                             status="En production"

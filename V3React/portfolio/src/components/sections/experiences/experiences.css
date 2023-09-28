@@ -5,7 +5,9 @@
 
 .experience{
     width: 400px;
+    /*452*/
     min-height: 600px;
+    /*650*/
     color: white;
     border-radius: var(--borderRadius);
 }
@@ -73,6 +75,9 @@
 
 .experience .description{
     text-align: justify;
+    line-height: 1.4;
+    min-height: 200px;
+    font-size: larger;
 }
 
 .experience .location{
