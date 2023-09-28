@@ -4,11 +4,12 @@
     display: flex;
     flex-direction: column;
     margin: 20px;
-    padding: 10px;
-    border-radius: var(--borderRadius);
-    backdrop-filter: blur(15px);
-    background-color: var(--lightGlass);
 
+    border-radius: 25px;
+    background-color: var(--lightGlass);
+}
+.formation>div{
+    padding: 10px;
 }
 
 .formation:last-child{
@@ -43,6 +44,7 @@
     color: white;
     margin-top: var(--cardContainerMargin);
     flex-wrap: wrap;
+    justify-content: center;
 
 
 }
