@@ -13,7 +13,7 @@ function Work (props){
     }
 
     return(
-        <div className="work movingBackground">
+        <div className="work movingBackground animateOnDisplay">
             <div className="glass">
                 <div className="imageContainer">
                     <img className="workLogo" src={imageSrc} alt={props.title}/>
