@@ -1,0 +1,11 @@
+.display{
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+    transform: rotate3d(1, 1, 1, 0deg);
+
+}
+
+.noDisplay{
+    opacity: 0;
+    transform: rotate3d(1, 0, 0, 90deg);
+}
