@@ -14,7 +14,8 @@ function Works(){
                 <Work
                     title="Kill Bique"
                     date="2022"
-                    description={lorem}
+                    description="Numérisation du jeu de carte Kill Bique. Implémentation d'IA. Solution multijoueur (client serveur)
+                     respectant le modèle MVC. "
                     person_count="8"
                     state="terminé"
                     technolist={["java","javaFx"]}
@@ -22,7 +23,7 @@ function Works(){
                 <Work
                     title="Portfolio"
                     date="2023"
-                    description={lorem}
+                    description="Conception, devellopement d'un portfolio web."
                     person_count="1"
                     state="en cours"
                     technolist={["react"]}
@@ -41,6 +42,7 @@ function Works(){
                     description={lorem}
                     person_count="4"
                     state="terminé"
+                    link="https://iut-git.unice.fr/pt102004/sae4_2a"
                     technolist={["react","java","spring boot","SQL","Active Directory"]}
                 />
                 <Work

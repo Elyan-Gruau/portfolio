@@ -6,7 +6,7 @@ function Panel (props){
             <div className="container">
                 <a href="#work">Travaux</a>
                 <a href="#experience">Experience</a>
-                <a href="#contact">Contact</a>
+                <a href="#contactForm">Contact</a>
                 <a>Curiculum</a>
             </div>
         </div>

@@ -5,7 +5,7 @@ function Formations(){
     //     BARRE HORIZONTALE MINIMALISTE AVEC MES EXPERIENCES
     // Ajout d'un bouton en savoir plus qui amène vers linkedin
         <section className="formations">
-            <h2>Parcour</h2>
+            <h2>Formation</h2>
             <div className="formationsCont">
                 <div className="lifeLine">
                 </div>

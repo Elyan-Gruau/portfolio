@@ -10,6 +10,7 @@
     /*650*/
     color: white;
     border-radius: var(--borderRadius);
+    margin: 0 20px;
 }
 
 .experience .textContainer{

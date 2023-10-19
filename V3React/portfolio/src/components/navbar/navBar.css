@@ -52,8 +52,8 @@ nav a{
 
 .contactContainer{
     display: flex;
-    justify-content: flex-start;
-
+    justify-content: center;
+    width: 40px;
 }
 
 .sectionJumpingContainer{
@@ -97,6 +97,10 @@ nav a{
     background-color: transparent;
     border : none;
     outline: none;
+}
+
+#menuButton:hover span {
+    background: rgba(255, 245, 239, 1);
 }
 
 #menuButton span{

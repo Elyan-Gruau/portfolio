@@ -13,7 +13,7 @@
     height: 0px;
 }
 ::-webkit-scrollbar-thumb {
-    background-color: var(--RoyalBlue);
+    background-color: var(--White2);
     border: 0px none #ffffff;
     border-radius: 50px;
 }

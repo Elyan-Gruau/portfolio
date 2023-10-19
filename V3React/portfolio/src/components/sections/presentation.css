@@ -1,5 +1,12 @@
 .presentation{
     background-image: url(https://media4.giphy.com/media/LbMERa15Q6clA1NLcz/giphy.gif?cid=ecf05e47n7wkisu5dmo2rswzwly6aqq9picl8msua0lpgzne&rid=giphy.gif&ct=g);
+    background-color: black;
+    background-attachment: fixed;
+    /*todo change 99 */
+    width: 99vw;
+    height: 100vh;
+    background-repeat: round;
+    background-size: contain;
 }
 
 .presentation h2{
