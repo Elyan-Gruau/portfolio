@@ -74,6 +74,10 @@
 
 }
 
+.btnSender:hover{
+    background-color: var(--White2);
+}
+
 .buttonContainer {
     display: flex;
     justify-content: right;
