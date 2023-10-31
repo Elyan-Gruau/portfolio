@@ -13,21 +13,22 @@ function Formations(){
                            year="2021"
                            mention="Mention bien"
                            desc="Numerique et science de l'informatique, Mathématiques"
-                           location=" Lycée Thomas Edison - Lorgues, Var" />
+                           location="Lycée Thomas Edison, 83510 Lorgues" />
 
                 <Formation title="DUT Informatique"
                            subtitle="Diplome Universitaire de Technologie"
                            year="2021 - 2023"
                            mention="Diplome Universitaire de Technologie"
                            desc="Parcours Réalisation d’applications : conception, développement, validation"
-                           location=" IUT Nice Côte d'Azur" />
+                           location="IUT Nice Côte d'Azur, 06000 Nice" />
 
 
                 <Formation title="L3 MIASHS - MIAGE"
+                           subtitle="Méthodes Informatiques Appliquées à la Gestion des Entreprises"
                            year="2023 - 2024"
                            mention="Mention bien"
                            desc="Méthodes Informatiques Appliquées à la Gestion des Entreprises"
-                           location="DESCRIPTIODNnndsdsdssdsdsddssddssddssd" />
+                           location="1645 Rte des Lucioles, 06410 Biot" />
 
                 {/*<Formation title="Master MIAGE"*/}
                 {/*           year="2024 - 2026"*/}
