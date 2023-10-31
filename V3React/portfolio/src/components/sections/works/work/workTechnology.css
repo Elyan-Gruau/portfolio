@@ -2,7 +2,7 @@
     display: flex;
     min-width: 50px;
     height: 23px;
-    background-color: var(--WhiteDarker);
+    background-color: var(--lightGlass);
     border-radius: 20px;
     padding-left: 10px;
     padding-right: 10px;
