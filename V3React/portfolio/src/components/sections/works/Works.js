@@ -39,7 +39,7 @@ function Works(){
                 <Work
                     title="Annuaire SaExpress"
                     date="2023"
-                    description={lorem}
+                    description="Conception et devellopement, d'un annuaire en ligne utilisant Active Directory. L'annuaire propose un mode utilisateur afin de consulter des données et un mode administrateur permenttant de géré les comptes."
                     person_count="4"
                     state="terminé"
                     link="https://iut-git.unice.fr/pt102004/sae4_2a"
