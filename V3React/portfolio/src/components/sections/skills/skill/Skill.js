@@ -1,7 +1,8 @@
 import './skill.css'
 function Skill(props){
-    const name = props.name.replace(" ","_").replace("(","").replace(")","").toLowerCase();
+    //const name = props.name.replace(" ","_").replace("(","").replace(")","").toLowerCase();
     //const bar = renderBar("--CleanBlack");
+    const name= "allSkill";
     const barHover = renderBar("--color_"+name);
     const barStyle = {
         color: "#fff",
@@ -21,8 +22,8 @@ function Skill(props){
             <div className="skillName">
                 <p>{props.name}</p>
             </div>
-            <div className="skillBarValue"  style={barStyle}>
-                <div className="skillBar">
+            <div className="skillBarValue movingBackground"  style={barStyle}>
+                <div className="skillBar glass">
 
                 </div>
             </div>
