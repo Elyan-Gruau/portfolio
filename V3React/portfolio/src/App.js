@@ -4,6 +4,7 @@ import './style/scrollBar.css';
 import './style/colors.css';
 import './style/glass.css';
 import './style/animation.css';
+import './style/tooltip.css';
 
 
 import Presentation from "./components/sections/Presentation";

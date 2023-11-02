@@ -3,36 +3,30 @@ function Skill(props){
     //const name = props.name.replace(" ","_").replace("(","").replace(")","").toLowerCase();
     //const bar = renderBar("--CleanBlack");
     const name= "allSkill";
-    const barHover = renderBar("--color_"+name);
     const barStyle = {
         color: "#fff",
-        backgroundImage: barHover,
+        width: props.value+"%",
         boxShadow: "none"
     };
     const barStyleHover = {
 
     }
 
-    function renderBar (color) {
-       return "linear-gradient(90deg, var("+color+") "+props.value+"%, transparent "+props.value+"%)"
-    }
+
 
     return (
-        <div className="skill glass">
+        <div className="skill ">
             <div className="skillName">
                 <p>{props.name}</p>
             </div>
-            <div className="skillBarValue movingBackground"  style={barStyle}>
-                <div className="skillBar glass">
+            <div className="skillBarContainer movingBackground tooltip" >
+                <span className="tooltiptext">{props.value}/100</span>
+                <div className="skillBarGlass glass">
+                    <div className="skillBarValue "  style={barStyle}>
 
+                    </div>
                 </div>
             </div>
-
-
-            <button className="skillButton">
-                +
-            </button>
-
         </div>
     );
 }
