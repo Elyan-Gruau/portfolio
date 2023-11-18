@@ -35,7 +35,6 @@
     -webkit-background-clip: text;
     filter: invert() ;
 }
-
 #profile{
     height: 310px;
     width: 310px;
@@ -50,4 +49,7 @@
     height: 300px;
     width: 300px;
     border-radius: 180px;
+    backdrop-filter:  invert();
+
+    /*opacity: 0.5%;*/
 }

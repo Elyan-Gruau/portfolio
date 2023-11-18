@@ -7,7 +7,7 @@ function Presentation () {
             <h2 id="secondTitle presentationBackground"> Développeur </h2>
             <div id="profile">
                 <img alt="profilePic"
-                         src="/img/profile-pic.png"/>
+                         src="/img/profile-pic%20-%20transp.png"/>
             </div>
             ANIMATION D ECRITURE
             MAKE YOUR DREAM POSSIBLE
