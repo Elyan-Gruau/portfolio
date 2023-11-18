@@ -7,7 +7,7 @@ import './style/animation.css';
 import './style/tooltip.css';
 
 
-import Presentation from "./components/sections/Presentation";
+import Presentation from "./components/sections/presentation/Presentation";
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 import Works from "./components/sections/works/Works";
