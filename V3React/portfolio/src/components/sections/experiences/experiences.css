@@ -4,9 +4,9 @@
 }
 
 .experience{
-    width: 400px;
+    width: 420px;
     /*452*/
-    min-height: 600px;
+    min-height: 620px;
     /*650*/
     color: white;
     border-radius: var(--borderRadius);
