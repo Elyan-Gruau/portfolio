@@ -12,13 +12,12 @@ function Formations(){
                 <Formation title="Baccalauréat général"
                            year="2021"
                            mention="Mention bien"
-                           desc="Numerique et science de l'informatique, Mathématiques"
+                           desc="Spécialités : Numerique et science de l'informatique (NSI), Mathématiques, Sciences de l'ingénieur"
                            location="Lycée Thomas Edison, 83510 Lorgues" />
 
                 <Formation title="DUT Informatique"
                            subtitle="Diplome Universitaire de Technologie"
                            year="2021 - 2023"
-                           mention="Diplome Universitaire de Technologie"
                            desc="Parcours Réalisation d’applications : conception, développement, validation"
                            location="IUT Nice Côte d'Azur, 06000 Nice" />
 
@@ -26,7 +25,6 @@ function Formations(){
                 <Formation title="L3 MIASHS - MIAGE"
                            subtitle="Méthodes Informatiques Appliquées à la Gestion des Entreprises"
                            year="2023 - 2024"
-                           mention="Mention bien"
                            desc="Méthodes Informatiques Appliquées à la Gestion des Entreprises"
                            location="1645 Rte des Lucioles, 06410 Biot" />
 
