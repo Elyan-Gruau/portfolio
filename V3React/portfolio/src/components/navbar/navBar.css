@@ -24,7 +24,7 @@ nav a{
     width: 20%;
     color: var(--White2);
     text-decoration: none;
-    font-family: "Monsterat", sans-serif;
+    font-family: var(--font-family);
     font-weight : normal;
     font-style: normal;
     padding: 0 15px;

@@ -13,12 +13,12 @@
     height: 0px;
 }
 ::-webkit-scrollbar-thumb {
-    background-color: var(--White2);
+    background: var(--color_allSkill);
     border: 0px none #ffffff;
     border-radius: 50px;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: var(--RoyalBlue);
+    background-color: var(--color_allSkill);
 }
 ::-webkit-scrollbar-thumb:active {
     background: var(--footerBlack);
