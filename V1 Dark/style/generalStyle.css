@@ -23,7 +23,7 @@ body{
     margin: 0;
     color: var(--White1);
     background-color: var(--colDarkGrey1);
-    font-family: "Monsterat", sans-serif;
+    font-family: var(--font-family);
 }
 
 h1{
@@ -72,7 +72,7 @@ footer{
 }
 
 .presentation h2{
-    font-family: "Monsterat", sans-serif;
+    font-family: var(--font-family);
     font-weight : normal;
     font-style: normal;
     font-size: 80px;

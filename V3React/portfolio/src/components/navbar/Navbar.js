@@ -2,10 +2,14 @@ import panel from "../panel/Panel";
 import "./navBar.css";
 function Navbar () {
     let navElement;
+    let scrollProgressElement;
+    let limit = Math.max( document.body.scrollHeight, document.body.offsetHeight,
+        document.documentElement.clientHeight, document.documentElement.scrollHeight, document.documentElement.offsetHeight )-1208;
     const onPageLoad = () => {
         //document.documentElement.scrollTop || document.body.scrollTop;
         window.addEventListener('scroll',onScroll);
         navElement = document.getElementById("nav");
+        scrollProgressElement = document.getElementById("scrollProgress");
     }
 
     const handlePanel = (e) =>{
@@ -30,6 +34,10 @@ function Navbar () {
         }else if (!classList.contains("withBoxShadow")){
             navElement.classList.add("withBoxShadow");
         }
+
+
+        scrollProgressElement.style.width = scroll*100/limit +"%";
+
     }
 
     if (document.readyState === 'complete') {
@@ -42,6 +50,7 @@ function Navbar () {
 
     return (
             <nav id="nav">
+                <div id="scrollProgress"  >></div>
                 <div className="contactContainer">
                     <div className="clickableLogo">
                         <a href="https://www.linkedin.com/in/elyan-gruau/"  target="_blank">
