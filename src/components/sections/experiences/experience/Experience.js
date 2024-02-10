@@ -15,7 +15,7 @@ function Experience (props) {
         <div className="experience movingBackground toto ">
             <div className="glass lightGlass">
                 <a className="companyLogoContainer"
-                   href={props.companyWebsite} target="_blank">
+                   href={props.companyWebsite} target="_blank" rel="noreferrer">
                     <img src={imgPath} alt={props.company} />
                 </a>
                 <h2 className="title" >{props.title}</h2>

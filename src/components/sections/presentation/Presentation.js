@@ -1,4 +1,3 @@
-import Spacer from "../../Spacer";
 import "./presentation.css";
 function Presentation () {
     return (

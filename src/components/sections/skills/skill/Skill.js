@@ -2,15 +2,15 @@ import './skill.css'
 function Skill(props){
     //const name = props.name.replace(" ","_").replace("(","").replace(")","").toLowerCase();
     //const bar = renderBar("--CleanBlack");
-    const name= "allSkill";
+    // const name= "allSkill";
     const barStyle = {
         color: "#fff",
         width: props.value+"%",
         boxShadow: "none"
     };
-    const barStyleHover = {
-
-    }
+    // const barStyleHover = {
+    //
+    // }
 
 
 

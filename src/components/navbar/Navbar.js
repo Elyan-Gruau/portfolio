@@ -1,4 +1,3 @@
-import panel from "../panel/Panel";
 import "./navBar.css";
 function Navbar () {
     let navElement;
@@ -53,7 +52,7 @@ function Navbar () {
                 <div id="scrollProgress"  >></div>
                 <div className="contactContainer">
                     <div className="clickableLogo">
-                        <a href="https://www.linkedin.com/in/elyan-gruau/"  target="_blank">
+                        <a href="https://www.linkedin.com/in/elyan-gruau/"  target="_blank" rel="noreferrer">
                             <img src="/img/linkedin.png" alt="linkedin"/>
                         </a>
                     </div>
