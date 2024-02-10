@@ -19,10 +19,10 @@ function Skills(){
                 <div className="rightPart">
                     <Skill name="PHP"  value="60"/>
                     <Skill name="SQL" value="70"/>
-                    <Skill name="Python" value="60"/>
+                    <Skill name="Python" value="65"/>
                     <Skill name="JSP" value="55"/>
                     <Skill name="C" value="50"/>
-                    <Skill name="Git" value="70"/>
+                    <Skill name="Git" value="75"/>
                 </div>
             </div>
         </section>
