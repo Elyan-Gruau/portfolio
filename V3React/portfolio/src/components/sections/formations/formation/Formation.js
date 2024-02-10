@@ -1,7 +1,7 @@
 import "./formation.css";
 function Formation(props){
     return(
-        <div className="formation movingBackground animateOnDisplay">
+        <div className="formation movingBackground ">
             <div className="glass">
                 <h2 className="title">{props.title}</h2>
                 <h2 className="subtitle">{props.subtitle}</h2>

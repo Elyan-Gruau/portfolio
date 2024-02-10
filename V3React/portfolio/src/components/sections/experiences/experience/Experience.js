@@ -12,7 +12,7 @@ function Experience (props) {
         }
     }
     return (
-        <div className="experience movingBackground toto animateOnDisplay ">
+        <div className="experience movingBackground toto ">
             <div className="glass lightGlass">
                 <a className="companyLogoContainer"
                    href={props.companyWebsite} target="_blank">
