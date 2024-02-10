@@ -13,7 +13,7 @@ function Experiences () {
                             status="En production"
                             location="GreenSide Batiment 5, 400 Av. Roumanille Bâtiment 6, 06410 Biot"
                             date="04 - 08/2022"
-                            technolist={["java","jsp","javascript","sql","git"]}
+                            technolist={["java","jsp","javascript","sql","maven","jenkins","jira","git"]}
                 />
 
                 {/*<Experience title="Consultant Technique"*/}
