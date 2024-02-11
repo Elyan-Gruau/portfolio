@@ -2,7 +2,6 @@
     background-image: url(https://media4.giphy.com/media/LbMERa15Q6clA1NLcz/giphy.gif?cid=ecf05e47n7wkisu5dmo2rswzwly6aqq9picl8msua0lpgzne&rid=giphy.gif&ct=g);
     background-color: black;
     background-attachment: fixed;
-    /*todo change 99 */
     width: 100vw;
     height: 100vh;
     background-repeat: round;
@@ -49,7 +48,7 @@
     height: 300px;
     width: 300px;
     border-radius: 180px;
-    backdrop-filter:  invert();
+    backdrop-filter:  invert() blur(10px);
 
     /*opacity: 0.5%;*/
 }
@@ -62,4 +61,16 @@
     height: 500px;
     margin: auto;
     padding-top: 200px;
+}
+
+.bubble{
+    display: flex;
+    width: 60px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.24);
+    backdrop-filter: blur(20px);
+    border-radius: 50%;
+    background-image: url("/public/img/down-arrow.png");
+    background-size: contain;
+    margin: auto;
 }

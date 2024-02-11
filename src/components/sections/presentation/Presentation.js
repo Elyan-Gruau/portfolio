@@ -11,7 +11,9 @@ function Presentation () {
                     <h2 id="firstTitle presentationBackground"> Étudiant </h2>
                     <h2 id="secondTitle presentationBackground"> Développeur </h2>
                 </div>
+
             </div>
+            <div className={"bubble"}></div>
             {/*ANIMATION D ECRITURE*/}
             {/*MAKE YOUR DREAM POSSIBLE*/}
             {/*PHOTO ENCADR2E NEOMORPHISM !!*/}
