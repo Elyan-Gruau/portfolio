@@ -1,7 +1,7 @@
 import Technology from "../../works/work/Technology";
 
 function Experience (props) {
-    let imgPath = "/img/companies/"+props.company+".png";
+    let imgPath = "/portfolio/img/companies/"+props.company+".png";
     const technos = [];
     const technoIterrator = props.technolist;
     if (technoIterrator!=null){
