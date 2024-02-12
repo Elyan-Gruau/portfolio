@@ -27,12 +27,14 @@
     margin: 0;
     float: inherit;
 
-    padding: 55px 0px;
+    padding: 5px 0px;
     color: transparent;
     background-image: url(https://media4.giphy.com/media/LbMERa15Q6clA1NLcz/giphy.gif?cid=ecf05e47n7wkisu5dmo2rswzwly6aqq9picl8msua0lpgzne&rid=giphy.gif&ct=g);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     filter: invert() ;
+    background-attachment: fixed;
+    background-size: cover;
 }
 .profilePic{
     height: 310px;
@@ -49,7 +51,6 @@
     width: 300px;
     border-radius: 180px;
     backdrop-filter:  invert() blur(10px);
-
     /*opacity: 0.5%;*/
 }
 
@@ -61,6 +62,15 @@
     height: 500px;
     margin: auto;
     padding-top: 200px;
+}
+
+.titles{
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left:20px;
 }
 
 .bubble{
