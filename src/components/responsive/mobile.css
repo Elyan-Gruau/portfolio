@@ -1,4 +1,12 @@
 @media only screen and (orientation: portrait) {
+    /* M A I N */
+
+    main{
+        width: 100%;
+        /* background-color: #58d25a; */
+        padding: 0 1%;
+    }
+
     /* F O R M A T I O N */
     .formation{
         width: 70%;
@@ -36,4 +44,6 @@
         height: 100px;
         background-color: #58d25a;
     }
+
+
 }
