@@ -14,11 +14,6 @@
     padding-bottom: 60px;
 }
 
-@media only screen and (orientation: portrait) {
-    #panel {
-        width: 100%;
-    }
-}
 
 #panel.open{
     right: 0;

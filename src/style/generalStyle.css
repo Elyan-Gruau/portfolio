@@ -71,7 +71,7 @@ body{
     /*background-image: linear-gradient(45deg, rgb(10,10,10), rgb(0,0,25));*/
     background-color: var( --footerBlack);
     font-family: "Monsterat", sans-serif;
-    min-width: 780px;
+    /*min-width: 780px;*/
     width: 100%;
     background-attachment: fixed;
 }
@@ -93,8 +93,8 @@ h1, h2,h3, h4, h5, h6{
 
 
 html{
-    width: 100vw;
-    min-width: 1080px;
+    width: 100%;
+    /*min-width: 1080px;*/
 }
 
 main{

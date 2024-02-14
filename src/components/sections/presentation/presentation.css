@@ -2,12 +2,10 @@
     background-image: url(https://media4.giphy.com/media/LbMERa15Q6clA1NLcz/giphy.gif?cid=ecf05e47n7wkisu5dmo2rswzwly6aqq9picl8msua0lpgzne&rid=giphy.gif&ct=g);
     background-color: black;
     background-attachment: fixed;
-    width: 100vw;
+    /*width: 100vw; TODO RE-ENABLE*/
     height: 100vh;
     background-repeat: round;
     background-size: cover;
-    display: none;
-    /*    TODO*/
 }
 
 .presentation h2{

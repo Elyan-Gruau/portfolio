@@ -2,14 +2,33 @@
     /* H T M L */
     html{
         width: 100%;
-        min-width: 0;
+        /*min-width: 0;*/
         height: 100%;
+    }
+
+    /* P R E S E N T A T I O N */
+    .profilePic img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .profilePic {
+        width: 210px;
+        height: 210px;
+    }
+
+    .presentation h2{
+        font-size: 40px;
+    }
+
+    .titles{
+        height: 200px;
     }
 
     /* M A I N */
 
     main{
-        width: 100%;
+        width: 98%;
         /* background-color: #58d25a; */
         padding: 0 1%;
     }
@@ -49,8 +68,13 @@
     /* N A V */
     nav {
         height: 100px;
-        width: 95%;
+        /*width: 95%;*/
         background-color: #58d25a;
+    }
+
+    /* P A N E L */
+    #panel {
+        width: 100%;
     }
 
 
