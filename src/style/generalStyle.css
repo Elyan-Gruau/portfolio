@@ -105,6 +105,15 @@ main{
     margin-bottom: var(--footerHeight);
 }
 
+@media only screen and (orientation: portrait) {
+    main{
+        width: 100vw;
+        /* background-color: #58d25a; */
+        padding: 0 1%;
+    }
+}
+
+
 button:hover, a:hover {
     cursor: pointer;
 }
