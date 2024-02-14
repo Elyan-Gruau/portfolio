@@ -11,6 +11,7 @@
     color: white;
     border-radius: var(--borderRadius);
     margin: 0 20px;
+    aspect-ratio: 13/21;
 }
 
 .experience .textContainer{
@@ -94,8 +95,3 @@
 }
 
 
-@media only screen and (orientation: portrait) {
-    .experience{
-        width: 70%;
-    }
-}

@@ -16,12 +16,6 @@ nav {
     justify-content: space-between;
 }
 
-@media only screen and (orientation: portrait) {
-    nav {
-        height: 100px;
-        background-color: #58d25a;
-    }
-}
 
 
 .withBoxShadow{

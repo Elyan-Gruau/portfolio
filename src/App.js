@@ -18,6 +18,7 @@ import Spacer from "./components/Spacer";
 import Divider from "./components/Divider";
 import Experiences from "./components/sections/experiences/Experiences";
 import Panel from "./components/panel/Panel";
+import ResponsiveStyle from "./components/responsive/ResponsiveStyle";
 
 function App() {
 
@@ -139,6 +140,7 @@ function App() {
           <Spacer/>
       </main>
       <Footer/>
+        <ResponsiveStyle/>
     </div>
   );
 }

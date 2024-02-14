@@ -59,9 +59,3 @@
     height: fit-content;
     width: fit-content;
 }
-
-@media only screen and (orientation: portrait) {
-    .formation{
-        width: 80%;
-    }
-}

@@ -1,0 +1,39 @@
+@media only screen and (orientation: portrait) {
+    /* F O R M A T I O N */
+    .formation{
+        width: 70%;
+    }
+
+    /* S K I L L */
+
+    .skillCont{
+        flex-direction: column !important;
+        width: 70%;
+    }
+
+    .skillCont .leftPart, .skillCont .rightPart{
+        width: 100%;
+    }
+
+    /* E X P E R I E N C E*/
+    .experience{
+        width: 70%;
+    }
+
+    /* W O R K*/
+    .work {
+        color: #ffffff;
+        width: 70%;
+        min-height:800px;
+    }
+
+    .imageContainer{
+        height: 300px;
+    }
+
+    /* N A V */
+    nav {
+        height: 100px;
+        background-color: #58d25a;
+    }
+}
