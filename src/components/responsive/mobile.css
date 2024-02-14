@@ -7,6 +7,11 @@
     }
 
     /* P R E S E N T A T I O N */
+    #profile {
+        flex-direction: column;
+        align-items: center;
+    }
+
     .profilePic img {
         width: 200px;
         height: 200px;
@@ -19,10 +24,17 @@
 
     .presentation h2{
         font-size: 40px;
+        width: fit-content;
+    }
+
+    .presentation h2:first-of-type{
+        margin-top: 10px;
     }
 
     .titles{
         height: 200px;
+        padding: 0;
+        justify-content: flex-start;
     }
 
     /* M A I N */
@@ -69,7 +81,7 @@
     nav {
         height: 100px;
         /*width: 95%;*/
-        background-color: #58d25a;
+        background-color: #2498a0;
     }
 
     /* P A N E L */
