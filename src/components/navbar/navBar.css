@@ -1,5 +1,6 @@
 nav {
     height: 60px;
+
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
     background: linear-gradient(0deg, rgba(0,0,0,0) 15%, rgba(0,0,0,0.25) 100%);
@@ -14,6 +15,14 @@ nav {
     transition: all ease-in-out 0.2s;
     justify-content: space-between;
 }
+
+@media only screen and (orientation: portrait) {
+    nav {
+        height: 100px;
+        background-color: #58d25a;
+    }
+}
+
 
 .withBoxShadow{
     transition: all ease-in-out 0.5s;

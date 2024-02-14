@@ -102,3 +102,18 @@
 .work .glass{
     background-image: radial-gradient(rgba(58,255,255,0.5) -42%, #0000001a 100%);
 }
+
+@media only screen and (orientation: portrait) {
+    .work {
+        /*width: 1000px;*/
+        /*background-color: #58d25a;*/
+        color: #871594;
+        /*width: 0px;*/
+        width: 70%;
+        min-height:800px;
+    }
+
+    .imageContainer{
+        height: 300px;
+    }
+}

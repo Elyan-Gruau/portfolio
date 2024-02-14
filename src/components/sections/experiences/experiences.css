@@ -26,6 +26,7 @@
     display: flex;
     border-radius: var(--borderRadius);
     padding: 20px;
+    /*aspect-ratio: 1/1;*/
 }
 
 .companyLogoContainer>img{
@@ -92,3 +93,9 @@
     color: rgba(255,255,255,0.9);
 }
 
+
+@media only screen and (orientation: portrait) {
+    .experience{
+        width: 70%;
+    }
+}

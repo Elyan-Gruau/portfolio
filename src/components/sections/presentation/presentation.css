@@ -36,6 +36,13 @@
     background-attachment: fixed;
     background-size: cover;
 }
+
+.presentation h2:last-of-type{
+    background-color: #58d25a;
+    background-clip: content-box;
+    color: white;
+}
+
 .profilePic{
     height: 310px;
     width: 310px;

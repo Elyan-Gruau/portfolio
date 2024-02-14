@@ -72,6 +72,7 @@ body{
     background-color: var( --footerBlack);
     font-family: "Monsterat", sans-serif;
     min-width: 780px;
+    width: 100%;
     background-attachment: fixed;
 }
 
@@ -91,7 +92,9 @@ h1, h2,h3, h4, h5, h6{
 
 
 
-
+html{
+    width: 100vw;
+}
 
 main{
     display: flex;
@@ -107,7 +110,7 @@ main{
 
 @media only screen and (orientation: portrait) {
     main{
-        width: 100vw;
+        width: 100%;
         /* background-color: #58d25a; */
         padding: 0 1%;
     }
