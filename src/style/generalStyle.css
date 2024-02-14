@@ -116,6 +116,7 @@ button:hover, a:hover {
 
 h2{
     text-align: center;
+    text-shadow: 0 0 50px white;
 }
 
 .spacer{

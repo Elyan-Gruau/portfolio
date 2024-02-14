@@ -49,7 +49,7 @@ function Navbar () {
 
     return (
             <nav id="nav">
-                <div id="scrollProgress"  >></div>
+                <div id="scrollProgress"></div>
                 <div className="contactContainer">
                     <div className="clickableLogo">
                         <a href="https://www.linkedin.com/in/elyan-gruau/"  target="_blank" rel="noreferrer">

@@ -11,11 +11,12 @@
 #searchWorkInput {
     border: none;
     background-color: var(--lightGlass);
-    width: 50%;
+    width: 70%;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     padding-left: 20px ;
     letter-spacing: 2px;
+    color: white;
 }
 
 #searchWorkInput:focus-visible{
