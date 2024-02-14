@@ -65,14 +65,14 @@
 #profile{
     display: flex;
     justify-content: center;
-    
+
     height: 500px;
     margin: auto;
     padding-top: 200px;
 }
 
 .titles{
-    height: 310px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
