@@ -1,4 +1,10 @@
 @media only screen and (orientation: portrait) {
+    /* H T M L */
+    html{
+        width: 100%;
+        height: 100%;
+    }
+
     /* M A I N */
 
     main{
