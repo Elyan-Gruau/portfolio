@@ -2,6 +2,7 @@
     /* H T M L */
     html{
         width: 100%;
+        min-width: 0;
         height: 100%;
     }
 
@@ -48,6 +49,7 @@
     /* N A V */
     nav {
         height: 100px;
+        width: 95%;
         background-color: #58d25a;
     }
 
