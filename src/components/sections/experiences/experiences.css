@@ -83,10 +83,23 @@
     font-size: larger;
 }
 
-.experience .location{
+.location{
     color: rgba(255,255,255,0.8);
     margin: 0;
+    display: flex;
+    align-items: center;
 }
+
+.location:before{
+    content: " ";
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 5px;
+    background-image: url("/public/img/pin.png");
+    background-size: cover;
+}
+
 
 .experienceHeader>p{
     margin: 2px 0;

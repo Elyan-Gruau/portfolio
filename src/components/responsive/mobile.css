@@ -10,6 +10,7 @@
     #profile {
         flex-direction: column;
         align-items: center;
+        padding-top: 80px;
     }
 
     .profilePic img {
@@ -20,6 +21,10 @@
     .profilePic {
         width: 210px;
         height: 210px;
+    }
+
+    .presentation{
+        background-image: linear-gradient(45deg, red, transparent);
     }
 
     .presentation h2{
@@ -47,29 +52,34 @@
 
     /* F O R M A T I O N */
     .formation{
-        width: 70%;
+        width: 80%;
     }
 
     /* S K I L L */
 
     .skillCont{
         flex-direction: column !important;
-        width: 70%;
+        width: 90%;
+        margin: auto;
     }
 
     .skillCont .leftPart, .skillCont .rightPart{
         width: 100%;
     }
 
+    .skillCont .rightPart{
+        margin-top: 40px;
+    }
+
     /* E X P E R I E N C E*/
     .experience{
-        width: 70%;
+        width: 90%;
     }
 
     /* W O R K*/
     .work {
         color: #ffffff;
-        width: 70%;
+        width: 90%;
         min-height:800px;
     }
 
@@ -79,14 +89,26 @@
 
     /* N A V */
     nav {
-        height: 100px;
-        /*width: 95%;*/
-        background-color: #2498a0;
+        height: 80px;
     }
 
     /* P A N E L */
     #panel {
         width: 100%;
+    }
+
+    #panel .container{
+        margin: auto;
+    }
+
+    /* C O N T A C T*/
+    #contactForm{
+        width: 80%;
+        min-width: 80%;
+    }
+
+    #contactForm textarea{
+        height: 100px;
     }
 
 

@@ -12,10 +12,6 @@
     padding: 10px;
 }
 
-.formation:last-child{
-    /*background-color: #0B59A4;*/
-    margin-right: 50px;
-}
 
 .formation:first-line{
     background-color: #61dafb;
