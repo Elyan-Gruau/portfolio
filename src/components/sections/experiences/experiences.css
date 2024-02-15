@@ -27,6 +27,8 @@
     display: flex;
     border-radius: var(--borderRadius);
     padding: 20px;
+    justify-content: center;
+    max-width: 100%;
     /*aspect-ratio: 1/1;*/
 }
 

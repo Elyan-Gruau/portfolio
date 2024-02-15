@@ -24,13 +24,11 @@ nav {
 }
 
 nav a{
-    width: 20%;
     color: var(--White2);
     text-decoration: none;
     font-family: var(--font-family);
     font-weight : normal;
     font-style: normal;
-    padding: 0 15px;
     letter-spacing: 2px;
 }
 
@@ -55,7 +53,8 @@ nav a{
 .contactContainer{
     display: flex;
     justify-content: center;
-    width: 40px;
+    width: 30px;
+    height: 30px;
 }
 
 .sectionJumpingContainer{

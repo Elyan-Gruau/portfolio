@@ -26,16 +26,14 @@ function Navbar () {
         }
     }
     const onScroll = () => {
-        let scroll = document.documentElement.scrollTop;
-        let classList = navElement.classList;
-        if (scroll ===0 ){
-            navElement.classList.remove("withBoxShadow");
-        }else if (!classList.contains("withBoxShadow")){
-            navElement.classList.add("withBoxShadow");
-        }
-
-
-        scrollProgressElement.style.width = scroll*100/limit +"%";
+        // let scroll = document.documentElement.scrollTop;
+        // let classList = navElement.classList;
+        // if (scroll ===0 ){
+        //     navElement.classList.remove("withBoxShadow");
+        // }else if (!classList.contains("withBoxShadow")){
+        //     navElement.classList.add("withBoxShadow");
+        // }
+        // scrollProgressElement.style.width = scroll*100/limit +"%";
 
     }
 
