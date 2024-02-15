@@ -24,12 +24,19 @@
     }
 
     .presentation{
-        background-image: linear-gradient(45deg, red, transparent);
+        /*background-image: linear-gradient(45deg, red, transparent);*/
+        /*background-clip: content-box;*/
+        /*background-origin: content-box;*/
+        /*background-position: bottom;*/
+        background-size: auto;
+        background-repeat: no-repeat;
     }
 
     .presentation h2{
         font-size: 40px;
         width: fit-content;
+        background-size: auto;
+        background-repeat: no-repeat;
     }
 
     .presentation h2:first-of-type{
@@ -48,11 +55,12 @@
         width: 98%;
         /* background-color: #58d25a; */
         padding: 0 1%;
+        margin-bottom: 0;
     }
 
     /* F O R M A T I O N */
     .formation{
-        width: 80%;
+        width: 90%;
     }
 
     /* S K I L L */
@@ -73,18 +81,20 @@
 
     /* E X P E R I E N C E*/
     .experience{
-        width: 90%;
+        width: 96%;
+        height: fit-content;
     }
 
     /* W O R K*/
     .work {
         color: #ffffff;
         width: 90%;
-        min-height:800px;
+        min-height: fit-content;
     }
 
     .imageContainer{
-        height: 300px;
+        max-height: 300px;
+        height: fit-content;
     }
 
     /* N A V */
@@ -109,6 +119,16 @@
 
     #contactForm textarea{
         height: 100px;
+    }
+
+    /* F O O T E R*/
+    footer{
+        position: relative;
+        height: 180px;
+    }
+
+    footer a{
+        margin : 0;
     }
 
 
