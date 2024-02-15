@@ -6,10 +6,11 @@ function Contact(){
                 <h2>Contact</h2>
                 <form>
                     <label htmlFor="email">Email</label>
-                    <input type="email" id="email" placeholder="test@gmail.com"/>
+                    <input type="email" id="email" placeholder="best@compagny.com"/>
 
                     <label htmlFor="message">Message</label>
-                    <textarea id="message" placeholder="Rencontrons-nous !"/>
+                    <textarea id="message" placeholder="Ce formulaire pourra bientôt vous satisfaire."/>
+                    {/*Rencontrons-nous !*/}
                     <div className="buttonContainer">
                         <button className="btnSender">Envoyer</button>
                     </div>

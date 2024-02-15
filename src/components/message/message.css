@@ -37,7 +37,7 @@
     height: 50px;
     border-radius:  var(--borderRadius);
     border: none;
-    padding: 0 30px ;
+    padding: 0 20px ;
     background-color: var(--lightGlass);
     letter-spacing: 1px;
     color: white;
@@ -47,10 +47,11 @@
 }
 
 #contactForm textarea {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 20px;
     height: 180px;
-    font-size: larger;
+    font-size: medium;
+    word-break: normal;
+    white-space:break-spaces;
 }
 
 

@@ -3,11 +3,14 @@ import Work from "./work/Work";
 
 function Works(){
 
-    const lorem = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+    const lorem = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut " +
+        "labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip " +
+        "ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat " +
+        "nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
     return (
         <section className="s4" id="work">
             <h2>Travaux</h2>
-            <Search/>
+            {/*<Search/>*/}
             {/*CARROUSEL AVEC BORD EN FONDU POUR INQIQUER LE SCROLL*/}
             {/*CARTE ? AFFICHER LE NOMBRE DE PARTICIPANT AVEC UN NOMBRE A CÔTE DUN BONHOME DE PERSONNE*/}
             <div className="workContainer">
@@ -23,7 +26,8 @@ function Works(){
                 <Work
                     title="Portfolio"
                     date="2023"
-                    description="Conception, développement et déploiement d'un portfolio web."
+                    description="Conception, développement et déploiement d'un portfolio web.
+                    Le site est hébergé sur GitHub Pages."
                     person_count="1"
                     state="en cours"
                     technolist={["react"]}
@@ -39,7 +43,8 @@ function Works(){
                 <Work
                     title="Instagrans"
                     date="2023"
-                    description={"Conception et développement d'une application de location de grand mère pour faire la cuisine (project universitaire)."}
+                    description="Conception et développement d'une application fictive de location de grand mère pour faire la cuisine (project universitaire).
+                    L'applications est composée d'un backcend Spring Boot et d'un front end Android (Java)."
                     person_count="3"
                     state="terminé"
                     technolist={["java","Android (Java)","spring boot","Maven"]}
@@ -47,7 +52,8 @@ function Works(){
                 <Work
                     title="Annuaire SaExpress"
                     date="2023"
-                    description="Conception et devellopement, d'un annuaire en ligne utilisant Active Directory. L'annuaire propose un mode utilisateur afin de consulter des données et un mode administrateur permenttant de géré les comptes."
+                    description="Conception et développement, d'un annuaire en ligne utilisant Active Directory.
+                    L'annuaire propose un mode utilisateur afin de consulter des données et un mode administrateur permettant de gérer les comptes."
                     person_count="4"
                     state="terminé"
                     link="https://iut-git.unice.fr/pt102004/sae4_2a"
