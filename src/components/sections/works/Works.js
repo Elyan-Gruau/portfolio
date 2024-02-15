@@ -43,8 +43,9 @@ function Works(){
                 <Work
                     title="Instagrans"
                     date="2023"
-                    description="Conception et développement d'une application fictive de location de grand mère pour faire la cuisine (project universitaire).
-                    L'applications est composée d'un backcend Spring Boot et d'un front end Android (Java)."
+                    description="Conception et développement d'une application fictive de location de grand mère pour faire la cuisine (projet universitaire).
+                    L'applications est composée d'un backcend Spring Boot et d'un front end Android (Java).
+                    Gestion du pannier, des notifications, de la responsivité, des modes clair et sombre."
                     person_count="3"
                     state="terminé"
                     technolist={["java","Android (Java)","spring boot","Maven"]}
