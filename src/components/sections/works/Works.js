@@ -23,7 +23,7 @@ function Works(){
                 <Work
                     title="Portfolio"
                     date="2023"
-                    description="Conception, devellopement d'un portfolio web."
+                    description="Conception, développement et déploiement d'un portfolio web."
                     person_count="1"
                     state="en cours"
                     technolist={["react"]}
@@ -39,10 +39,10 @@ function Works(){
                 <Work
                     title="Instagrans"
                     date="2023"
-                    description={"Conception et devellopement d'une application de location de grand mère pour faire la cuisine (project universitaire)."}
+                    description={"Conception et développement d'une application de location de grand mère pour faire la cuisine (project universitaire)."}
                     person_count="3"
                     state="terminé"
-                    technolist={["java","Android (Java)","spring boot"]}
+                    technolist={["java","Android (Java)","spring boot","Maven"]}
                 />
                 <Work
                     title="Annuaire SaExpress"

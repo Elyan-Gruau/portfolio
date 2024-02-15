@@ -40,24 +40,23 @@ function App() {
     const onPageLoad = () => {
         window.addEventListener('scroll', onScroll);
         elementsWithAnimation = document.getElementsByClassName("animateOnDisplay");
-        console.log("HELLO")
     }
 
     const onScroll = () => {
-        for (let i = 0; i < elementsWithAnimation.length; i++) {
-            let element = elementsWithAnimation[i];
-
-
-            if (!isElementInViewport(element)) {
-                if (element.classList.contains("display")) {
-                    element.classList.remove("display");
-                    element.classList.add("noDisplay");
-                }
-            } else {
-                element.classList.remove("noDisplay");
-                element.classList.add("display");
-            }
-        }
+        // for (let i = 0; i < elementsWithAnimation.length; i++) {
+        //     let element = elementsWithAnimation[i];
+        //
+        //
+        //     if (!isElementInViewport(element)) {
+        //         if (element.classList.contains("display")) {
+        //             element.classList.remove("display");
+        //             element.classList.add("noDisplay");
+        //         }
+        //     } else {
+        //         element.classList.remove("noDisplay");
+        //         element.classList.add("display");
+        //     }
+        // }
     }
 
     if (document.readyState === 'complete') {
