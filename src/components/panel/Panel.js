@@ -4,10 +4,24 @@ function Panel (props){
     return (
         <div id="panel" className={state}>
             <div className="container">
-                <a href="#work">Travaux</a>
-                <a href="#experience">Experience</a>
-                <a href="#contactForm">Contact</a>
-                <a href="/docs/GRUAU%20Elyan%20CV.pdf" download="GRUAU Elyan CV.pdf">Curiculum</a>
+                <a className="menuButton"
+                   href="#work">
+                    Travaux
+                </a>
+                <a className="menuButton"
+                   href="#experience">
+                    Experience
+                </a>
+                <a className="menuButton"
+                   href="#contactForm">
+                    Contact
+                </a>
+                <a className="menuButton"
+                   href="/public/docs/GRUAU_Elyan_CV.pdf"
+                   target="_blank"
+                   rel="noreferrer">
+                    Curiculum
+                </a>
             </div>
         </div>
     );

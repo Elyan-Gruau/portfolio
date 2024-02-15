@@ -27,9 +27,10 @@ function Work (props){
                     </div>
 
                     <p className="description">{props.description}</p>
-                    <div className="workTechnoContainer">
-                        {technos}
-                    </div>
+
+                </div>
+                <div className="workTechnoContainer">
+                    {technos}
                 </div>
 
                 {/*<p className="">{props.person_count}</p>*/}

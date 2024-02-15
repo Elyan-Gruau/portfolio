@@ -1,41 +1,39 @@
 import "./navBar.css";
 function Navbar () {
     let navElement;
-    let scrollProgressElement;
-    let limit = Math.max( document.body.scrollHeight, document.body.offsetHeight,
-        document.documentElement.clientHeight, document.documentElement.scrollHeight, document.documentElement.offsetHeight )-1208;
-    const onPageLoad = () => {
-        //document.documentElement.scrollTop || document.body.scrollTop;
-        window.addEventListener('scroll',onScroll);
+    let bodyElement;
+    let panelElement;
+
+    const onPageLoad = () => {//TODO FIND WHY IT IS CALLED 2 TIMES
+        panelElement = document.getElementById("panel");
         navElement = document.getElementById("nav");
-        scrollProgressElement = document.getElementById("scrollProgress");
+        bodyElement = document.getElementsByTagName("body")[0];
+        window.removeEventListener('load', onPageLoad);
+
+        const targets = panelElement.querySelectorAll(".menuButton");
+        for (let i = 0; i < targets.length;i++){
+            console.log(targets[i])
+        }
+        console.log("ok")
     }
 
     const handlePanel = (e) =>{
-        let panelElement = document.getElementById("panel");
+
         let classlist = panelElement.classList;
         let target =  document.getElementById("menuButton");
-        let targetClassList = target.classList;
+        // let targetClassList = target.classList;
 
-        if (classlist.contains("open")){
-            classlist.replace("open","closed");
-            targetClassList.replace("open","closed");
-        }else if (classlist.contains("closed")){
-            classlist.replace("closed","open");
-            targetClassList.replace("closed","open");
+        if (classlist.contains("open")){//CLOSING THE PANEL
+            panelElement.classList.remove("open");
+            target.classList.remove("open");
+            // bodyElement.classList.remove("noScroll");
+        }else {//OPENING THE PANEL
+            target.classList.add("open");
+            panelElement.classList.add("open");
+            // bodyElement.classList.add("noScroll");
         }
     }
-    const onScroll = () => {
-        // let scroll = document.documentElement.scrollTop;
-        // let classList = navElement.classList;
-        // if (scroll ===0 ){
-        //     navElement.classList.remove("withBoxShadow");
-        // }else if (!classList.contains("withBoxShadow")){
-        //     navElement.classList.add("withBoxShadow");
-        // }
-        // scrollProgressElement.style.width = scroll*100/limit +"%";
 
-    }
 
     if (document.readyState === 'complete') {
         onPageLoad();

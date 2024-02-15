@@ -22,6 +22,9 @@
 .textContainer{
     padding: 25px 10px;
     line-height: 1.4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 
@@ -89,9 +92,8 @@
 .workTechnoContainer{
     display: flex;
     flex-direction: row;
-    width: 100%;
     flex-wrap: wrap;
-
+    padding: 10px;
 }
 
 .workLogo{
