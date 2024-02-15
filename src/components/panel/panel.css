@@ -2,7 +2,7 @@
     width: 45vw;
     height: 100vh;
     backdrop-filter: blur(15px);
-    background-color: rgba(0, 0, 0, 0.0);
+    background-color: rgba(0, 0, 0, 0.6);
     display: flex;
     position: fixed;
     top: 60px;
@@ -17,8 +17,7 @@
 
 #panel.open{
     right: 0;
-    transition: all 0.8s;
-    background-color: rgba(0, 0, 0, 0.6);
+    transition: right 0.8s;
 }
 
 #panel a {
@@ -45,5 +44,9 @@
     justify-content: center;
     width: 40vw;
     margin: 0 auto 60px 120px;
+}
+
+#panel.open a {
+    /*color : #641277;*/
 }
 
