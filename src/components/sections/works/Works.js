@@ -59,11 +59,21 @@ function Works(){
                     link="https://iut-git.unice.fr/pt102004/sae4_2a"
                     technolist={["react","java","spring boot","SQL","Active Directory"]}
                 />
+                {/*<Work*/}
+                {/*    title="Rancode"*/}
+                {/*    date="2023"*/}
+                {/*    description={lorem}*/}
+                {/*    person_count="1"*/}
+                {/*    state="en cours"*/}
+                {/*    technolist={["PHP","HTML","CSS","SQL"]}*/}
+                {/*/>*/}
                 <Work
-                    title="Rancode"
+                    title="La Babouce*"
                     date="2023"
-                    description={lorem}
-                    person_count="1"
+                    description="Conception et développement d'un site fictif de vente de chausson. Le site possède une
+                    partie client depuis laquelle ils peuvent s'inscrire, se connecter, géré leurs données et commander
+                    des articles et une partie admin d'où il est possible de gérer les stocks."
+                    person_count="2"
                     state="en cours"
                     technolist={["PHP","HTML","CSS","SQL"]}
                 />
