@@ -11,6 +11,7 @@
 }
 .formation>div{
     padding: 10px;
+    width: auto;
 }
 
 
@@ -43,16 +44,21 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-
-
 }
 
 .formation h2{
     text-align: left;
+    margin-top: 0;
 }
 
 .formation .description{
     text-align: justify;
     height: fit-content;
     width: fit-content;
+}
+
+.formation:after{
+    /*content:" d";*/
+    /*position: absolute;*/
+    /*background-color: #0B59A4;*/
 }

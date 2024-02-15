@@ -5,7 +5,7 @@ function Presentation () {
 
             <div id="profile">
                 <div className={"profilePic"}>
-                    <img alt="profilePic" src="/portfolio/img/profile-pic%20-%20transp.png"/>
+                    <img alt="profilePic" src="/portfolio/img/profile-pic_transp_512.png"/>
                 </div>
                 <div className={"titles"}>
                     <h2 id="firstTitle presentationBackground"> Étudiant </h2>

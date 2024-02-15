@@ -17,7 +17,7 @@ function Panel (props){
                     Contact
                 </a>
                 <a className="menuButton"
-                   href="/public/docs/GRUAU_Elyan_CV.pdf"
+                   href="/portfolio/docs/GRUAU_Elyan_CV.pdf"
                    target="_blank"
                    rel="noreferrer">
                     Curiculum

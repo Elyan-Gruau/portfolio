@@ -10,6 +10,7 @@ function Navbar () {
         bodyElement = document.getElementsByTagName("body")[0];
         window.removeEventListener('load', onPageLoad);
 
+        if (!panelElement) return;
         const targets = panelElement.querySelectorAll(".menuButton");
         for (let i = 0; i < targets.length;i++){
             console.log(targets[i])
@@ -22,6 +23,8 @@ function Navbar () {
         let classlist = panelElement.classList;
         let target =  document.getElementById("menuButton");
         // let targetClassList = target.classList;
+
+
 
         if (classlist.contains("open")){//CLOSING THE PANEL
             panelElement.classList.remove("open");
