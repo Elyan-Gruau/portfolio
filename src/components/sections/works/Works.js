@@ -28,13 +28,21 @@ function Works(){
                     state="en cours"
                     technolist={["react"]}
                 />
+                {/*<Work*/}
+                {/*    title="Tic-Tac-Toe"*/}
+                {/*    date="2022"*/}
+                {/*    description={lorem}*/}
+                {/*    person_count="1"*/}
+                {/*    state="en cours"*/}
+                {/*    technolist={["java","react","spring boot"]}*/}
+                {/*/>*/}
                 <Work
-                    title="Tic-Tac-Toe"
-                    date="2022"
-                    description={lorem}
-                    person_count="1"
-                    state="en cours"
-                    technolist={["java","react","spring boot"]}
+                    title="Instagrans"
+                    date="2023"
+                    description={"Conception et devellopement d'une application de location de grand mère pour faire la cuisine (project universitaire)."}
+                    person_count="3"
+                    state="terminé"
+                    technolist={["java","Android (Java)","spring boot"]}
                 />
                 <Work
                     title="Annuaire SaExpress"
