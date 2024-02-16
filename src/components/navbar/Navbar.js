@@ -1,25 +1,23 @@
 import "./navBar.css";
 function Navbar () {
-    let navElement;
+    let navElement =  document.getElementById("panel");
     let bodyElement;
-    let panelElement;
 
     const onPageLoad = () => {//TODO FIND WHY IT IS CALLED 2 TIMES
-        panelElement = document.getElementById("panel");
         navElement = document.getElementById("nav");
         bodyElement = document.getElementsByTagName("body")[0];
         // window.removeEventListener('load', onPageLoad);
 
-        if (!panelElement) return;
-        const targets = panelElement.querySelectorAll(".menuButton");
-        for (let i = 0; i < targets.length;i++){
-            console.log(targets[i])
-        }
-        console.log("ok")
+
+        // const targets = panelElement.querySelectorAll(".menuButton");
+        // for (let i = 0; i < targets.length;i++){
+        //     console.log(targets[i])
+        // }
+        // console.log("ok")
     }
 
     const handlePanel = (e) =>{
-
+        const panelElement = document.getElementById("panel");
         let classlist = panelElement.classList;
         let target =  document.getElementById("menuButton");
         // let targetClassList = target.classList;
