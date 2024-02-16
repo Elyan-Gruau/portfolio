@@ -8,7 +8,7 @@ function Navbar () {
         panelElement = document.getElementById("panel");
         navElement = document.getElementById("nav");
         bodyElement = document.getElementsByTagName("body")[0];
-        window.removeEventListener('load', onPageLoad);
+        // window.removeEventListener('load', onPageLoad);
 
         if (!panelElement) return;
         const targets = panelElement.querySelectorAll(".menuButton");
