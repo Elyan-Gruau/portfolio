@@ -1,4 +1,5 @@
 import "./panel.css";
+import ToggleSwitch from "../input/toggleSwitch/ToggleSwitch";
 function Panel (props){
     let state = "closed";
     return (
@@ -23,7 +24,32 @@ function Panel (props){
                     Curiculum
                 </a>
             </div>
+            <div className="panelFooter">
+                <div className="settingsContainer">
+                    <ToggleSwitch
+                        name="Animations"
+                        onClick={hello}
+                    />
+                    <ToggleSwitch name="Mode sombre"/>
+                </div>
+                <div className="contactContainer">
+                    <a
+                        className="phone"
+                        href="tel:+0650085321">
+                        06 50 08 53 21
+                    </a>
+                    <a
+                        className="mail"
+                        href="mailto:elyangruau.pro@gmail.com?subject=Entretient">
+                        elyangruau.pro@gmail.com
+                    </a>
+                </div>
+            </div>
         </div>
     );
+}
+
+function hello(){
+    console.log("hello");
 }
 export default Panel
