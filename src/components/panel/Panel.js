@@ -49,6 +49,7 @@ function Panel (props){
                         name="Mode clair"
                         onClick={changeColorMode}
                         disabled={false}
+                        id="lightMode"
                     />
                 </div>
                 <div className="contactContainer">

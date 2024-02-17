@@ -3,7 +3,7 @@ export default function ToggleSwitch (props) {
     return (
         <div className="toggleSwitch" onClick={props.onClick} >
             <label className="switch">
-                <input type="checkbox"
+                <input type="checkbox" id={"toggleSwitch_"+props.id}
                        disabled={props.disabled}
                        onClick={(e) => e.stopPropagation()}
                 />

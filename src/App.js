@@ -47,6 +47,8 @@ function App() {
         if (!window.matchMedia('(prefers-color-scheme: dark)').matches){
             const htmlElement = document.getElementsByTagName("html")[0];
             htmlElement.classList.add("lightMode");
+            const toggleSwitch = document.getElementById("toggleSwitch_lightMode");
+            toggleSwitch.checked = true;
             console.log("lightMode detected")
         }
     }

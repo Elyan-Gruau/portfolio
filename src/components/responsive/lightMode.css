@@ -1,9 +1,13 @@
+:root{
+    --lightModeBackground : #fffef3;
+}
+
 html.lightMode {
-    background-color: #fffef3;
+    background-color: var(--lightModeBackground);
 }
 
 html.lightMode main{
-    background-color: #fffef3;
+    background-color: var(--lightModeBackground);
     transition: background-color 0.5s ease;
 }
 
