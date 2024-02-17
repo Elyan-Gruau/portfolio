@@ -5,6 +5,7 @@
     margin: 10px 0;
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .skill p{
@@ -46,7 +47,7 @@
     border-right: 2px solid;
 }
 
-.skillBarContainer{
+.skill .skillBarContainer{
     width: 100%;
     height: 50%;
     backdrop-filter: brightness(50%);
@@ -55,7 +56,8 @@
 
 .skillBarGlass{
     display: flex;
-    align-items: center;
     background-color: #3c3c41b3;
     border-radius: 0;
+    justify-content: center;
+    align-items: flex-start;
 }
