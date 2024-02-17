@@ -20,30 +20,12 @@ html.lightMode section>h2 {
     color: black;
 }
 
-html.lightMode .divider {
-    border-bottom: 2px solid var(--WhiteDarker);
-}
+
 
 html.lightMode .formation, html.lightMode .experience, html.lightMode .work {
     box-shadow: 2px 4px 11px 0px #00000085;
 }
 
-
-html.lightMode ::-webkit-scrollbar-track {
-    background: var(--lightModeBackgroundScrollBar);
-    border: 0px none var(--footerBlack);
-}
-html.lightMode ::-webkit-scrollbar-track:hover {
-    background:  var(--lightModeBackgroundScrollBar);
-}
-html.lightMode ::-webkit-scrollbar-track:active {
-    background:  var(--lightModeBackgroundScrollBar);
-}
-
-html.lightMode #panel {
-    background-color: #19191947;
-    box-shadow: 1px 1px 7px 3px #24242496;
-}
 
 html.lightMode {
     /* N A V */
@@ -52,7 +34,7 @@ html.lightMode {
         background-image: none;
 
     }
-    & .clickableLogo img {
+    .clickableLogo img {
         filter: invert();
     }
 
@@ -60,23 +42,48 @@ html.lightMode {
         color: var(--CleanBlack);
     }
 
-    & .menuContainer {
+    .menuContainer {
         filter: invert();
     }
 
     /* P A N E L */
-    & #panel a {
+
+    #panel {
+        background-color: #19191947;
+        box-shadow: 1px 1px 7px 3px #24242496;
+    }
+
+    #panel a {
         color: rgba(35, 35, 35, 0.6);
     }
-    & #panel a:hover {
+    #panel a:hover {
         color: rgba(35, 35, 35, 1);;
     }
 
-    & .phone:before, & .mail:before {
+    .phone:before, & .mail:before {
         filter: invert();
     }
 
     & span {
         color: rgba(35, 35, 35, 0.6);
     }
+
+    /* S C R O L L   B A R */
+    & ::-webkit-scrollbar-track {
+        background: var(--lightModeBackgroundScrollBar);
+        border: 0px none var(--footerBlack);
+    }
+    & ::-webkit-scrollbar-track:hover {
+        background:  var(--lightModeBackgroundScrollBar);
+    }
+    & ::-webkit-scrollbar-track:active {
+        background:  var(--lightModeBackgroundScrollBar);
+    }
+
+    /* O T H E R */
+    .divider {
+        border-bottom: 2px solid var(--WhiteDarker);
+    }
+
+
 }
