@@ -1,5 +1,6 @@
 :root{
     --lightModeBackground : #fffef3;
+    --lightModeBackgroundScrollBar : #b7b6b2;
 }
 
 html.lightMode {
@@ -23,10 +24,59 @@ html.lightMode .divider {
     border-bottom: 2px solid var(--WhiteDarker);
 }
 
-html.lightMode .formation {
-    box-shadow: 0px 0px 22px 5px #00000085;
+html.lightMode .formation, html.lightMode .experience, html.lightMode .work {
+    box-shadow: 2px 4px 11px 0px #00000085;
 }
 
-html.lightMode .experience {
-    box-shadow: 0px 0px 22px 5px #00000085;
+
+html.lightMode ::-webkit-scrollbar-track {
+    background: var(--lightModeBackgroundScrollBar);
+    border: 0px none var(--footerBlack);
+}
+html.lightMode ::-webkit-scrollbar-track:hover {
+    background:  var(--lightModeBackgroundScrollBar);
+}
+html.lightMode ::-webkit-scrollbar-track:active {
+    background:  var(--lightModeBackgroundScrollBar);
+}
+
+html.lightMode #panel {
+    background-color: #19191947;
+    box-shadow: 1px 1px 7px 3px #24242496;
+}
+
+html.lightMode {
+    /* N A V */
+    & nav {
+        background-color: #ffffff29;
+        background-image: none;
+
+    }
+    & .clickableLogo img {
+        filter: invert();
+    }
+
+    & h1 {
+        color: var(--CleanBlack);
+    }
+
+    & .menuContainer {
+        filter: invert();
+    }
+
+    /* P A N E L */
+    & #panel a {
+        color: rgba(35, 35, 35, 0.6);
+    }
+    & #panel a:hover {
+        color: rgba(35, 35, 35, 1);;
+    }
+
+    & .phone:before, & .mail:before {
+        filter: invert();
+    }
+
+    & span {
+        color: rgba(35, 35, 35, 0.6);
+    }
 }
