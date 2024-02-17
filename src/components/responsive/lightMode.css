@@ -1,0 +1,28 @@
+html.lightMode {
+    background-color: #fffef3;
+}
+
+html.lightMode main{
+    background-color: #fffef3;
+    transition: background-color 0.5s ease;
+}
+
+html.lightMode .skillName p {
+    color: black;
+}
+
+html.lightMode section>h2 {
+    color: black;
+}
+
+html.lightMode .divider {
+    border-bottom: 2px solid var(--WhiteDarker);
+}
+
+html.lightMode .formation {
+    box-shadow: 0px 0px 22px 5px #00000085;
+}
+
+html.lightMode .experience {
+    box-shadow: 0px 0px 22px 5px #00000085;
+}

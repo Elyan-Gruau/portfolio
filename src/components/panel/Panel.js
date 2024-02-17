@@ -2,6 +2,20 @@ import "./panel.css";
 import ToggleSwitch from "../input/toggleSwitch/ToggleSwitch";
 function Panel (props){
     let state = "closed";
+
+    const changeColorMode = () =>{
+        const htmlElement = document.getElementsByTagName("html")[0];
+        const classList = htmlElement.classList;
+        if(classList.contains("lightMode")){
+            htmlElement.classList.remove("lightMode");
+            console.log("activating dark mode")
+        }else{
+            console.log("lightMode added")
+            htmlElement.classList.add("lightMode");
+        }
+    }
+
+
     return (
         <div id="panel" className={state}>
             <div className="container">
@@ -26,11 +40,16 @@ function Panel (props){
             </div>
             <div className="panelFooter">
                 <div className="settingsContainer">
+                    {/*<ToggleSwitch*/}
+                    {/*    name="Animations"*/}
+                    {/*    disabled={true}*/}
+                    {/*    onClick={changeColorMode}*/}
+                    {/*/>*/}
                     <ToggleSwitch
-                        name="Animations"
-                        onClick={hello}
+                        name="Mode clair"
+                        onClick={changeColorMode}
+                        disabled={false}
                     />
-                    <ToggleSwitch name="Mode sombre"/>
                 </div>
                 <div className="contactContainer">
                     <a

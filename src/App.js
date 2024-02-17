@@ -40,6 +40,15 @@ function App() {
     const onPageLoad = () => {
         window.addEventListener('scroll', onScroll);
         elementsWithAnimation = document.getElementsByClassName("animateOnDisplay");
+        adaptThemeToClient();
+    }
+
+    const adaptThemeToClient = () => {
+        if (!window.matchMedia('(prefers-color-scheme: dark)').matches){
+            const htmlElement = document.getElementsByTagName("html")[0];
+            htmlElement.classList.add("lightMode");
+            console.log("lightMode detected")
+        }
     }
 
     const onScroll = () => {
