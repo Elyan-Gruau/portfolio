@@ -8,9 +8,7 @@ function Panel (props){
         const classList = htmlElement.classList;
         if(classList.contains("lightMode")){
             htmlElement.classList.remove("lightMode");
-            console.log("activating dark mode")
         }else{
-            console.log("lightMode added")
             htmlElement.classList.add("lightMode");
         }
     }
