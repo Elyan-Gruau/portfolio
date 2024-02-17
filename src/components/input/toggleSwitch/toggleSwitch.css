@@ -42,7 +42,7 @@
 }
 
 input:checked + .slider {
-    background-color: var(--blueMetal);
+    background-color: var(--CleanBlack);
 }
 
 input:focus + .slider {
