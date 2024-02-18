@@ -13,6 +13,9 @@
     border-radius: var(--borderRadius);
     margin: 0 20px;
     /*aspect-ratio: 452/650;*/
+    & h2.title{
+        padding-left: 10px;
+    }
 }
 
 .experience .textContainer{
