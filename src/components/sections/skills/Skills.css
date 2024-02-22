@@ -3,18 +3,17 @@
 }
 
 .skills{
+    .leftPart{
+        display: flex;
+        flex-direction: column;
+    }
+    .rightPart{
+        display: flex;
+        flex-direction: column;
+    }
 
 }
 
-.skills .leftPart{
-    display: flex;
-    flex-direction: column;
-}
-
-.skills .rightPart{
-    display: flex;
-    flex-direction: column;
-}
 
 .skillCont{
     display: flex;

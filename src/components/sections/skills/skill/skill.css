@@ -7,15 +7,23 @@
     flex-direction: row;
     align-items: center;
     z-index: 4;
+    & p{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .skillBarContainer{
+        width: 100%;
+        height: 50%;
+        backdrop-filter: brightness(50%);
+
+    }
 }
 
-.skill p{
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    margin-top: auto;
-    margin-bottom: auto;
-}
+
 
 .skillName {
     width: 150px;
@@ -48,12 +56,7 @@
     border-right: 2px solid;
 }
 
-.skill .skillBarContainer{
-    width: 100%;
-    height: 50%;
-    backdrop-filter: brightness(50%);
 
-}
 
 .skillBarGlass{
     display: flex;

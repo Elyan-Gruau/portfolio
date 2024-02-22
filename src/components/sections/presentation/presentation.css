@@ -101,12 +101,14 @@
     animation-direction: alternate;
     animation-delay: 2s;
 
+    :hover{
+        scale: 120%;
+        transition: scale cubic-bezier(0.51, -0.64, 0.28, 1.63) 0.2s;
+    }
+
 }
 
-.bubble:hover{
-    scale: 120%;
-    transition: scale cubic-bezier(0.51, -0.64, 0.28, 1.63) 0.2s;
-}
+
 
 @keyframes arrowBounce {
     0% {

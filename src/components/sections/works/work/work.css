@@ -43,46 +43,48 @@
 
 #work{
     width: 100%;
+
+    .title{
+        text-align: left;
+        margin: 0;
+    }
+
+    :is(.date,.person_count,.state){
+        margin : 0;
+        color: var(--White2);
+    }
+
+    .description{
+        text-align: justify;
+        font-size: larger;
+    }
+
+    .person_count{
+        display: flex;
+
+        &:after{
+            content:"";
+            height: 100%;
+            aspect-ratio: 1/1;
+            background-image: url("../../../../../public/img/person.png");
+            background-repeat: no-repeat;
+            background-size: contain;
+            display: inline-block;
+            margin-left: 5px;
+        }
+    }
+
+    .state{
+        letter-spacing: 1px;
+        font-variant: all-petite-caps;
+        background-color: var(--WhiteDarker);
+        padding: 0 5px;
+        border-radius: 10px;
+        color: black;
+    }
 }
 
-#work .title{
-    text-align: left;
-    margin: 0;
-}
 
-#work :is(.date,.person_count,.state){
-    margin : 0;
-    color: var(--White2);
-}
-
-#work .description{
-    text-align: justify;
-    font-size: larger;
-}
-
-#work .person_count{
-    display: flex;
-}
-
-#work .state{
-    letter-spacing: 1px;
-    font-variant: all-petite-caps;
-    background-color: var(--WhiteDarker);
-    padding: 0 5px;
-    border-radius: 10px;
-    color: black;
-}
-
-#work .person_count:after{
-    content:"";
-    height: 100%;
-    aspect-ratio: 1/1;
-    background-image: url("../../../../../public/img/person.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    display: inline-block;
-    margin-left: 5px;
-}
 
 .workHeader{
     display: flex;

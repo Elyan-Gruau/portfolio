@@ -13,11 +13,12 @@
     justify-content: center;
     margin: 0 5px 5px 0;
     align-items: center;
+    &:hover{
+        filter : brightness(110%);
+    }
 }
 
-.workTechnology:hover{
-    filter : brightness(110%);
-}
+.workTechnology
 
 .wt_toto{
     background-color: #eebebe;

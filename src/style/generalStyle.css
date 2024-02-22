@@ -115,11 +115,16 @@ button:hover, a:hover {
     cursor: pointer;
 }
 
-section>h2{
-    text-align: center;
-    text-shadow: 0 0 50px white;
-    z-index: 4;
-    position: relative;
+section{
+    >h2{
+        text-align: center;
+        text-shadow: 0 0 50px white;
+        z-index: 4;
+        position: relative;
+        font-size: xx-large;
+        letter-spacing: 10px;
+        margin-top: 50px;
+    }
 }
 
 .spacer{
@@ -133,12 +138,6 @@ section>h2{
     border-bottom: 2px solid var(--White2) ;
 }
 
-
-section>h2{
-    font-size: xx-large;
-    letter-spacing: 10px;
-    margin-top: 50px;
-}
 
 body.noScroll{
     overflow: hidden;
