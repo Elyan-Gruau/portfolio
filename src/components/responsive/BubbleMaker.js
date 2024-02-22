@@ -16,7 +16,7 @@ export default function BubbleMaker(props){
         [   "#4e4ec9", "rgb(255 19 59)"],
         [   "#ad1c0a","#854ec9"],
         [   "rgb(255 38 78)","#c98c4e"],
-        [   "#2776de","#c99e4e"],
+        [   "rgb(77 5 253)","rgb(238 160 15)"],
         [   "#4bffa5","#4ec967"],
         [   "#4bffa5","#524ec9"],
     ]

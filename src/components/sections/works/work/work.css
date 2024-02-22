@@ -6,7 +6,14 @@
     border-radius: var(--borderRadius);
     color: var(--Beige);
 
+    &:hover>.glass>.imageContainer>.workLogo{
+        filter: opacity(1) saturate(1) !important;
+        background-color: #58d25a;
+        transition:  -moz-filter, -ms-filter, -o-filter, -webkit-filter, filter 0.2s ;
+    }
+
 }
+
 
 .imageContainer {
     /*background-image: url(../../../../../public/img/placeholder.png);*/
@@ -15,7 +22,7 @@
     border-radius: 10px;
     background-repeat: no-repeat;
     background-size: contain;
-    background-color: var(--WhiteDarker);
+    /*background-color: var(--WhiteDarker);*/
     display: flex;
 }
 
@@ -71,6 +78,7 @@
             background-size: contain;
             display: inline-block;
             margin-left: 5px;
+            width: 23px;
         }
     }
 
@@ -80,7 +88,25 @@
         background-color: var(--WhiteDarker);
         padding: 0 5px;
         border-radius: 10px;
-        color: black;
+        color: #e8feff;
+        display: flex;
+        align-items: center;
+
+        &.finished{
+            background-color: rgb(133 255 222 / 30%);
+        }
+        &.inDev{
+            background-color: rgba(255, 255, 255, 0.32);
+        }
+    }
+
+    .workLogo{
+        width: 100%;
+        max-height: 100%;
+        border-radius: 10px 10px 0px 0px;
+        box-shadow: 0px 5px 7px -6px #0000006b;
+        filter: opacity(0.8) saturate(0.8);
+        transition:  -moz-filter, -ms-filter, -o-filter, -webkit-filter, filter 0.5s ;
     }
 }
 
@@ -96,14 +122,10 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 10px;
+    padding: 25px 10px 10px 10px;
 }
 
-.workLogo{
-    width: 100%;
-    max-height: 100%;
-    border-radius: 10px 10px 0px 0px;
-}
+
 
 .work .glass{
     /*background-image: radial-gradient(rgba(58,255,255,0.5) -42%, #0000001a 100%);*/

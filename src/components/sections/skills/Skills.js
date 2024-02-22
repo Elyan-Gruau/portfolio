@@ -7,7 +7,7 @@ function Skills(){
             <h2>Technologies</h2>
             {/*TODO lors du hover d'une compétence, un bouton tout a droite pop permetant d'afficher les projet métant*/}
             {/*en oeuvre cette techo*/}
-            <div className="skillCont">
+            <div className="skillCont glass">
                 <div className="leftPart">
                     <Skill name="Java" value="85"/>
                     <Skill name="JavaScript"  value="68"/>

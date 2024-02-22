@@ -75,7 +75,7 @@ function Works(){
                     partie client depuis laquelle ils peuvent s'inscrire, se connecter, géré leurs données et commander
                     des articles et une partie admin d'où il est possible de gérer les stocks."
                     person_count="2"
-                    state="Terminé"
+                    state="terminé"
                     technolist={["PHP","HTML","CSS","SQL"]}
                 />
             </div>

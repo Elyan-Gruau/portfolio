@@ -1,7 +1,7 @@
 import "./work.css";
 import Technology from "./Technology";
 function Work (props){
-    let imageSrc= "/portfolio/img/projects/"+props.title+".png";
+    let imageSrc= "/portfolio/img/projects/"+props.title.replace("\*","")+".png";
     const technos = [];
     const technoIterrator = props.technolist;
     if (technoIterrator!=null){
@@ -11,6 +11,9 @@ function Work (props){
             );
         }
     }
+
+    let stateComplement = props.state === "terminé" ? "finished" : "inDev";
+    // stateComplement = "toto";
 
     return(
         <div className="work movingBackground">
@@ -23,7 +26,7 @@ function Work (props){
                     <div className="workHeader">
                         <h3 className="date">{props.date}</h3>
                         <p className="person_count">{props.person_count}</p>
-                        <p className="state">{props.state}</p>
+                        <p className={"state "+stateComplement}>{props.state}</p>
                     </div>
 
                     <p className="description">{props.description}</p>

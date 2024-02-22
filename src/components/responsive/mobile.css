@@ -118,11 +118,17 @@
     #contactForm{
         width: 80%;
         min-width: 80%;
+
+        & textarea{
+            height: 100px;
+        }
+
+        & textarea::placeholder,& input::placeholder {
+            color: rgba(0, 0, 0, 0.38);
+            opacity: 1; /* Firefox */
+        }
     }
 
-    #contactForm textarea{
-        height: 100px;
-    }
 
     /* F O O T E R*/
     footer{

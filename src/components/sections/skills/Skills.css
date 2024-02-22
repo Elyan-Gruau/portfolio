@@ -21,4 +21,8 @@
     width: 100%;
     justify-content: space-between;
     margin-top: var(--cardContainerMargin);
+    padding: 10px;
+    z-index: 4;
+    position: relative;
+    background-color: transparent;
 }
