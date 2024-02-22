@@ -23,7 +23,7 @@ html.lightMode section>h2 {
 
 
 html.lightMode .formation, html.lightMode .experience, html.lightMode .work {
-    box-shadow: 2px 4px 11px 0px #00000085;
+    box-shadow: 2px 4px 11px 0px #0000001c;
 }
 
 
@@ -95,7 +95,7 @@ html.lightMode {
     }
 
     .glass{
-        background-color: #ffffff5c;
+        /*background-color: #ffffff5c;*/
     }
 
     .location:before{
@@ -149,6 +149,11 @@ html.lightMode {
 
         & input, & textarea {
             color: rgba(0, 0, 0, 0.75);
-        }
+    background-color: #ffffff5c;
     }
+}
+
+.floatingBubble{
+filter: brightness(2.2) saturate(40%);
+}
 }

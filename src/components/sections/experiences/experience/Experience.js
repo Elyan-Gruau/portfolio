@@ -12,8 +12,8 @@ function Experience (props) {
         }
     }
     return (
-        <div className="experience movingBackground toto ">
-            <div className="glass lightGlass">
+        <div className="experience movingBackground">
+            <div className="glass">
                 <a className="companyLogoContainer"
                    href={props.companyWebsite} target="_blank" rel="noreferrer">
                     <img src={imgPath} alt={props.company} />
@@ -32,7 +32,6 @@ function Experience (props) {
                         {technos}
                     </div>
                 </div>
-
             </div>
         </div>
     );

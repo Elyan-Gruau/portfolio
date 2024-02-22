@@ -19,6 +19,7 @@ import Divider from "./components/Divider";
 import Experiences from "./components/sections/experiences/Experiences";
 import Panel from "./components/panel/Panel";
 import ResponsiveStyle from "./components/responsive/ResponsiveStyle";
+import BubbleMaker from "./components/responsive/BubbleMaker";
 
 function App() {
 
@@ -136,6 +137,7 @@ function App() {
           <Spacer/>
           <Divider/>
 
+          <BubbleMaker/>
           <Skills/>
           <Spacer/>
 
