@@ -9,55 +9,58 @@
     border-radius: var(--borderRadius);
 
     min-width: 400px;
-}
 
-#contactForm>div{
-    padding: 20px;
-}
+    >div{
+        padding: 20px;
+    }
 
-#contactForm form {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding: 10px 0;
-}
+    & form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 10px 0;
+    }
 
-#contactForm label{
-    margin: 10px 0 ;
-    font-family: var(--font-family);
-    font-weight : var(--font-weight);
-    font-style: var(--font-style);
-    letter-spacing: 3px;
-    font-variant: all-petite-caps;
-    font-size: larger;
-    color: white;
-}
+    & label{
+        margin: 10px 0 ;
+        font-family: var(--font-family);
+        font-weight : var(--font-weight);
+        font-style: var(--font-style);
+        letter-spacing: 3px;
+        font-variant: all-petite-caps;
+        font-size: larger;
+        color: white;
+    }
 
-#contactForm input, #contactForm textarea {
-    height: 50px;
-    border-radius:  var(--borderRadius);
-    border: none;
-    padding: 0 20px ;
-    background-color: var(--lightGlass);
-    letter-spacing: 1px;
-    color: white;
-    line-break: anywhere;
-    font-size: medium;
-    resize: none;
-}
+    & input, & textarea {
+        height: 50px;
+        border-radius:  var(--borderRadius);
+        border: none;
+        padding: 0 20px ;
+        background-color: var(--lightGlass);
+        letter-spacing: 1px;
+        color: white;
+        line-break: anywhere;
+        font-size: medium;
+        resize: none;
+        &::placeholder {
+            color: rgba(255, 255, 255, 0.71);
+            opacity: 1; /* Firefox */
+        }
 
-#contactForm textarea {
-    padding: 20px;
-    height: 180px;
-    font-size: medium;
-    word-break: normal;
-    white-space:break-spaces;
-}
+        :focus-visible{
+            outline: 2px solid rgba(255,255,255,0.2);
+        }
 
 
-
-#contactForm input:focus-visible, #contactForm textarea:focus-visible{
-    outline: 2px solid rgba(255,255,255,0.2);
+    }
+    & textarea {
+        padding: 20px;
+        height: 180px;
+        font-size: medium;
+        word-break: normal;
+        white-space:break-spaces;
+    }
 }
 
 .btnSender{
