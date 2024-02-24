@@ -131,8 +131,17 @@ html.lightMode {
             color: black;
         }
     }
+    /* S K I L L S */
+    .tooltip .tooltiptext{
+        background-image: linear-gradient(90deg, #ffffff94 0%, transparent 100%);
+        border-left: 2px solid white;
+        color: var(--CleanBlack);
+    }
+    .skillBarValue{
+        background-color: var(--color_allSkill);
+    }
 
-    /* E X P E R I E N C E */
+        /* E X P E R I E N C E */
     #experience{
         .date, .type, .description, .location{
             color: var(--CleanBlack);
@@ -149,11 +158,31 @@ html.lightMode {
 
         & input, & textarea {
             color: rgba(0, 0, 0, 0.75);
-    background-color: #ffffff5c;
-    }
-}
+            background-color: #ffffff5c;
 
-.floatingBubble{
-    filter: opacity(0.6) saturate(100%);
-}
+            &::placeholder{
+                color: rgba(0, 0, 0, 0.75);
+            }
+        }
+
+        & .btnSender{
+            background-color: var(--CleanBlack);
+            color: white;
+        }
+
+        & .author{
+            color: rgba(0, 0, 0, 0.75);
+        }
+    }
+
+    .floatingBubble{
+        filter: opacity(0.6) saturate(100%);
+    }
+
+    & footer{
+        /*background-color: var(--lightModeBackground);*/
+        .lookLikeButton a{
+            filter: invert();
+        }
+    }
 }

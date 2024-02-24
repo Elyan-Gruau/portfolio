@@ -1,6 +1,6 @@
 footer{
 
-    /*background:rgb(229 229 229);*/
+    /*background-color: var(--footerBlack);*/
     display: flex;
     /*height: var(--footerHeight);*/
     height: 180px;;
@@ -26,15 +26,19 @@ footer{
             background-size: cover;
             opacity: 0.8;
             transition: opacity 0.2s;
+            animation: floatingButtons 10s ease-in-out infinite;
 
             &.button_github{
                 background-image: url("/public/img/github.png");
+                animation-delay: -5s;
             }
             &.button_linkedin{
                 background-image: url("/public/img/linkedin.png");
+                animation-delay: -8s;
             }
             &.button_mail{
                 background-image: url("/public/img/mail.png");
+                animation-delay: -1s;
             }
 
             &.button_github:hover, &.button_linkedin:hover, &.button_mail:hover{
@@ -56,6 +60,18 @@ footer{
     }
 
     >.glass{
-        border-radius: 10px 10px 0 0;
+        border-radius: 20px 20px 0 0;
+    }
+}
+
+@keyframes floatingButtons {
+
+    0%,
+    100% {
+        transform: translateY(-5px);
+    }
+
+    50% {
+        transform: translateY(5px);
     }
 }

@@ -41,7 +41,7 @@ function App() {
     const onPageLoad = () => {
         window.addEventListener('scroll', onScroll);
         elementsWithAnimation = document.getElementsByClassName("animateOnDisplay");
-        adaptThemeToClient();
+        // adaptThemeToClient();
     }
 
     const adaptThemeToClient = () => {
@@ -150,8 +150,10 @@ function App() {
 
           <Contact/>
           <Spacer/>
+
+          <Footer/>
       </main>
-      <Footer/>
+
         <ResponsiveStyle/>
     </div>
   );

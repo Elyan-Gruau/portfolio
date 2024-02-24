@@ -43,12 +43,12 @@ function Panel (props){
                     {/*    disabled={true}*/}
                     {/*    onClick={changeColorMode}*/}
                     {/*/>*/}
-                    <ToggleSwitch
-                        name="Mode clair"
-                        onClick={changeColorMode}
-                        disabled={false}
-                        id="lightMode"
-                    />
+                    {/*<ToggleSwitch*/}
+                    {/*    name="Mode clair"*/}
+                    {/*    onClick={changeColorMode}*/}
+                    {/*    disabled={false}*/}
+                    {/*    id="lightMode"*/}
+                    {/*/>*/}
                 </div>
                 <div className="contactContainer">
                     <a

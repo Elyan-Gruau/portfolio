@@ -1,6 +1,6 @@
 .formation {
     width: 500px;
-    min-height: 250px;
+    /*min-height: 250px;*/
     height: fit-content;
     display: flex;
     flex-direction: column;

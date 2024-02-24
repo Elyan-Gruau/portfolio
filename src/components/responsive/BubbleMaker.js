@@ -71,7 +71,7 @@ export default function BubbleMaker(props){
                     top:getRandomArbitrary(minX,maxX)+"px",
                     left:getRandomArbitrary(minY,maxX)+"px",
                     backgroundImage: 'linear-gradient('+deg+'deg, '+gradient[0]+',' + gradient[1] +' )',
-                    scale:getRandomArbitrary(100,300)+"%",
+                    scale:getRandomArbitrary(100,250)+"%",
                     animationDelay : getRandomArbitrary(-8,0)+"s"
                 }
             }>
