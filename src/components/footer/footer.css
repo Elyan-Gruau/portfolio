@@ -3,61 +3,59 @@ footer{
     /*background:rgb(229 229 229);*/
     display: flex;
     /*height: var(--footerHeight);*/
-    height: 250px;;
+    height: 180px;;
     position: relative;
     flex-direction: column;
     bottom: 0;
     z-index: 4;
     width: 100%;
 
-}
 
-footer a {
-    color: var(--black);
-    letter-spacing: 4px;
-    text-decoration: none;
-    width: 250px;
-    text-align: center;
-    -box-shadow: var(--NeomorphismOut);
-    /*border-radius: 25px;*/
-    margin: 0 35px;
-    padding: 35px 0;
-    transition: all ease-in-out 0.2s;
-    /*border-top: 1px solid var(--CleanBlack);*/
-    /*border-bottom: 1px solid var(--CleanBlack);*/
-    border-top: 1px solid transparent;
-    border-bottom: 1px solid transparent;
-    font-variant: all-petite-caps;
-    font-weight: lighter;
-}
+    .lookLikeButton{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: center;
+        grid-gap: 10px;
 
-footer a:hover{
-    /*box-shadow: var(--NeomorphismOut);*/
-    border-top: 1px solid var(--color_allSkill_darker);
-    border-bottom: 1px solid var(--color_allSkill_darker);
-    transition: all ease-in-out 0.2s;
-}
+        & a{
+            width: 40px;
+            height: 40px;
+            background-size: cover;
+            opacity: 0.8;
+            transition: opacity 0.2s;
 
-footer .lookLikeButton{
-    width: 100%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-    flex-direction: row;
-}
+            &.button_github{
+                background-image: url("/public/img/github.png");
+            }
+            &.button_linkedin{
+                background-image: url("/public/img/linkedin.png");
+            }
+            &.button_mail{
+                background-image: url("/public/img/mail.png");
+            }
 
-footer .author{
-    color: rgb(255 255 255 / 70%);
-    min-height: 30px;
-    height: fit-content;
-    text-align: center;
-    width: 100%;
-    letter-spacing: 2px;
-    padding-bottom: 5px;
+            &.button_github:hover, &.button_linkedin:hover, &.button_mail:hover{
+                opacity: 1;
+                transition: opacity 0.2s;
+            }
+        }
+    }
 
-}
+    .author{
+        color: rgb(255 255 255 / 70%);
+        min-height: 30px;
+        height: fit-content;
+        text-align: center;
+        width: 100%;
+        letter-spacing: 2px;
+        padding-bottom: 5px;
 
-footer>.glass{
-    border-radius: 10px 10px 0 0;
+    }
+
+    >.glass{
+        border-radius: 10px 10px 0 0;
+    }
 }
