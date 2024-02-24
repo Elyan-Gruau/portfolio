@@ -12,8 +12,10 @@
     top: 180px;
     left: 326px;
     transition: top var(--floatingBubbleTransition),left var(--floatingBubbleTransition) 0.5s,  all var(--floatingBubbleTransition) 0.2s;
-    box-shadow: rgba(255, 255, 255, 0.77) 1px 2px 10px -5px inset, black -1px -2px 8px -2px inset,
-    -1px -1px 5px -2px #ababab, 1px 1px 5px 1px black;
+    /*box-shadow: rgba(255, 255, 255, 0.77) 1px 2px 10px -5px inset, black -1px -2px 8px -2px inset,*/
+    /*-1px -1px 5px -2px #ababab, 1px 1px 5px 1px black;*/
+    /*animation-delay: -5s;*/
+    animation: floating 20s ease-in-out infinite;
 
 }
 
@@ -22,4 +24,16 @@
     transition: all var(--floatingBubbleTransition) ;
     /*filter: invert();*/
 
+}
+
+@keyframes floating {
+
+    0%,
+    100% {
+        transform: translateY(-20px);
+    }
+
+    50% {
+        transform: translateY(20px);
+    }
 }

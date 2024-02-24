@@ -1,9 +1,8 @@
 import './bubbleMaker.css';
 export default function BubbleMaker(props){
     const MAX_DISTANCE = 500;
-    const BUBBLE_QTY = 10;
+    const BUBBLE_QTY = 8;
     const COLORS = [
-        "#641277",
         "#4e4ec9",
         "#e8c4b0",
         "#c93b08",
@@ -13,32 +12,40 @@ export default function BubbleMaker(props){
     ]
 
     const GRADIENTS= [
-        [   "#4e4ec9", "rgb(255 19 59)"],
-        [   "#ad1c0a","#854ec9"],
-        [   "rgb(255 38 78)","#c98c4e"],
-        [   "rgb(77 5 253)","rgb(238 160 15)"],
-        [   "#4bffa5","#4ec967"],
-        [   "#4bffa5","#524ec9"],
+        ["#4e4ec9", "rgb(255 19 59)"],
+        ["#ad1c0a","#854ec9"],
+        ["rgb(255 38 78)","#c98c4e"],
+        ["rgb(77 5 253)","rgb(238 160 15)"],
+        ["#4bffa5","#4ec967"],
+        ["#4bffa5","#524ec9"],
+        ["#641277","#524ec9"],
+        ["rgb(255 190 0)","rgb(255 57 0)"],
     ]
     const move = (e) => {
 
         const rootElement = document.getElementById("root").getBoundingClientRect();
+
+        const minX = 200;
+        const maxX = rootElement.width - 200;
+        const minY = 100;
+        const maxY = window.innerHeight - 1000;
 
         const bubbles = document.getElementsByClassName("floatingBubble");
         for (let i = 0; i < bubbles.length; i++) {
             const bubble = bubbles[i];
             const offsetX = getRandomArbitrary(-MAX_DISTANCE, MAX_DISTANCE);
             const offsetY = getRandomArbitrary(-MAX_DISTANCE, MAX_DISTANCE);
-            console.log(bubble.style.positionY);
             let x = bubble.getBoundingClientRect().top + offsetY;
             let y = bubble.getBoundingClientRect().left + offsetX;
-            if (x < 0) x = 0;
-            if (y < 0) y = 0;
-            if (x > rootElement.width) x = rootElement.width -60;
-            if (y > window.innerHeight) y = window.innerHeight;
+            if (x < minX) x = minX;
+            if (y < minY) y = minY;
+            // console.log("ROOT ELEMENT HEIGHT "+window.innerHeight)
+            if (x > maxX) x = maxX;
+            if (y > maxY) y = maxY;
+            console.log(" x: " + x + ", y: " + y);
 
-            bubble.style.top = x +"px";
-            bubble.style.left = y +"px";
+            bubble.style.top = y +"px";
+            bubble.style.left = x +"px";
         }
         // e.stopPropagation();
     };
@@ -55,7 +62,8 @@ export default function BubbleMaker(props){
                     top:getRandomArbitrary(0,window.innerHeight)+"px",
                     left:getRandomArbitrary(0,rootElement.width)+"px",
                     backgroundImage: 'linear-gradient('+deg+'deg, '+gradient[0]+',' + gradient[1] +' )',
-                    scale:getRandomArbitrary(100,300)+"%"
+                    scale:getRandomArbitrary(100,300)+"%",
+                    animationDelay : getRandomArbitrary(-8,0)+"s"
                 }
             }>
             </div>
@@ -71,7 +79,7 @@ export default function BubbleMaker(props){
         return Math.random() * (max - min) + min;
     }
 
-    document.addEventListener("click",move);
+    // document.addEventListener("click",move);
 
     return (
       bubbles
