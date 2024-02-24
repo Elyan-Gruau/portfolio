@@ -154,6 +154,6 @@ html.lightMode {
 }
 
 .floatingBubble{
-filter: brightness(2.2) saturate(40%);
+    filter: opacity(0.6) saturate(100%);
 }
 }

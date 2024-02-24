@@ -16,19 +16,28 @@ export default function BubbleMaker(props){
         ["#ad1c0a","#854ec9"],
         ["rgb(255 38 78)","#c98c4e"],
         ["rgb(77 5 253)","rgb(238 160 15)"],
-        ["#4bffa5","#4ec967"],
+        ["#4bffa5","rgb(255 183 45)"],
         ["#4bffa5","#524ec9"],
         ["#641277","#524ec9"],
         ["rgb(255 190 0)","rgb(255 57 0)"],
     ]
+
+    const rootElement = document.getElementById("root").getBoundingClientRect();
+    const minX = 30;
+    const maxX = rootElement.width - minX;
+    const minY = 60;
+    const maxY = window.innerHeight - minY;
+
+    const displayableSurface = rootElement.width * window.innerHeight;
+    const K = 108216; // Use to calculate the number of bubble displayed according to the screen resolution
+    const bubbleQTY = Math.floor(displayableSurface / K);
+    // console.log(displayableSurface)
+
     const move = (e) => {
 
-        const rootElement = document.getElementById("root").getBoundingClientRect();
 
-        const minX = 200;
-        const maxX = rootElement.width - 200;
-        const minY = 100;
-        const maxY = window.innerHeight - 1000;
+
+
 
         const bubbles = document.getElementsByClassName("floatingBubble");
         for (let i = 0; i < bubbles.length; i++) {
@@ -59,8 +68,8 @@ export default function BubbleMaker(props){
             <div
                 className="floatingBubble"
                 style={{
-                    top:getRandomArbitrary(0,window.innerHeight)+"px",
-                    left:getRandomArbitrary(0,rootElement.width)+"px",
+                    top:getRandomArbitrary(minX,maxX)+"px",
+                    left:getRandomArbitrary(minY,maxX)+"px",
                     backgroundImage: 'linear-gradient('+deg+'deg, '+gradient[0]+',' + gradient[1] +' )',
                     scale:getRandomArbitrary(100,300)+"%",
                     animationDelay : getRandomArbitrary(-8,0)+"s"
@@ -71,9 +80,10 @@ export default function BubbleMaker(props){
     }
 
     const bubbles = [];
-    for (let i = 0; i < BUBBLE_QTY;i++){
+    for (let i = 0; i < bubbleQTY;i++){
         bubbles.push(createBubble());
     }
+    console.log("Creating bubble... "+bubbleQTY);
 
     function getRandomArbitrary(min, max) {
         return Math.random() * (max - min) + min;

@@ -1,6 +1,6 @@
 .skill {
     height: 30px;
-    width: 100%;
+    width: 95%;
     filter: brightness(100%);
     margin: 10px 0;
     display: flex;
@@ -46,7 +46,7 @@
 .skillBarValue{
     height: 50%;
     width: 100%;
-    background-color: var(--color_allSkill);
+    background-color: var(--col_allSkill_solid);
     /*border-top-right-radius: var(--borderRadius);*/
     /*border-bottom-right-radius: var(--borderRadius);*/
     /*background-color: var(--lightGlass);*/
@@ -60,8 +60,10 @@
 
 .skillBarGlass{
     display: flex;
-    background-color: #3c3c41b3;
+    background-color: #6161695e;
     border-radius: 0;
     justify-content: center;
     align-items: flex-start;
+    padding-left: 4px;
+    border-right: 2px solid #ffffff91;
 }
