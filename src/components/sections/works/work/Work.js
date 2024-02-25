@@ -1,7 +1,7 @@
 import "./work.css";
 import Technology from "./Technology";
 function Work (props){
-    let imageSrc= "/portfolio/img/projects/"+props.title.replace("\*","")+".png";
+    let imageSrc= "/portfolio/img/projects/"+props.title.replace("\*","").toLowerCase()+".png";
     const technos = [];
     const technoIterrator = props.technolist;
     if (technoIterrator!=null){

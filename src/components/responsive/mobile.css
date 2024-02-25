@@ -124,7 +124,7 @@
         }
 
         & textarea::placeholder,& input::placeholder {
-            color: rgba(0, 0, 0, 0.38);
+            color: rgba(255, 255, 255, 0.38);
             opacity: 1; /* Firefox */
         }
     }
