@@ -41,16 +41,6 @@ function Works(){
                 {/*    technolist={["java","react","spring boot"]}*/}
                 {/*/>*/}
                 <Work
-                    title="Instagrans"
-                    date="2023"
-                    description="Conception et développement d'une application fictive de location de grand mère pour faire la cuisine (projet universitaire).
-                    L'applications est composée d'un backcend Spring Boot et d'un front end Android (Java).
-                    Gestion du pannier, des notifications, de la responsivité, des modes clair et sombre."
-                    person_count="3"
-                    state="terminé"
-                    technolist={["java","Android (Java)","spring boot","Maven"]}
-                />
-                <Work
                     title="Annuaire SaExpress"
                     date="2023"
                     description="Conception et développement, d'un annuaire en ligne utilisant Active Directory.
@@ -59,6 +49,16 @@ function Works(){
                     state="terminé"
                     link="https://iut-git.unice.fr/pt102004/sae4_2a"
                     technolist={["react","java","spring boot","SQL","Active Directory"]}
+                />
+                <Work
+                    title="Instagrans"
+                    date="2023"
+                    description="Conception et développement d'une application fictive de location de grand mère pour faire la cuisine (projet universitaire).
+                    L'applications est composée d'un backcend Spring Boot et d'un front end Android (Java).
+                    Gestion du pannier, des notifications, de la responsivité, des modes clair et sombre."
+                    person_count="3"
+                    state="terminé"
+                    technolist={["java","Android (Java)","spring boot","Maven"]}
                 />
                 {/*<Work*/}
                 {/*    title="Rancode"*/}
