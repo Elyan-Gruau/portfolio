@@ -1,14 +1,15 @@
 #contactForm{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*flex-direction: column;*/
+    /*flex-wrap: nowrap;*/
+    /*align-items: center;*/
     width: 440px;
     margin:auto;
     border-radius: var(--borderRadius);
 
     min-width: 400px;
+    z-index: 4;
 
     >div{
         padding: 20px;
