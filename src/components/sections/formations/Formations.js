@@ -11,7 +11,7 @@ function Formations(){
                 </div>
                 <Formation title="Baccalauréat général"
                            year="2021"
-                           mention="Mention bien"
+                           mention="Mention : bien"
                            desc="Spécialités : Numerique et science de l'informatique (NSI), Mathématiques, Sciences de l'ingénieur"
                            location="Lycée Thomas Edison, 83510 Lorgues" />
 
@@ -23,9 +23,10 @@ function Formations(){
 
 
                 <Formation title="L3 MIASHS - MIAGE"
-                           subtitle="Méthodes Informatiques Appliquées à la Gestion des Entreprises"
+                           subtitle="Mathématiques et informatique appliquées aux sciences humaines et sociales"
                            year="2023 - 2024"
-                           desc="Méthodes Informatiques Appliquées à la Gestion des Entreprises"
+                           mention="Mention: Major de promotion"
+                           desc="Parcours Méthodes Informatiques Appliquées à la Gestion des Entreprises"
                            location="1645 Rte des Lucioles, 06410 Biot" />
 
                 {/*<Formation title="Master MIAGE"*/}
