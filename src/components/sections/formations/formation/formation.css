@@ -10,7 +10,7 @@
     /*background-color: var(--lightGlass);*/
 
     >div{
-        padding: 10px;
+        padding: 20px;
         width: auto;
     }
     &:first-line{

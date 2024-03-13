@@ -1,7 +1,9 @@
 #panel{
     width: 45vw;
     height: 100vh;
-    backdrop-filter: blur(15px) saturate(180%);
+    background-image: url("/public/img/white_noise.png");
+    background-size: 150px 150px;
+    backdrop-filter: blur(35px) saturate(180%);
     background-color: rgba(0, 0, 0, 0.6);
     display: flex;
     flex-direction: column;
@@ -59,7 +61,7 @@
 /* S E T I N G S */
 #panel .settingsContainer {
     width: 100%;
-    height: 50px;
+    /*height: 50px;*/
     display: flex;
     flex-direction: row;
     align-items: center;
