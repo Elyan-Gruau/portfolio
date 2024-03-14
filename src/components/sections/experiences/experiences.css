@@ -19,7 +19,7 @@
     }
 
     .textContainer{
-        padding: 0 10px  10px 10px;
+        padding: 0 var(--boxPadding);
         display: flex;
         flex-direction: column;
     }

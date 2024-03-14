@@ -6,6 +6,7 @@
 
 :root{
     scroll-behavior: smooth ;
+    --boxPadding : 20px;
 
     --White1 : #f8fdff;
     --White2 : #fdfdfd;
