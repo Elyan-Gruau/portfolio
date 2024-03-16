@@ -87,7 +87,6 @@
     width: 60px;
     height: 60px;
     background-color: rgba(255, 255, 255, 0.24);
-    -webkit-backdrop-filter: invert() blur(10px);
     backdrop-filter: blur(10px) saturate(180%);
     border-radius: 100%;
     background-image: url("/public/img/down-arrow.png");
