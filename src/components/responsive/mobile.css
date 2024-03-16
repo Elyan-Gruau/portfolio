@@ -70,7 +70,7 @@
 
     .skillCont{
         flex-direction: column !important;
-        width: 90%;
+        width: 88%;
         margin: auto;
     }
 
@@ -116,7 +116,7 @@
 
     /* C O N T A C T*/
     #contactForm{
-        width: 80%;
+        width: 90%;
         min-width: 80%;
 
         & textarea{

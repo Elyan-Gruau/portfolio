@@ -15,7 +15,7 @@
     /*aspect-ratio: 452/650;*/
     z-index: 4;
     & h2.title{
-        padding-left: 10px;
+        padding-left: var(--boxPadding);
     }
 
     .textContainer{
@@ -49,10 +49,11 @@
     }
 
     .description{
-        text-align: justify;
+        text-align: left;
         line-height: 1.4;
         /*min-height: 200px;*/
         font-size: larger;
+        letter-spacing: 1px;
     }
 
     .location{

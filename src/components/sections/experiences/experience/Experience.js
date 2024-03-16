@@ -28,9 +28,9 @@ function Experience (props) {
                     <p className="description">{props.desc}</p>
                     <p className="location">{props.location}</p>
                     {/*<p>{props.company}</p>*/}
-                    <div className="workTechnoContainer">
-                        {technos}
-                    </div>
+                </div>
+                <div className="workTechnoContainer">
+                    {technos}
                 </div>
             </div>
         </div>

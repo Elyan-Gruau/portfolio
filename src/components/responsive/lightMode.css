@@ -129,6 +129,7 @@ html.lightMode {
 
         .description, .location, .mention{
             color: black;
+            letter-spacing: 1px;
         }
     }
     /* S K I L L S */
