@@ -27,7 +27,7 @@ function Footer(){
                     {/*</a>*/}
                 </div>
                 <span className="author">
-                Développé par Elyan GRUAU - Tous droits réservés © - 2023
+                Développé par Elyan GRUAU - Tous droits réservés © - 2024
             </span>
             </div>
         </footer>
