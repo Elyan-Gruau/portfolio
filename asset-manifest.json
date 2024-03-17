@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.17b6ead5.css",
-    "main.js": "/portfolio/static/js/main.ad4f1afe.js",
+    "main.css": "/portfolio/static/css/main.a7ce394a.css",
+    "main.js": "/portfolio/static/js/main.efb0ae23.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/Montserrat-VariableFont_wght.ttf": "/portfolio/static/media/Montserrat-VariableFont_wght.c28a96c369871653b853.ttf",
     "static/media/white_noise.png": "/portfolio/static/media/white_noise.847a62dacb2bef202153.png",
     "static/media/phone.png": "/portfolio/static/media/phone.7d9bd2b0db9dba9dbaf3.png",
     "static/media/pin.png": "/portfolio/static/media/pin.b5536eca0e199b987b41.png",
+    "static/media/award.png": "/portfolio/static/media/award.a75414376327ea5b5f4a.png",
     "index.html": "/portfolio/index.html",
-    "main.17b6ead5.css.map": "/portfolio/static/css/main.17b6ead5.css.map",
-    "main.ad4f1afe.js.map": "/portfolio/static/js/main.ad4f1afe.js.map",
+    "main.a7ce394a.css.map": "/portfolio/static/css/main.a7ce394a.css.map",
+    "main.efb0ae23.js.map": "/portfolio/static/js/main.efb0ae23.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.17b6ead5.css",
-    "static/js/main.ad4f1afe.js"
+    "static/css/main.a7ce394a.css",
+    "static/js/main.efb0ae23.js"
   ]
 }
