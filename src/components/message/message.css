@@ -45,13 +45,16 @@
         line-break: anywhere;
         font-size: medium;
         resize: none;
+        transition: outline 0.2s ;
+
         &::placeholder {
             color: rgba(255, 255, 255, 0.71);
             opacity: 1; /* Firefox */
         }
 
-        :focus-visible{
-            outline: 2px solid rgba(255,255,255,0.2);
+        &:focus-visible{
+            outline: 2px solid #ffffff3b;
+            transition: outline 0.2s ;
         }
 
 
