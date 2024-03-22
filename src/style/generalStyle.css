@@ -64,6 +64,7 @@
     --footerBlack :  rgba(15,15,20);
     --movingColors : url(https://media4.giphy.com/media/LbMERa15Q6clA1NLcz/giphy.gif?cid=ecf05e47n7wkisu5dmo2rswzwly6aqq9picl8msua0lpgzne&rid=giphy.gif&ct=g);
     --black : rgba(10,10,15);
+    --borderRadiusLabel : 10px;
 }
 
 
