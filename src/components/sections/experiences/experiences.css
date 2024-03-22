@@ -40,12 +40,14 @@
 
     .status{
         display: flex;
-        border-radius: var(--borderRadius);
-        color: black;
+        border-radius: var(--borderRadiusLabel);
         background-color: #eedbc882;
         align-items: center;
         padding: 0 10px;
         text-align: center;
+        font-variant: all-petite-caps;
+        color: #fbebe5;
+        font-size: medium;
     }
 
     .description{
@@ -54,6 +56,7 @@
         /*min-height: 200px;*/
         font-size: larger;
         letter-spacing: 1px;
+        color: rgba(255, 255, 255, 0.84);
     }
 
     .location{
