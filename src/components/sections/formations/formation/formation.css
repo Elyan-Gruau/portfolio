@@ -6,7 +6,7 @@
     flex-direction: column;
     /*margin: 20px;*/
 
-    border-radius: 25px;
+    border-radius: var(--borderRadius);
     /*background-color: var(--lightGlass);*/
 
     >div{
@@ -57,26 +57,7 @@
         letter-spacing: 1px;
     }
 
-    .mention{
-        letter-spacing: 1px;
-        width: fit-content;
-        padding: 2px 10px;
-        border-radius: 20px;
-        display: flex;
-        align-items: center;
-        background-color: var(--color_allSkill);
-        text-shadow: 0 0 1px #00000040;
 
-        &:before{
-            content: " ";
-            width: 20px;
-            height: 20px;
-            display: inline-block;
-            margin-right: 5px;
-            background-image: url("/public/img/icons/award.png");
-            background-size: cover;
-        }
-    }
 
     & h2{
         text-align: left;
@@ -105,7 +86,28 @@
     }
 }
 
+.mention{
+    letter-spacing: 1px;
+    width: fit-content;
+    padding: 2px 10px;
+    border-radius: var(--borderRadiusLabel);
+    display: flex;
+    align-items: center;
+    background-color: var(--color_allSkill);
+    font-variant: all-petite-caps;
+    text-shadow: 0 0 1px #00000040;
+    color: #fbebe5;
 
+    &:before{
+        content: " ";
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        margin-right: 5px;
+        background-image: url("/public/img/icons/award.png");
+        background-size: cover;
+    }
+}
 
 .formations{
     width: 100%;
