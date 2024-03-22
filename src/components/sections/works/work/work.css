@@ -88,8 +88,8 @@
         letter-spacing: 1px;
         font-variant: all-petite-caps;
         background-color: var(--WhiteDarker);
-        padding: 0 5px;
-        border-radius: 10px;
+        padding: 0 10px;
+        border-radius: var(--borderRadiusLabel);
         color: #e8feff;
         display: flex;
         align-items: center;

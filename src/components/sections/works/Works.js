@@ -30,7 +30,7 @@ function Works(){
                     Le site est hébergé sur GitHub Pages."
                     person_count="1"
                     state="en cours"
-                    technolist={["react"]}
+                    technolist={["react","css"]}
                 />
                 {/*<Work*/}
                 {/*    title="Tic-Tac-Toe"*/}

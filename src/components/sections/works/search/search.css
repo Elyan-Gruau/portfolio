@@ -5,7 +5,7 @@
     height: 50px;
     width: 90%;
 
-    border-radius: 20px ;
+    border-radius: var(--borderRadius) ;
 }
 
 #searchWorkInput {
