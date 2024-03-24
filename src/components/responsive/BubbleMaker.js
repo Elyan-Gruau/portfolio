@@ -1,4 +1,5 @@
 import './bubbleMaker.css';
+import {FloatingBubble} from "./FloatingBubble";
 export default function BubbleMaker(props){
     const MAX_DISTANCE = 500;
     const BUBBLE_QTY = 8;
@@ -65,17 +66,14 @@ export default function BubbleMaker(props){
         const deg = Math.floor(getRandomArbitrary(0,360));
         // console.log("color :"+color+ " choice :" +choice)
         return (
-            <div
-                className="floatingBubble"
-                style={{
-                    top:getRandomArbitrary(minX,maxX)+"px",
-                    left:getRandomArbitrary(minY,maxX)+"px",
-                    backgroundImage: 'linear-gradient('+deg+'deg, '+gradient[0]+',' + gradient[1] +' )',
-                    scale:getRandomArbitrary(100,250)+"%",
-                    animationDelay : getRandomArbitrary(-8,0)+"s"
-                }
-            }>
-            </div>
+            <FloatingBubble
+                top={getRandomArbitrary(minX,maxX)}
+                left={getRandomArbitrary(minY,maxX)}
+                deg={deg}
+                gradient={gradient}
+                scale={getRandomArbitrary(100,250)}
+                animationDelay ={getRandomArbitrary(-8,0)}
+            />
         );
     }
 
