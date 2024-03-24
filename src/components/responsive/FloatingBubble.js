@@ -7,33 +7,15 @@ export function FloatingBubble(props){
     const animationDelay = !props.animationDelay ? "-8s" : props.animationDelay;
     const isRelative = !props.relative ? false : props.relative;
 
-
-
-
-    if (isRelative){
-        return (
-            <div
-                className="floatingBubble relative"
-                style={{
-                    top:top,
-                    left:left,
-                    backgroundImage: 'linear-gradient('+deg+'deg, '+gradient[0]+',' + gradient[1] +' )',
-                    scale:scale,
-                    animationDelay : animationDelay+"s",
-                }
-                }>
-            </div>
-        );
-    }
     return (
 
         <div
-            className="floatingBubble"
+            className={"floatingBubble "+(isRelative? "relative" : "")}
             style={{
-                top:top+"px",
-                left:left+"px",
+                top:top,
+                left:left,
                 backgroundImage: 'linear-gradient('+deg+'deg, '+gradient[0]+',' + gradient[1] +' )',
-                scale:scale+"%",
+                scale:scale,
                 animationDelay : animationDelay+"s",
             }
             }>
