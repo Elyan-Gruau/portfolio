@@ -9,8 +9,9 @@ footer{
     flex-direction: column;
     bottom: 0;
     z-index: 4;
-    width: 100%;
-    padding-top: 50px;
+    width: 90%;
+    padding: 50px 10px 0px 10px;
+    margin: auto;
 
 
     .lookLikeButton{
@@ -57,7 +58,7 @@ footer{
         text-align: center;
         width: 100%;
         letter-spacing: 2px;
-        padding-bottom: 10px;
+        padding-bottom: 20px;
 
     }
 

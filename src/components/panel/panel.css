@@ -1,5 +1,6 @@
 #panel{
     width: 50vw;
+    max-width: 524px;
     height: 100vh;
     background-image: url("/public/img/white_noise.png");
     background-size: 150px 150px;
