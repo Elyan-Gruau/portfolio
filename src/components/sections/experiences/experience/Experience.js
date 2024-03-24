@@ -13,6 +13,7 @@ function Experience (props) {
     }
     return (
         <div className="experience movingBackground">
+            {props.bubbles}
             <div className="glass">
                 <a className="companyLogoContainer"
                    href={props.companyWebsite} target="_blank" rel="noreferrer">

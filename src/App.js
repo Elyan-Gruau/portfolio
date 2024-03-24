@@ -149,8 +149,6 @@ function App() {
 
 
           <Contact/>
-          <Spacer/>
-
           <Footer/>
       </main>
 
