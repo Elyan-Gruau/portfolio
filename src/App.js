@@ -137,7 +137,7 @@ function App() {
           <Spacer/>
           <Divider/>
 
-          <BubbleMaker/>
+          {/*<BubbleMaker/>*/}
           <Skills/>
           <Spacer/>
 

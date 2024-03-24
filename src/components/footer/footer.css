@@ -1,6 +1,7 @@
 footer{
 
     /*background-color: var(--footerBlack);*/
+    overflow: hidden;
     display: flex;
     /*height: var(--footerHeight);*/
     height: 180px;;
@@ -9,6 +10,7 @@ footer{
     bottom: 0;
     z-index: 4;
     width: 100%;
+    padding-top: 50px;
 
 
     .lookLikeButton{

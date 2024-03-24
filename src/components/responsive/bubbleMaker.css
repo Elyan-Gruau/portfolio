@@ -16,6 +16,7 @@
     /*-1px -1px 5px -2px #ababab, 1px 1px 5px 1px black;*/
     /*animation-delay: -5s;*/
     animation: floating 20s ease-in-out infinite;
+    overflow : hidden;
 
     &:hover{
         /*transform: translateX(10px);*/
@@ -24,6 +25,11 @@
         /*transition: all var(--floatingBubbleTransition) ;*/
         /*filter: invert();*/
         /*box-shadow: #58d25a 1px 1px 10px 0px;*/
+
+    }
+
+    &.relative{
+        position: absolute;
 
     }
 

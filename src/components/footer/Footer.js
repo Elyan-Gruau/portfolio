@@ -1,7 +1,17 @@
 import "./footer.css";
+import {FloatingBubble} from "../responsive/FloatingBubble";
 function Footer(){
     return (
         <footer id="contact" >
+            <FloatingBubble
+                relative={true}
+                top={"35%"}
+                left={"15%"}
+                scale={"155%"}
+                deg={"69"}
+                animationDelay={-2.5}
+                gradient={[ "rgb(255,0,200)", "rgb(0,81,255)"]}
+            />
             <div className="glass">
                 <div className="lookLikeButton">
                     <a href="mailto:elyangruau.pro@gmail.com?subject=Entretient"

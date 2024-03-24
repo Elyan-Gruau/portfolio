@@ -1,3 +1,15 @@
+
+.contactFormContainer{
+    width: 100%;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
 #contactForm{
     display: flex;
     /*justify-content: center;*/
@@ -11,6 +23,7 @@
 
     min-width: 400px;
     z-index: 4;
+    position: relative;
 
     >div{
         padding: 20px;
