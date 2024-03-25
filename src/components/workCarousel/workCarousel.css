@@ -1,0 +1,54 @@
+.workCarousel{
+    height: 100vh;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    z-index: 4;
+    transition: background-color cubic-bezier(0.63, 0, 0.35, 0.96) 2.5s;
+    /*background-image: linear-gradient(#000000, #424619);*/
+
+    .blurContainer{
+        /*background-color: #61dafb;*/
+        /*backdrop-filter: blur(100px) saturate(200%);*/
+        height: 99%;
+        z-index: 3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 40px;
+        background-color: rgba(0, 0, 0, 0.41);
+        width: 100%;
+    }
+}
+
+
+
+.workCardContainer{
+    /*height: 600px;*/
+    min-height: fit-content;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+
+
+.carouselIndexContainer{
+    display: flex;
+    gap: 20px;
+    transition: background-color 0.2s;
+
+    & .carouselButton{
+        z-index: 5;
+        width: 20px;
+        height: 20px;
+        border-radius: 180px;
+        border: 2px solid rgba(255, 255, 255, 0.75);
+        background-color: transparent;
+    }
+    & .selected{
+        transition: background-color 0.2s;
+        background-color: rgba(246, 246, 246, 0.78);
+    }
+}

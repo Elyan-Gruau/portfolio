@@ -102,8 +102,10 @@ html{
 main{
     display: flex;
     flex-direction: column;
-    width: var(--mainWidth);
-    padding: var(--mainPadding);
+    /*width: 100vw;*/
+/*var(--mainWidth)*/
+    padding: 0;
+/*/var(--mainPadding)*/
     position: relative;
     z-index: 0;
     background-color: var(--footerBlack);

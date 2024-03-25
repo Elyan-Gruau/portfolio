@@ -20,6 +20,7 @@ import Experiences from "./components/sections/experiences/Experiences";
 import Panel from "./components/panel/Panel";
 import ResponsiveStyle from "./components/responsive/ResponsiveStyle";
 import BubbleMaker from "./components/responsive/BubbleMaker";
+import WorkCarousel from "./components/workCarousel/WorkCarousel";
 
 function App() {
 
@@ -111,17 +112,6 @@ function App() {
 
     return (
     <div className="App">
-      <head>
-          <style>
-              @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,700;0,900;1,400;1,900&family=Roboto:ital@1&display=swap');
-          </style>
-        <meta charSet="UTF-8"/>
-        <title> Elyan GRUAU | Portfolio</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1"/>
-          <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-          <script src="js/inverted-scroll.js"></script>
-          <script defer="defer" src="js/typing.js"></script>
-      </head>
       <header >
         <Navbar/>
       </header>
@@ -129,7 +119,8 @@ function App() {
         <Presentation/>
       <main>
           <Divider/>
-          <Works/>
+          {/*<Works/>*/}
+          <WorkCarousel/>
           <Spacer/>
           <Divider/>
 
