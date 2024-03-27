@@ -24,6 +24,7 @@ export default function WorkCarousel(props){
             date={workItem.date}
             description={workItem.description}
             person_count={workItem.person_count}
+            displayImageInRow={workItem.displayImageInRow}
             state={workItem.state}
             technolist={workItem.technolist}
         />)
@@ -34,20 +35,18 @@ export default function WorkCarousel(props){
             active={current === i} />)
     }
 
-    console.log("mipmop")
 
 
     return (
         <div className="workCarousel"
              id={"work"}
-             style={
+             // style={
             // {backgroundImage: "url(\"/portfolio/img/projects/"+worksData[current].title+".png\")"}
             //      {backgroundImage: "linear-gradient("+worksData[current].gradientColors[0]+","+worksData[current].gradientColors[1]+")"}
-                 {backgroundColor : worksData[current].gradientColors[0]}
-         }>
-            <div className="blurContainer">
-                <div className="workCardContainer">
-                    {cards[current]}
+            //      {backgroundColor : worksData[current].gradientColors[0]}
+         >
+            {cards}
+
                     <FloatingBubble
                         relative={true}
                         top={worksData[current].bubbles[0].top}
@@ -62,11 +61,7 @@ export default function WorkCarousel(props){
                         scale={worksData[current].bubbles[1].scale}
                         gradient={worksData[current].bubbles[1].colors}
                         animationDelay={-2.5}/>
-                </div>
-                <div className="carouselIndexContainer">
-                    {carouselButtons}
-                </div>
-            </div>
+
         </div>
     );
 }

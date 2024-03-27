@@ -9,6 +9,7 @@ let worksData = [
         state:"terminé",
         technolist:["java","javaFx"],
         gradientColors:["rgb(21 38 43)","#000000"],
+        displayImageInRow:false,
         bubbles:[
             {
                 top:"-8%",
@@ -17,8 +18,8 @@ let worksData = [
                 colors:["rgb(0,250,255)","rgb(255,0,192)"]
             },
             {
-                top:"40%",
-                left:"70%",
+                top: "9%",
+                left: "23%",
                 colors:["rgb(222,222,222)","#8d7fc0"]
             }
         ]
@@ -30,6 +31,7 @@ let worksData = [
         person_count:"1",
         state:"en cours",
         technolist:["react","css"],
+        displayImageInRow:false,
         gradientColors:["rgb(25 48 47)","#000000"],
         bubbles:[
             {
@@ -55,6 +57,7 @@ let worksData = [
         state: "terminé",
         link: "https://iut-git.unice.fr/pt102004/sae4_2a",
         technolist: ["react", "java", "spring boot", "SQL", "Active Directory"],
+        displayImageInRow:false,
         gradientColors:["rgb(14 30 60)","#151515"],
         bubbles:[
             {
@@ -78,6 +81,7 @@ let worksData = [
         person_count : "3",
         state : "terminé",
         technolist : ["java", "Android (Java)", "spring boot", "Maven"],
+        displayImageInRow:true,
         gradientColors:["rgb(48 30 7)","#2a2a2a"],
         bubbles:[
             {
@@ -101,6 +105,7 @@ let worksData = [
         person_count:"2",
         state:"terminé",
         technolist: ["PHP", "HTML", "CSS", "SQL"],
+        displayImageInRow:false,
         gradientColors:["rgb(19 64 53)","#2d2d2d"],
         bubbles:[
             {

@@ -30,6 +30,8 @@
 
     --footerHeight: 300px;
 
+    --glassFilters : blur(25px) saturate(120%);
+
     --bShad : rgba(5, 5, 50, 0.2);
     --wShad : rgba(250, 250, 255, 1);
     --WhiteDarker : rgba(185, 185, 185, 0.7);
