@@ -55,6 +55,8 @@
         height: fit-content;
         width: fit-content;
         letter-spacing: 1px;
+        margin-top: 2px;
+        margin-bottom: 0px;
     }
 
 

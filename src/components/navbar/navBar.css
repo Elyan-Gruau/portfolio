@@ -12,7 +12,7 @@ nav {
 
     z-index: 999;
     position: fixed;
-    width: var(--mainWidth);
+    width: 100vw;;
     padding: var(--mainPadding);
 
     display: flex;

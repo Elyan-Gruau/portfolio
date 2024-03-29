@@ -27,6 +27,8 @@ export default function WorkCarousel(props){
             displayImageInRow={workItem.displayImageInRow}
             state={workItem.state}
             technolist={workItem.technolist}
+            bgImgName={workItem.bgImgName}
+            bgGradient={workItem.bgGradient}
         />)
 
         carouselButtons.push(  <CarouselButton
@@ -38,15 +40,19 @@ export default function WorkCarousel(props){
 
 
     return (
-        <div className="workCarousel"
-             id={"work"}
-             // style={
-            // {backgroundImage: "url(\"/portfolio/img/projects/"+worksData[current].title+".png\")"}
-            //      {backgroundImage: "linear-gradient("+worksData[current].gradientColors[0]+","+worksData[current].gradientColors[1]+")"}
-            //      {backgroundColor : worksData[current].gradientColors[0]}
-         >
-            {cards}
+        <>
+            <section className="workCarousel"
 
+                // style={
+                // {backgroundImage: "url(\"/portfolio/img/projects/"+worksData[current].title+".png\")"}
+                //      {backgroundImage: "linear-gradient("+worksData[current].gradientColors[0]+","+worksData[current].gradientColors[1]+")"}
+                //      {backgroundColor : worksData[current].gradientColors[0]}
+
+                 id={"work"}
+            >
+                <h2>Travaux</h2>
+                <div className="workContainerGrid">
+                    {cards}
                     <FloatingBubble
                         relative={true}
                         top={worksData[current].bubbles[0].top}
@@ -61,7 +67,13 @@ export default function WorkCarousel(props){
                         scale={worksData[current].bubbles[1].scale}
                         gradient={worksData[current].bubbles[1].colors}
                         animationDelay={-2.5}/>
+                </div>
 
-        </div>
+
+
+            </section>
+            <div className="workContainerFooter"></div>
+        </>
+
     );
 }

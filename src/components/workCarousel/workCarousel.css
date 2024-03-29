@@ -1,6 +1,9 @@
-.workCarousel{
+
+.workContainerGrid{
     /*min-height: 100vh;*/
-    width: 100%;
+    width: fit-content;
+    padding-top: 150px;
+    margin: auto;
     min-height: fit-content;
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -28,17 +31,50 @@
 }
 
 @media (min-width: 600px) {
-    .workCarousel { grid-template-columns: repeat(1, 1fr); }
+    .workContainerGrid {
+        grid-template-columns: repeat(1, 1fr);
+        width: 600px;
+        > :nth-child(1n),> :nth-child(2n), > :nth-child(3n){
+            transform: translateY(0px);
+        }
+    }
 }
 
-@media (min-width: 1000px) {
-    .workCarousel { grid-template-columns: repeat(3, 1fr); }
+@media (min-width: 712px ) {
+    .workContainerGrid {
+        grid-template-columns: repeat(2, 1fr);
+        width: 712px;
+        > :nth-child(1n){
+            transform: translateY(0);
+        }
+
+        > :nth-child(2n){
+            transform: translateY(-120px);
+        }
+    }
 }
 
-@media (min-width: 800px) {
-    .workCarousel { grid-template-columns: repeat(2, 1fr); }
+@media (min-width: 1090px) {
+    .workContainerGrid {
+        width: 1090px;
+        grid-template-columns: repeat(3, 1fr);
+        > :nth-child(1n) {
+            transform: translateY(0);
+        }
+        > :nth-child(2n){
+            transform: translateY(-120px);
+        }
+        > :nth-child(3n){
+            transform: translateY(-70px);
+        }
+        > :nth-child(4) {
+            transform: translateY(0);
+        }
+        > :nth-child(5) {
+            transform: translateY(-120px);
+        }
+    }
 }
-
 
 
 .workCardContainer{

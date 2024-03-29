@@ -9,6 +9,7 @@ let worksData = [
         state:"terminé",
         technolist:["java","javaFx"],
         gradientColors:["rgb(21 38 43)","#000000"],
+        nbGradient:"linear-gradient(172deg, rgb(243 185 185), rgb(38 33 24))",
         displayImageInRow:false,
         bubbles:[
             {
@@ -33,6 +34,8 @@ let worksData = [
         technolist:["react","css"],
         displayImageInRow:false,
         gradientColors:["rgb(25 48 47)","#000000"],
+        bgImgName:"portfolio_transp.png",
+        bgGradient:"linear-gradient(138deg, rgb(255 247 240), rgb(75 73 78))",
         bubbles:[
             {
                 top: "4%",
@@ -59,6 +62,8 @@ let worksData = [
         technolist: ["react", "java", "spring boot", "SQL", "Active Directory"],
         displayImageInRow:false,
         gradientColors:["rgb(14 30 60)","#151515"],
+        bgImgName:"annuaire SaExpress.png",
+        bgGradient:"linear-gradient(193deg, rgb(0 41 255 / 28%), rgb(17 0 192))",
         bubbles:[
             {
                 colors:["#FBBC99","rgb(255 108 0)"],
@@ -83,6 +88,34 @@ let worksData = [
         technolist : ["java", "Android (Java)", "spring boot", "Maven"],
         displayImageInRow:true,
         gradientColors:["rgb(48 30 7)","#2a2a2a"],
+        bgImgName:"instagrans phones.png",
+        bgGradient:"linear-gradient(138deg, rgb(172 138 110), rgb(29 21 14))",
+        bubbles:[
+            {
+                top:"59%",
+                left:"44%",
+                scale:"180%",
+                colors:["rgb(255 158 0)","#000000"]
+            },
+            {
+                top:"-8%",
+                left:"92%",
+                scale: "239%",
+                colors:["rgb(222,222,222)","#8d7fc0"]
+            }
+        ]
+    },
+    {
+        title : "Instagrans",
+        date : "2023",
+        description : "Conception et développement d'une application fictive de location de grand mère pour faire la cuisine (projet universitaire). L'applications est composée d'un backcend Spring Boot et d'un front end Android (Java). Gestion du pannier, des notifications, de la responsivité, des modes clair et sombre.",
+        person_count : "3",
+        state : "terminé",
+        technolist : ["java", "Android (Java)", "spring boot", "Maven"],
+        displayImageInRow:true,
+        gradientColors:["rgb(48 30 7)","#2a2a2a"],
+        bgImgName:"instagrans phones.png",
+        bgGradient:"linear-gradient(138deg, rgb(172 138 110), rgb(29 21 14))",
         bubbles:[
             {
                 top:"59%",
@@ -107,6 +140,8 @@ let worksData = [
         technolist: ["PHP", "HTML", "CSS", "SQL"],
         displayImageInRow:false,
         gradientColors:["rgb(19 64 53)","#2d2d2d"],
+        bgImgName:"la babouce.png",
+        bgGradient:"linear-gradient(138deg, rgb(110 172 154) -25%, rgb(3 15 27))",
         bubbles:[
             {
                 top:"88%",
