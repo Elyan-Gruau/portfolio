@@ -1,5 +1,7 @@
 :root{
     --workCardSize : 346px;
+    --ColSectionWork: #0b0b0f;
+
 }
 
 
@@ -96,7 +98,7 @@
 }
 
 #work{
-    background-color: black;
+    background-color: var(--ColSectionWork);
     .title{
         text-align: left;
         margin: 0;
@@ -170,11 +172,11 @@
 }
 
 .workContainerFooter{
-    box-shadow: 0px -49px 44px 34px black;
+    box-shadow: 0px -49px 44px 34px var(--ColSectionWork);
     border-radius: 0 0 50px 50px;
     height: 100px;
     width: 100%;
-    background-color: black;
+    background-color: var(--ColSectionWork);
     z-index: 6;
 }
 

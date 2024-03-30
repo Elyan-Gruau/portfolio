@@ -1,5 +1,5 @@
-
 .workContainerGrid{
+    overflow:hidden;
     /*min-height: 100vh;*/
     width: fit-content;
     padding-top: 150px;
