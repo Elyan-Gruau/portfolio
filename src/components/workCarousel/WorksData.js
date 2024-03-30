@@ -9,7 +9,8 @@ let worksData = [
         state:"terminé",
         technolist:["java","javaFx"],
         gradientColors:["rgb(21 38 43)","#000000"],
-        nbGradient:"linear-gradient(172deg, rgb(243 185 185), rgb(38 33 24))",
+        bgGradient:"linear-gradient(172deg, rgb(243 185 185), rgb(38 33 24))",
+        bgImgName:"kill bique_transp.png",
         displayImageInRow:false,
         bubbles:[
             {
