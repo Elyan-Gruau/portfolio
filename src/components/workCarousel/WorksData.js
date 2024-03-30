@@ -4,7 +4,7 @@ let worksData = [
     {
         title:"Kill Bique",
         date:"2022",
-        description:"Numérisation du jeu de carte Kill Bique. Implémentation d'IA. Solution multijoueur (client serveur) respectant le modèle MVC. ",
+        description:"Numérisation du jeu de carte Kill Bique. Implémentation d'IA. Conception, implémentation et déploiement d'une solution multijoueur (client/serveur) respectant le modèle MVC. ",
         person_count:"8",
         state:"terminé",
         technolist:["java","javaFx"],
@@ -63,7 +63,7 @@ let worksData = [
         technolist: ["react", "java", "spring boot", "SQL", "Active Directory"],
         displayImageInRow:false,
         gradientColors:["rgb(14 30 60)","#151515"],
-        bgImgName:"annuaire SaExpress.png",
+        bgImgName:"saexpress_transp.png",
         bgGradient:"linear-gradient(193deg, rgb(0 41 255 / 28%), rgb(17 0 192))",
         bubbles:[
             {
