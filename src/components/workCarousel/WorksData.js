@@ -141,7 +141,7 @@ let worksData = [
         technolist: ["PHP", "HTML", "CSS", "SQL"],
         displayImageInRow:false,
         gradientColors:["rgb(19 64 53)","#2d2d2d"],
-        bgImgName:"la babouce.png",
+        bgImgName:"la babouce_transp.png",
         bgGradient:"linear-gradient(138deg, rgb(110 172 154) -25%, rgb(3 15 27))",
         bubbles:[
             {
