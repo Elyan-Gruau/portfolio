@@ -128,16 +128,11 @@ function App() {
           <Spacer/>
           <Divider/>
 
-          {/*<BubbleMaker/>*/}
           <Skills/>
           <Spacer/>
 
-
           <Divider/>
           <Experiences/>
-          <Spacer/>
-
-
 
           <Contact/>
           <Footer/>
