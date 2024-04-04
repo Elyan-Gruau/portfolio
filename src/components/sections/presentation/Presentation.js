@@ -13,7 +13,7 @@ function Presentation () {
                 </div>
 
             </div>
-            <a className={"bubble"} href="#work"></a>
+            <a className={"bubble"} href="#work">Consulter les travaux</a>
             {/*ANIMATION D ECRITURE*/}
             {/*MAKE YOUR DREAM POSSIBLE*/}
             {/*PHOTO ENCADR2E NEOMORPHISM !!*/}

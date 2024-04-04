@@ -18,16 +18,19 @@ function Footer(){
                        target="_blank"
                        rel="noreferrer"
                        className="button_mail">
+                        envoyer email
                     </a>
                     <a href="https://www.linkedin.com/in/elyan-gruau-a62397243/"
                        target="_blank"
                        rel="noreferrer"
                        className="button_linkedin">
+                        Linkedin
                     </a>
                     <a href="https://github.com/Elyan-Gruau"
                        target="_blank"
                        rel="noreferrer"
                        className="button_github">
+                        Github
                     </a>
                     {/*<a href=" https://discordapp.com/users/484843311849537536"*/}
                     {/*   target="_blank"*/}

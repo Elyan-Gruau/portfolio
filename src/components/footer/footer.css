@@ -1,10 +1,7 @@
 footer{
-
-    /*background-color: var(--footerBlack);*/
     overflow: hidden;
     display: flex;
-    /*height: var(--footerHeight);*/
-    height: 180px;;
+    height: 180px;
     position: relative;
     flex-direction: column;
     bottom: 0;
@@ -30,6 +27,8 @@ footer{
             opacity: 0.8;
             transition: opacity 0.2s;
             animation: floatingButtons 10s ease-in-out infinite;
+            color: transparent;
+            text-decoration: none;
 
             &.button_github{
                 background-image: url("/public/img/github.png");

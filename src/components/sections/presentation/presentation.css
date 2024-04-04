@@ -101,6 +101,8 @@
     background-size: 25px 25px;
     background-repeat: no-repeat;
     background-position: center 20px;
+    color: transparent;
+    text-decoration: none;
 
     &:hover{
         scale: 120%;
