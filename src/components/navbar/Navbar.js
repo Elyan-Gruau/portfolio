@@ -63,6 +63,7 @@ function Navbar () {
                         <span></span>
                         <span></span>
                         <span></span>
+                        menu
                     </button>
                 </div>
         </nav>
