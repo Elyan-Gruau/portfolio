@@ -10,7 +10,10 @@ function Work (props){
     if (technoIterrator!=null){
         for (let i=0; i<technoIterrator.length; i++){
             technos.push(
-                <Technology title={technoIterrator[i]}/>
+                <Technology
+                    key={("tech_"+i+technoIterrator[i])}
+                    title={technoIterrator[i]}
+                />
             );
         }
     }
@@ -19,7 +22,7 @@ function Work (props){
     // stateComplement = "toto";
 
     return(
-        <div className="work">
+        <div className="work" key={"COMP_ID_WORK_"+props.title}>
             <div className="imageContainer"
                 style={{backgroundImage:bgGradient}}>
 

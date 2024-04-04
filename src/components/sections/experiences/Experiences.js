@@ -6,7 +6,8 @@ function Experiences () {
         <section className="Experiences" id="experience">
             <h2>EXPÉRIENCE</h2>
             <div className="experiencesContainer">
-                <Experience title="Consultant Technique"
+                <Experience
+                    title="Consultant Technique"
                             type="Stage"
                             desc="Conception, développement et implémentation d'une solution de reporting automatique au sein du progitiel Planisware Orchestra."
                             company="Planisware"
@@ -16,6 +17,7 @@ function Experiences () {
                             date="04-08/2022"
                             technolist={["java","jsp","javascript","sql","maven","jenkins","jira","git"]}
                             bubbles={  [<FloatingBubble
+                                key={"ConsTechBubble1"}
                                 relative={true}
                                 top={"77%"}
                                 left={"73%"}

@@ -7,7 +7,10 @@ function Experience (props) {
     if (technoIterrator!=null){
         for (let i=0; i<technoIterrator.length; i++){
             technos.push(
-                <Technology title={technoIterrator[i]}/>
+                <Technology
+                    key={("tech_"+i+technoIterrator[i]+"_"+props.company)}
+                    title={technoIterrator[i]}
+                />
             );
         }
     }

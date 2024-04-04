@@ -20,6 +20,7 @@ export default function WorkCarousel(props){
     for (var i = 0; i < worksData.length ; i++) {
         const workItem = worksData[i];
         cards.push( <Work
+            key={"work_"+i+workItem.title}
             title={workItem.title}
             date={workItem.date}
             description={workItem.description}
