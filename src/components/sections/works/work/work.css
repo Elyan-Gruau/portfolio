@@ -173,7 +173,7 @@
 }
 
 .workContainerFooter{
-    box-shadow: 0px -49px 44px 34px var(--ColSectionWork);
+    /*box-shadow: 0px -49px 44px 34px var(--ColSectionWork);*/
     border-radius: 0 0 50px 50px;
     height: 100px;
     width: 100%;
