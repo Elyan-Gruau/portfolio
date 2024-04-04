@@ -1,5 +1,11 @@
 import Formation from "./formation/Formation";
 
+function FormationLink() {
+    return (
+        <div className="formationLink glass"></div>
+    );
+}
+
 function Formations(){
     return (
     //     BARRE HORIZONTALE MINIMALISTE AVEC MES EXPERIENCES
@@ -15,14 +21,14 @@ function Formations(){
                            mention="Mention bien"
                            desc="Spécialités : Numerique et science de l'informatique (NSI), Mathématiques, Sciences de l'ingénieur"
                            location="Lycée Thomas Edison, 83510 Lorgues" />
-
+                <FormationLink/>
                 <Formation title="DUT Informatique"
                            subtitle="Diplome Universitaire de Technologie Informatique"
                            year="2021 - 2023"
                            desc="Parcours Réalisation d’applications : conception, développement, validation"
                            location="IUT Nice Côte d'Azur, 06000 Nice" />
 
-
+                <FormationLink/>
                 <Formation title="L3 MIASHS - MIAGE"
                            subtitle="Mathématiques et informatique appliquées aux sciences humaines et sociales"
                            year="2023 - 2024"

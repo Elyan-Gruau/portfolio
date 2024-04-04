@@ -125,5 +125,11 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+}
+
+.formationLink.glass{
+    height: 20px;
+    background-color: #0000002b;
+    width: 3px;
+    border-radius: 0;
 }
