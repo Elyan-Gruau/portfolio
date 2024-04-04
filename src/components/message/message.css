@@ -18,10 +18,11 @@
     /*flex-wrap: nowrap;*/
     /*align-items: center;*/
     width: 440px;
-    margin:auto;
-    border-radius: var(--borderRadius);
-
+    height: 620px;
     min-width: 400px;
+    margin:auto;
+
+    border-radius: var(--borderRadius);
     z-index: 4;
     position: relative;
 
@@ -37,7 +38,7 @@
     }
 
     & label{
-        margin: 10px 0 ;
+        margin: 20px 0 10px 0;
         font-family: var(--font-family);
         font-weight : var(--font-weight);
         font-style: var(--font-style);
@@ -74,7 +75,7 @@
     }
     & textarea {
         padding: 20px;
-        height: 180px;
+        height: 200px;
         font-size: medium;
         word-break: normal;
         white-space:break-spaces;
@@ -93,11 +94,16 @@
     font-variant: all-petite-caps;
     font-size: larger;
 
+    &:hover{
+        background-color: var(--White2);
+    }
 
-}
+    &:active{
+        background-color: #ffffff21;
+        color: white;
+    }
 
-.btnSender:hover{
-    background-color: var(--White2);
+
 }
 
 .buttonContainer {
