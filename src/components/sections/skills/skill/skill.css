@@ -54,16 +54,22 @@
     display: flex;
     align-items: center;
     border-right: 2px solid;
+    box-shadow: 1px 2px 9px -4px inset #ffffffab, 0px 0px 9px -3px inset #00000087, 0px 1px 2px 0px  #0000009e;
+    border-radius: var(--borderRadius) 0 0 var(--borderRadius) ;
 }
 
 
 
 .skillBarGlass{
     display: flex;
-    background-color: #6161695e;
-    border-radius: 0;
-    justify-content: center;
-    align-items: flex-start;
+    background-color: #ffffff05;
+    justify-content: flex-start;
     padding-left: 4px;
     border-right: 2px solid #ffffff91;
+    border-radius: var(--borderRadius) 0 0 var(--borderRadius);
+    box-shadow: -1px 1px 5px -1px black inset, 1px -1px 5px -1px #ffffff1f inset;
+    height: 100%;
+    align-items: center;
+    position: relative;
+    z-index: 3;
 }
