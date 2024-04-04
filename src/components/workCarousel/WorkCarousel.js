@@ -54,20 +54,20 @@ export default function WorkCarousel(props){
                 <h2>Travaux</h2>
                 <div className="workContainerGrid">
                     {cards}
-                    <FloatingBubble
-                        relative={true}
-                        top={worksData[current].bubbles[0].top}
-                        left={worksData[current].bubbles[0].left}
-                        scale={worksData[current].bubbles[0].scale}
-                        gradient={worksData[current].bubbles[0].colors}
-                        animationDelay={-1}/>
-                    <FloatingBubble
-                        relative={true}
-                        top={worksData[current].bubbles[1].top}
-                        left={worksData[current].bubbles[1].left}
-                        scale={worksData[current].bubbles[1].scale}
-                        gradient={worksData[current].bubbles[1].colors}
-                        animationDelay={-2.5}/>
+                    {/*<FloatingBubble*/}
+                    {/*    relative={true}*/}
+                    {/*    top={worksData[current].bubbles[0].top}*/}
+                    {/*    left={worksData[current].bubbles[0].left}*/}
+                    {/*    scale={worksData[current].bubbles[0].scale}*/}
+                    {/*    gradient={worksData[current].bubbles[0].colors}*/}
+                    {/*    animationDelay={-1}/>*/}
+                    {/*<FloatingBubble*/}
+                    {/*    relative={true}*/}
+                    {/*    top={worksData[current].bubbles[1].top}*/}
+                    {/*    left={worksData[current].bubbles[1].left}*/}
+                    {/*    scale={worksData[current].bubbles[1].scale}*/}
+                    {/*    gradient={worksData[current].bubbles[1].colors}*/}
+                    {/*    animationDelay={-2.5}/>*/}
                 </div>
 
 

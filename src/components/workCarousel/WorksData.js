@@ -12,19 +12,7 @@ let worksData = [
         bgGradient:"linear-gradient(172deg, rgb(243 185 185), rgb(38 33 24))",
         bgImgName:"kill bique_transp.png",
         displayImageInRow:false,
-        bubbles:[
-            {
-                top:"-8%",
-                left:"48%",
-                scale:"180%",
-                colors:["rgb(0,250,255)","rgb(255,0,192)"]
-            },
-            {
-                top: "9%",
-                left: "23%",
-                colors:["rgb(222,222,222)","#8d7fc0"]
-            }
-        ]
+        bubbles:[]
     },
     {
         title:"Portfolio",
@@ -37,21 +25,7 @@ let worksData = [
         gradientColors:["rgb(25 48 47)","#000000"],
         bgImgName:"portfolio_transp.png",
         bgGradient:"linear-gradient(138deg, rgb(255 247 240), rgb(75 73 78))",
-        bubbles:[
-            {
-                top: "4%",
-                left: "40%",
-                colors:[ "rgb(0 53 108)","rgb(0 155 69)"],
-                scale: "250%"
-            },
-            {
-                top: "89%",
-                left: "82",
-                deg:"303",
-                colors:["#C79428","rgb(255 160 160)"],
-                scale: "203%"
-            }
-        ]
+        bubbles:[]
     },
     {
         title: "Annuaire SaExpress",
@@ -65,20 +39,7 @@ let worksData = [
         gradientColors:["rgb(14 30 60)","#151515"],
         bgImgName:"saexpress_transp.png",
         bgGradient:"linear-gradient(193deg, rgb(0 41 255 / 28%), rgb(17 0 192))",
-        bubbles:[
-            {
-                colors:["#FBBC99","rgb(255 108 0)"],
-                top: "4%",
-                left: "85%",
-                scale: "300%"
-            },
-            {
-                top: "52%",
-                left: "2%",
-                colors:["rgb(255 0 0)","rgb(55, 0, 255)"],
-                scale: "200%"
-            }
-        ]
+        bubbles:[]
     },
     {
         title : "Instagrans",
@@ -91,20 +52,7 @@ let worksData = [
         gradientColors:["rgb(48 30 7)","#2a2a2a"],
         bgImgName:"instagrans phones.png",
         bgGradient:"linear-gradient(138deg, rgb(172 138 110), rgb(29 21 14))",
-        bubbles:[
-            {
-                top:"59%",
-                left:"44%",
-                scale:"180%",
-                colors:["rgb(255 158 0)","#000000"]
-            },
-            {
-                top:"-8%",
-                left:"92%",
-                scale: "239%",
-                colors:["rgb(222,222,222)","#8d7fc0"]
-            }
-        ]
+        bubbles:[]
     },
     {
         title : "Calculator",
@@ -117,22 +65,7 @@ let worksData = [
         gradientColors:["rgb(19 64 53)","#2d2d2d"],
         bgImgName:"calculator_transp.png",
         bgGradient:"linear-gradient(138deg, rgb(110 172 154) -25%, rgb(3 15 27))",
-        bubbles:[
-            // {
-            //     top:"88%",
-            //     left:"79%",
-            //     deg:284,
-            //     scale:"190%",
-            //     colors:["rgb(190 187 121)","rgb(127, 192, 148)"]
-            // },
-            // {
-            //     top: "-3%",
-            //     left: "-3%",
-            //     scale: "179%",
-            //     deg:"160",
-            //     colors:["rgb(255 242 213)", "rgb(0 0 0)"]
-            // }
-        ]
+        bubbles:[]
     },
     {
         title : "La Babouce",
@@ -145,23 +78,24 @@ let worksData = [
         gradientColors:["rgb(19 64 53)","#2d2d2d"],
         bgImgName:"la babouce_transp.png",
         bgGradient:"linear-gradient(138deg, rgb(110 172 154) -25%, rgb(3 15 27))",
-        bubbles:[
-            {
-                top:"88%",
-                left:"79%",
-                deg:284,
-                scale:"190%",
-                colors:["rgb(190 187 121)","rgb(127, 192, 148)"]
-            },
-            {
-                top: "-3%",
-                left: "-3%",
-                scale: "179%",
-                deg:"160",
-                colors:["rgb(255 242 213)", "rgb(0 0 0)"]
-            }
-        ]
+
     }
 ];
 
 export default worksData ;
+// bubbles:[
+//     // {
+//     //     top:"88%",
+//     //     left:"79%",
+//     //     deg:284,
+//     //     scale:"190%",
+//     //     colors:["rgb(190 187 121)","rgb(127, 192, 148)"]
+//     // },
+//     // {
+//     //     top: "-3%",
+//     //     left: "-3%",
+//     //     scale: "179%",
+//     //     deg:"160",
+//     //     colors:["rgb(255 242 213)", "rgb(0 0 0)"]
+//     // }
+// ]
