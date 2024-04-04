@@ -10,7 +10,8 @@
     {
       "src": "eg.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "192x192",
+      "purpose": "maskable"
     },
     {
       "src": "eg.png",
