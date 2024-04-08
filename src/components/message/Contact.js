@@ -30,7 +30,11 @@ function Contact(){
                     <h2>Contact</h2>
                     <form>
                         <label htmlFor="email">Email</label>
-                        <input type="email" id="email" placeholder="best@compagny.com"/>
+                        <input type="email"
+                               id="email"
+                               placeholder="best@compagny.com"
+                               pattern="/^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/"
+                               size="30" required/>
 
                         <label htmlFor="message">Message</label>
                         <textarea id="message" placeholder="Ce formulaire pourra bientôt vous satisfaire."/>
