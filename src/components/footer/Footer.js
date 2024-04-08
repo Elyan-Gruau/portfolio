@@ -5,10 +5,10 @@ function Footer(){
         <footer id="contact" >
             <FloatingBubble
                 relative={true}
-                top={"35%"}
-                left={"15%"}
-                scale={"155%"}
-                deg={"69"}
+                top={"67%"}
+                left={"46%"}
+                scale={"255%"}
+                deg={"189"}
                 animationDelay={-2.5}
                 gradient={[ "rgb(255,0,200)", "rgb(0,81,255)"]}
             />
