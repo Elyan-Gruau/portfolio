@@ -4,7 +4,7 @@
 
 .experience{
     position: relative;;
-    width: 420px;
+    width: 378px;
     /*452*/
     /*min-height: 620px;*/
     min-width: 270px;
@@ -81,7 +81,7 @@
     /*aspect-ratio: 1/1;*/
     box-shadow: 0px 5px 7px -6px black;
     >img{
-        max-width: 100%;
+        max-width: 90%;
         height: auto;
     }
 }
