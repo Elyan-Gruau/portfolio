@@ -13,15 +13,15 @@ function Contact(){
                 <FloatingBubble
                     relative={true}
                     top={"4%"}
-                    left={"-6%"}
+                    left={"10%"}
                     scale={"150%"}
                     gradient={["rgb(255 73 73)", "rgb(255 161 0)"]}
                 />
                 <FloatingBubble
                     relative={true}
                     top={"76%"}
-                    left={"75%"}
-                    scale={"130%"}
+                    left={"91%"}
+                    scale={"150%"}
                     deg={"69"}
                     animationDelay={3}
                     gradient={[ "rgb(178 43 149)", "rgb(255, 183, 45)"]}
