@@ -36,7 +36,7 @@ let worksData = [
         link: "https://iut-git.unice.fr/pt102004/sae4_2a",
         technolist: ["react", "java", "spring boot", "SQL", "Active Directory"],
         displayImageInRow:false,
-        gradientColors:["rgb(14 30 60)","#151515"],
+        gradientColors:["rgb(109 121 183)","rgb(255 255 255)"],
         bgImgName:"saexpress_transp.png",
         bgGradient:"linear-gradient(193deg, rgb(0 41 255 / 28%), rgb(17 0 192))",
         bubbles:[]
