@@ -1,5 +1,6 @@
 import Skill from "./skill/Skill";
 import "./Skills.css";
+import {FloatingBubble} from "../../responsive/FloatingBubble";
 
 function Skills(){
     return (
@@ -7,7 +8,18 @@ function Skills(){
             <h2>Technologies</h2>
             {/*TODO lors du hover d'une compétence, un bouton tout a droite pop permetant d'afficher les projet métant*/}
             {/*en oeuvre cette techo*/}
+            <FloatingBubble
+                key={"ConsSkillsBubble8"}
+                relative={true}
+                top={"37%"}
+                left={"4%"}
+                scale={"205%"}
+                deg={"177"}
+                animationDelay={-1.1}
+                gradient={[ "rgb(176 253 218)", "rgb(255,101,0)"]}
+            />
             <div className="skillCont glass">
+
                 <div className="leftPart">
                     <Skill name="Java" value="85"/>
                     <Skill name="JavaScript"  value="68"/>
@@ -24,6 +36,7 @@ function Skills(){
                     <Skill name="C" value="50"/>
                     <Skill name="Git" value="75"/>
                 </div>
+
             </div>
         </section>
     );

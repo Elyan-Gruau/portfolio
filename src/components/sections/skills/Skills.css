@@ -3,6 +3,7 @@
 }
 
 .skills{
+    position: relative;
     .leftPart{
         display: flex;
         flex-direction: column;

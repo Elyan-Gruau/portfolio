@@ -1,4 +1,5 @@
 import Formation from "./formation/Formation";
+import {FloatingBubble} from "../../responsive/FloatingBubble";
 
 function FormationLink() {
     return (
@@ -12,6 +13,16 @@ function Formations(){
     // Ajout d'un bouton en savoir plus qui amène vers linkedin
         <section className="formations">
             <h2>Formation</h2>
+            <FloatingBubble
+                key={"ConsSkillsBubble8"}
+                relative={true}
+                top={"33%"}
+                left={"24%"}
+                scale={"205%"}
+                deg={"248"}
+                animationDelay={-1.1}
+                gradient={[ "rgb(176 253 218)", "rgb(255,111,0)"]}
+            />
             <div className="formationsCont">
                 <div className="lifeLine">
                 </div>
