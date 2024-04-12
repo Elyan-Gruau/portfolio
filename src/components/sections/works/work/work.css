@@ -13,7 +13,7 @@
     border-radius: var(--borderRadius);
     color: var(--Beige);
     /*height: fit-content;*/
-    /*transform-style: preserve-3d;*/
+    transform-style: preserve-3d;
     position: relative;
     width: var(--workCardSize);
     height:  var(--workCardSize);
@@ -22,20 +22,26 @@
 
     &:hover>.glass>.imageContainer>.workLogo{
         filter: opacity(1) saturate(1) !important;
-        background-color: rgba(255, 255, 255, 0.63);
+        /*background-color: rgba(255, 255, 255, 0.63);*/
         transition:  -moz-filter, -ms-filter, -o-filter, -webkit-filter, filter 0.2s ;
+
+
     }
 
     &:hover >.workDetailsContainer {
-        transform: rotateY(0deg) rotateZ(0deg) translateZ(-10px) ;
-        transition: 1s all;
+        transform: rotateY(0deg) rotateZ(0deg) translateZ(-172.5px) ;
+        transition: 0.5s all ;
         opacity: 1;
     }
     &:hover >.imageContainer {
-        transform: rotateY(-180deg) rotateZ(0deg) translateZ(-10px) ;
+        transform: rotateY(0deg) rotateX(90deg) translateZ(-172.5px) ;
         /*transform: none;*/
-        opacity: 0;
-        transition: 1s all;
+        opacity: 0.1;
+        transition: 0.5s all;
+        > img{
+            max-height: 110%;
+            max-width: 110%
+        }
     }
 
 }
@@ -47,16 +53,17 @@
     height: var(--workCardSize);
     display: flex;
     flex-direction: column;
-    transform: rotateY(-180deg) rotateX(0deg) translateZ(10px);
+    transform: rotateY(0deg) rotateX(90deg) translateZ(172.5px);
     /*background-color: #58d25a;*/
     position: absolute;
     z-index: 8;
     opacity: 0;
-    transition: 1s all;
+    transition: 0.7s cubic-bezier(0.25, 0.1, 0.14, 1.79) all;
 }
 
 .imageContainer {
     /*background-image: url(../../../../../public/img/placeholder.png);*/
+    transform: rotateY(0deg) rotateX(0deg) translateZ(-172.5px);
     width: 100%;
     aspect-ratio: 16/9;
     background-repeat: no-repeat;
@@ -68,7 +75,7 @@
     /*background-color: #587bd2;*/
     /*position: absolute;*/
     z-index: 6;
-    transition:1s all;
+    transition: 0.7s cubic-bezier(0.25, 0.1, 0.14, 1.79) all;
     justify-content: center;
     flex-direction: column;
     align-items: center;
