@@ -51,7 +51,7 @@
     font-feature-settings: "pcap", "c2pc";
     font-variant: all-petite-caps;
     display: flex;
-    width: fit-content;
+    width: 75%;
     min-width: fit-content;
     padding: 10px 0;
     font-size: xx-large;
@@ -67,7 +67,7 @@
         width: 0px;
         height: 4px;
         position: absolute;
-        right: -25px;
+        right: -55px;
         top: 51%;
     }
 }
@@ -151,11 +151,11 @@
 }
 
 a.phone:before{
-    background-image: url("/public/img/phone.png");
+    background-image: url("/public/img/icons/phone.png");
 }
 
 a.mail:before{
-    background-image: url("/public/img/mail.png");
+    background-image: url("/public/img/icons/mail.png");
 }
 
 #panel .phone , #panel .mail{

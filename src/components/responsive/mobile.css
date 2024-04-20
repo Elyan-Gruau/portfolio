@@ -87,7 +87,7 @@
     }
 
     .experience{
-        width: 90%;
+        max-width: 90%;
         height: fit-content;
     }
 
@@ -117,12 +117,16 @@
 
     #panel .container{
         margin: auto;
+
+        .menuButton{
+            width: initial;
+        }
     }
 
     /* C O N T A C T*/
     #contactForm{
-        width: 90%;
-        min-width: 80%;
+        max-width: 90%;
+        /*min-width: 80%;*/
         height: fit-content;
 
         & textarea{

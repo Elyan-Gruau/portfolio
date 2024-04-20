@@ -128,7 +128,7 @@
         height: 20px;
         display: inline-block;
         margin-right: 5px;
-        background-image: url("/public/img/pin.png");
+        background-image: url("/public/img/icons/pin.png");
         background-size: cover;
     }
 }

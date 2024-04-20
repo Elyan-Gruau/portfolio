@@ -38,7 +38,7 @@ let worksData = [
         displayImageInRow:false,
         gradientColors:["rgb(109 121 183)","rgb(255 255 255)"],
         bgImgName:"saexpress_transp.png",
-        bgGradient:"linear-gradient(193deg, rgb(0 41 255 / 28%), rgb(17 0 192))",
+        bgGradient:"linear-gradient(193deg, rgb(255 179 84), rgb(134 177 238))",
         bubbles:[]
     },
     {

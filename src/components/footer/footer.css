@@ -31,15 +31,15 @@ footer{
             text-decoration: none;
 
             &.button_github{
-                background-image: url("/public/img/github.png");
+                background-image: url("/public/img/icons/github.png");
                 animation-delay: -5s;
             }
             &.button_linkedin{
-                background-image: url("/public/img/linkedin.png");
+                background-image: url("/public/img/icons/linkedin.png");
                 animation-delay: -8s;
             }
             &.button_mail{
-                background-image: url("/public/img/mail.png");
+                background-image: url("/public/img/icons/email_full.png");
                 animation-delay: -1s;
             }
 

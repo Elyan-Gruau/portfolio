@@ -50,7 +50,7 @@ function Navbar () {
                 <div className="contactContainer">
                     <div className="clickableLogo">
                         <a href="https://www.linkedin.com/in/elyan-gruau/"  target="_blank" rel="noreferrer">
-                            <img src="/portfolio/img/linkedin.png" alt="linkedin"/>
+                            <img src="/portfolio/img/icons/linkedin.png" alt="linkedin"/>
                         </a>
                     </div>
                 </div>
