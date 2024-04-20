@@ -19,15 +19,19 @@ function Panel (props){
             <div className="container">
                 <a className="menuButton"
                    href="#work">
-                    Travaux
+                    TRAVAUX
+                </a>
+                <a className="menuButton"
+                   href="#technology">
+                    TECHNOLOGIES
                 </a>
                 <a className="menuButton"
                    href="#experience">
-                    Experience
+                    EXPÉRIENCE
                 </a>
                 <a className="menuButton"
                    href="#contactForm">
-                    Contact
+                    CONTACT
                 </a>
                 <a className="menuButton"
                    href="/portfolio/docs/GRUAU_Elyan_CV.pdf"

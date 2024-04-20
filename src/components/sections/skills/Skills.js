@@ -4,7 +4,7 @@ import {FloatingBubble} from "../../responsive/FloatingBubble";
 
 function Skills(){
     return (
-        <section className="skills">
+        <section className="skills" id={"technology"}>
             <h2>Technologies</h2>
             {/*TODO lors du hover d'une compétence, un bouton tout a droite pop permetant d'afficher les projet métant*/}
             {/*en oeuvre cette techo*/}
