@@ -29,7 +29,7 @@
     }
 
     &:hover >.workDetailsContainer {
-        transform: rotateY(0deg) rotateZ(0deg) translateZ(-172.5px) ;
+        transform: rotateY(0deg) rotateZ(0deg) translateZ(172.5px) ;
         transition: 0.5s all ;
         opacity: 1;
     }
