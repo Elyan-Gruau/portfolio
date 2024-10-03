@@ -107,6 +107,7 @@ nav a{
     outline: none;
     color: transparent;
     text-decoration: none;
+    user-select: none;
 }
 
 #menuButton:hover span {

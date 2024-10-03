@@ -51,7 +51,7 @@ export default function WorkCarousel(props){
 
                  id={"work"}
             >
-                <h2>Travaux</h2>
+                {/*<h2>Travaux</h2>*/}
                 <div className="workContainerGrid">
                     {cards}
                     {/*<FloatingBubble*/}

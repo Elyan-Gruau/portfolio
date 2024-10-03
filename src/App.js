@@ -118,7 +118,7 @@ function App() {
         <Panel/>
         <Presentation/>
       <main>
-          <Divider/>
+          {/*<Divider/>*/}
           {/*<Works/>*/}
           <WorkCarousel/>
           <Spacer/>

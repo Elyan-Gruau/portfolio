@@ -5,11 +5,11 @@ function Presentation () {
 
             <div id="profile">
                 <div className={"profilePic"}>
-                    <img alt="profilePic" src="/portfolio/img/profile-pic_transp_512.png"/>
+                    <img alt="profilePic" src="/portfolio/img/GRUAU Elyan.jpg"/>
                 </div>
                 <div className={"titles"}>
-                    <h2 id="firstTitle presentationBackground"> Étudiant </h2>
-                    <h2 id="secondTitle presentationBackground"> Développeur </h2>
+                    <h2 id="firstTitle presentationBackground"> Étudiant Développeur</h2>
+                    <p>Passionné d'informatique et d'UX</p>
                 </div>
 
             </div>

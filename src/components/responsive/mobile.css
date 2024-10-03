@@ -126,7 +126,7 @@
     /* C O N T A C T*/
     #contactForm{
         max-width: 90%;
-        /*min-width: 80%;*/
+        min-width: 80%;
         height: fit-content;
 
         & textarea{

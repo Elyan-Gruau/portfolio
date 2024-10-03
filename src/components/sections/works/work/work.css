@@ -30,14 +30,14 @@
 
     &:hover >.workDetailsContainer {
         transform: rotateY(0deg) rotateZ(0deg) translateZ(172.5px) ;
-        transition: 0.5s all ;
+        transition: 0.4s all ;
         opacity: 1;
     }
     &:hover >.imageContainer {
         transform: rotateY(0deg) rotateX(90deg) translateZ(-172.5px) ;
         /*transform: none;*/
         /*opacity: 0.1;*/
-        transition: 0.5s all;
+        transition: 0.4s all;
         > img{
             max-height: 110%;
             max-width: 110%
