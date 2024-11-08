@@ -1,5 +1,5 @@
 import "./navBar.css";
-function Navbar () {
+export const Navbar = () => {
     let navElement =  document.getElementById("panel");
     let bodyElement;
 
@@ -69,5 +69,3 @@ function Navbar () {
         </nav>
     );
 }
-
-export default Navbar;

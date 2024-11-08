@@ -1,7 +1,7 @@
-import Experience from "./experience/Experience";
+import {Experience} from "./experience/Experience";
 import "./experiences.css";
 import {FloatingBubble} from "../../responsive/FloatingBubble";
-function Experiences () {
+export const Experiences = () => {
     return (
         <section className="Experiences" id="experience">
             <h2>EXPÉRIENCE</h2>
@@ -43,4 +43,3 @@ function Experiences () {
         </section>
     );
 }
-export default Experiences;

@@ -1,7 +1,7 @@
-import Search from "./search/Search";
-import Work from "./work/Work";
+import {Search} from "./search/Search";
+import {Work} from "./work/Work";
 
-function Works(){
+export const Works = () =>{
 
     const lorem = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut " +
         "labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip " +
@@ -82,4 +82,3 @@ function Works(){
         </section>
     );
 }
-export default Works;

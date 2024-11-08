@@ -1,6 +1,6 @@
 import './mobile.css';
 import './lightMode.css'
-export default function ResponsiveStyle(){
+export const ResponsiveStyle = () =>{
     return(
         <div className="ResponsiveStyle">
         </div>

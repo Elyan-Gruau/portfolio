@@ -1,4 +1,4 @@
-import Formation from "./formation/Formation";
+import {Formation} from "./formation/Formation";
 import {FloatingBubble} from "../../responsive/FloatingBubble";
 
 function FormationLink() {
@@ -7,7 +7,7 @@ function FormationLink() {
     );
 }
 
-function Formations(){
+export const Formations = () =>{
     return (
     //     BARRE HORIZONTALE MINIMALISTE AVEC MES EXPERIENCES
     // Ajout d'un bouton en savoir plus qui amène vers linkedin
@@ -58,4 +58,3 @@ function Formations(){
         </section>
     );
 }
-export default Formations;

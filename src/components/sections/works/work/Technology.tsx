@@ -1,11 +1,14 @@
 import "./workTechnology.css";
-function Technology(props){
+
+export interface TechnologyProps {
+    title : string;
+}
+export const Technology = ({title}:TechnologyProps) =>{
     //const className = "workTechnology wt_"+props.title.replace(" ","_").toLowerCase();
     const className = "workTechnology";
     return (
       <p  className={className} >
-          {props.title}
+          {title}
       </p>
     );
 }
-export default Technology;

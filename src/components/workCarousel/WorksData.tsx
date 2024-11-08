@@ -1,6 +1,6 @@
 import Work from "../sections/works/work/Work";
 
-let worksData = [
+const worksData = [
     {
         title:"Kill Bique",
         date:"2022",

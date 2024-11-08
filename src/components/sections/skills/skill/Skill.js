@@ -1,5 +1,5 @@
 import './skill.css'
-function Skill(props){
+export const Skill = (props) =>{
     //const name = props.name.replace(" ","_").replace("(","").replace(")","").toLowerCase();
     //const bar = renderBar("--CleanBlack");
     // const name= "allSkill";
@@ -29,4 +29,3 @@ function Skill(props){
         </div>
     );
 }
-export default Skill;

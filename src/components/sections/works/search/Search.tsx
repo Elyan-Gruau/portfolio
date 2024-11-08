@@ -1,5 +1,5 @@
 import "./search.css";
-function Search(){
+export const Search= () =>{
     return (
       //   faire en sorte que dans le placeholder, le nom des projets defilent.
       <div className="searchBar">
@@ -8,4 +8,3 @@ function Search(){
       </div>
     );
 }
-export default Search;

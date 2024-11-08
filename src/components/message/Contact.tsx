@@ -1,6 +1,6 @@
 import './message.css';
 import {FloatingBubble} from "../responsive/FloatingBubble";
-function Contact(){
+export const Contact = () =>{
 
     // top: 640.525px;
     // left: 289.824px;
@@ -48,4 +48,3 @@ function Contact(){
         </div>
     );
 }
-export default Contact;

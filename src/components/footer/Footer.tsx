@@ -1,6 +1,6 @@
 import "./footer.css";
 import {FloatingBubble} from "../responsive/FloatingBubble";
-function Footer(){
+export const Footer = () =>{
     return (
         <footer id="contact" >
             <FloatingBubble
@@ -46,4 +46,3 @@ function Footer(){
         </footer>
     );
 }
-export default Footer;

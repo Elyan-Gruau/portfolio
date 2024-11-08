@@ -1,8 +1,8 @@
-import Skill from "./skill/Skill";
+import {Skill} from "./skill/Skill";
 import "./Skills.css";
 import {FloatingBubble} from "../../responsive/FloatingBubble";
 
-function Skills(){
+export const Skills = () =>{
     return (
         <section className="skills" id={"technology"}>
             <h2>Technologies</h2>
@@ -41,4 +41,3 @@ function Skills(){
         </section>
     );
 }
-export default Skills;

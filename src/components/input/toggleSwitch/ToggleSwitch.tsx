@@ -1,18 +1,24 @@
 import './toggleSwitch.css';
-export default function ToggleSwitch (props) {
+export interface ToggleSwitchProps{
+    id  :number;
+    name: string;
+    disabled: boolean;
+    onClick: ()=>void;
+}
+export  const ToggleSwitch = ({disabled,onClick,name,id}:ToggleSwitchProps)=> {
     return (
         <div className="toggleSwitch" >
             <label className="switch">
-                <input type="checkbox" id={"toggleSwitch_"+props.id}
-                       disabled={props.disabled}
+                <input type="checkbox" id={"toggleSwitch_"+id}
+                       disabled={disabled}
                        onClick={(e) => {
-                           props.onClick();
+                           onClick();
                            e.stopPropagation()
                        }}
                 />
                 <span className="slider"></span>
             </label>
-            <span>{props.name}</span>
+            <span>{name}</span>
         </div>
 
     );

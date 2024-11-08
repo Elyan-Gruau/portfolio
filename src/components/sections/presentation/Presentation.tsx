@@ -1,5 +1,5 @@
 import "./presentation.css";
-function Presentation () {
+export const Presentation = () => {
     return (
         <section className="presentation presentationBackground">
 
@@ -21,5 +21,3 @@ function Presentation () {
         </section>
     );
 }
-
-export default Presentation;

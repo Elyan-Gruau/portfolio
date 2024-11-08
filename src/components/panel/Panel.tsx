@@ -1,6 +1,11 @@
 import "./panel.css";
-import ToggleSwitch from "../input/toggleSwitch/ToggleSwitch";
-function Panel (props){
+import ToggleSwitch from "../input/toggleSwitch/ToggleSwitch.tsx";
+
+export interface PanelProps{
+
+}
+
+export const Panel = ({}:PanelProps) =>{
     let state = "closed";
 
     const changeColorMode = () =>{
@@ -74,4 +79,3 @@ function Panel (props){
 function hello(){
     console.log("hello");
 }
-export default Panel

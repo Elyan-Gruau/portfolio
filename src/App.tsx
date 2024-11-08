@@ -7,22 +7,25 @@ import './style/animation.css';
 import './style/tooltip.css';
 
 
-import Presentation from "./components/sections/presentation/Presentation";
-import Navbar from "./components/navbar/Navbar";
-import Footer from "./components/footer/Footer";
-import Works from "./components/sections/works/Works";
-import Skills from "./components/sections/skills/Skills";
-import Formations from "./components/sections/formations/Formations";
-import Contact from "./components/message/Contact";
-import Spacer from "./components/Spacer";
-import Divider from "./components/Divider";
-import Experiences from "./components/sections/experiences/Experiences";
-import Panel from "./components/panel/Panel";
-import ResponsiveStyle from "./components/responsive/ResponsiveStyle";
-import BubbleMaker from "./components/responsive/BubbleMaker";
-import WorkCarousel from "./components/workCarousel/WorkCarousel";
+import {Presentation} from "./components/sections/presentation/Presentation";
 
-function App() {
+
+import {Works} from "./components/sections/works/Works";
+import {Skills} from "./components/sections/skills/Skills";
+import {Formations} from "./components/sections/formations/Formations";
+import {Contact} from "./components/message/Contact";
+import {Spacer} from "./components/Spacer";
+import {Divider} from "./components/Divider";
+import {Experiences} from "./components/sections/experiences/Experiences";
+import {Panel} from "./components/panel/Panel";
+import {ResponsiveStyle} from "./components/responsive/ResponsiveStyle";
+import {BubbleMaker} from "./components/responsive/BubbleMaker";
+import {WorkCarousel} from "./components/workCarousel/WorkCarousel";
+import {Footer} from "./components/footer/Footer";
+import {Navbar} from "./components/navbar/Navbar.tsx"
+import React from "react";
+
+export const App = () => {
 
     //*** FADE IN ***/
     let elementsWithAnimation;
@@ -142,5 +145,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

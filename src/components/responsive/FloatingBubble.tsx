@@ -1,4 +1,15 @@
-export function FloatingBubble(props){
+
+export interface FloatingBubbleProps{
+    top:number;
+    left:number;
+    deg:number;
+    gradient:string;
+    scale:string;
+    animationDelay:number;
+    relative:boolean;
+}
+
+export const FloatingBubble = (props) =>{
     const top = !props.top ? "500px" : props.top;
     const left = !props.left ? "500px" : props.left;
     const deg = !props.deg ? 160 : props.deg;
