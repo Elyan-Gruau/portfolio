@@ -1,5 +1,5 @@
 import './message.css';
-import {FloatingBubble} from "../responsive/FloatingBubble";
+import {FloatingBubble} from "../style/FloatingBubble/FloatingBubble";
 export const Contact = () =>{
 
     // top: 640.525px;

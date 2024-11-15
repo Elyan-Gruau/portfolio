@@ -1,6 +1,6 @@
 import {Skill} from "./skill/Skill";
 import "./Skills.css";
-import {FloatingBubble} from "../../responsive/FloatingBubble";
+import {FloatingBubble} from "../../style/FloatingBubble/FloatingBubble";
 
 export const Skills = () =>{
     return (

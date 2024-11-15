@@ -1,5 +1,5 @@
 import {Formation} from "./formation/Formation";
-import {FloatingBubble} from "../../responsive/FloatingBubble";
+import {FloatingBubble} from "../../style/FloatingBubble/FloatingBubble";
 
 function FormationLink() {
     return (

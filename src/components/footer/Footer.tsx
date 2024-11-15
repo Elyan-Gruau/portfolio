@@ -1,5 +1,5 @@
 import "./footer.css";
-import {FloatingBubble} from "../responsive/FloatingBubble";
+import {FloatingBubble} from "../style/FloatingBubble/FloatingBubble";
 export const Footer = () =>{
     return (
         <footer id="contact" >

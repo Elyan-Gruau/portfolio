@@ -1,6 +1,6 @@
 import {Experience} from "./experience/Experience";
 import "./experiences.css";
-import {FloatingBubble} from "../../responsive/FloatingBubble";
+import {FloatingBubble} from "../../style/FloatingBubble/FloatingBubble";
 export const Experiences = () => {
     return (
         <section className="Experiences" id="experience">

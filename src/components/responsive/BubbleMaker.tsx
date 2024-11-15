@@ -1,5 +1,5 @@
 import './bubbleMaker.css';
-import {FloatingBubble} from "./FloatingBubble";
+import {FloatingBubble} from "../style/FloatingBubble/FloatingBubble";
 export const BubbleMaker = (props) =>{
     const MAX_DISTANCE = 500;
     const BUBBLE_QTY = 8;

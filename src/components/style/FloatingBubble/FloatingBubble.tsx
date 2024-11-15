@@ -11,7 +11,6 @@ export interface FloatingBubbleProps{
 
 export const FloatingBubble = ({top = "500px", left = "500px",deg = 160, gradient = ["#ffffff", "#000000"],scale = "100%",animationDelay = "-8s",relative = false} : FloatingBubbleProps) =>{
 
-
     return (
 
         <div

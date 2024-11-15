@@ -3,7 +3,7 @@ import {useState} from "react";
 import {Work} from "../sections/works/work/Work";
 import {CarouselButton} from "./CarouselButton";
 import worksData from "./WorksData";
-import {FloatingBubble} from "../responsive/FloatingBubble";
+import {FloatingBubble} from "../style/FloatingBubble/FloatingBubble";
 
 export interface WorkCarouselProps {
 
