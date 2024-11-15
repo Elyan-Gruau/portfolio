@@ -32,7 +32,7 @@ export const Experiences = () => {
               top={'22%'}
               left={'85%'}
               scale={'135%'}
-              deg={'123'}
+              deg={123}
               animationDelay={-2.6}
               gradient={['rgb(106 170 254)', 'rgb(255,214,152)']}
             />,

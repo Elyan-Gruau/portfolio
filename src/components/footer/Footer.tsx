@@ -8,7 +8,7 @@ export const Footer = () => {
         top={'67%'}
         left={'46%'}
         scale={'255%'}
-        deg={'189'}
+        deg={189}
         animationDelay={-2.5}
         gradient={['rgb(255,0,200)', 'rgb(0,81,255)']}
       />

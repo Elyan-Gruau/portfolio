@@ -14,7 +14,7 @@ export const Skills = () => {
         top={'37%'}
         left={'4%'}
         scale={'205%'}
-        deg={'177'}
+        deg={177}
         animationDelay={-1.1}
         gradient={['rgb(176 253 218)', 'rgb(255,101,0)']}
       />

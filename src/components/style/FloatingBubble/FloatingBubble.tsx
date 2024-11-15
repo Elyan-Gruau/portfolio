@@ -1,7 +1,7 @@
 import styles from './FloatingBubble.module.scss';
 export interface FloatingBubbleProps {
-  top?: number;
-  left?: number;
+  top?: string;
+  left?: string;
   deg?: number;
   gradient: Array<string>;
   scale?: string;

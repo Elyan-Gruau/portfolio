@@ -1,4 +1,4 @@
-import './work.css';
+import styles from './work.module.scss';
 import { Technology } from './Technology';
 export interface WorkProps {
   technolist: any;
@@ -45,27 +45,27 @@ export const Work = ({
   // stateComplement = "toto";
 
   return (
-    <div className="work" key={'COMP_ID_WORK_' + title}>
+    <div className={styles.work} key={'COMP_ID_WORK_' + title}>
       <div
-        className="imageContainer"
+        className={styles.imageContainer}
         style={{ backgroundImage: computedBgGradient }}
       >
-        <img className="workLogo" src={imageSrc} alt={title} />
+        <img className={styles.workLogo} src={imageSrc} alt={title} />
         {/*<img className="workLogo" src={imageSrc+"_2.png"} alt={props.title}/>*/}
       </div>
 
-      <div className="workDetailsContainer frontFace glass">
-        <div className="">
-          <div className="textContainer">
-            <h2 className="title">{title}</h2>
-            <div className="workHeader">
-              <h3 className="date">{date}</h3>
-              <p className="person_count">{person_count}</p>
-              <p className={'state ' + stateComplement}>{state}</p>
+      <div className={`${styles.workDetailsContainer} ${styles.glass}`}>
+        <div>
+          <div className={styles.textContainer}>
+            <h2 className={styles.title}>{title}</h2>
+            <div className={styles.workHeader}>
+              <h3 className={styles.date}>{date}</h3>
+              <p className={styles.person_count}>{person_count}</p>
+              <p className={`${styles.state} ${stateComplement}`}>{state}</p>
             </div>
-            <div className="scrollable">
-              <p className="description">{description}</p>
-              <div className="workTechnoContainer">{technos}</div>
+            <div className={styles.scrollable}>
+              <p className={styles.description}>{description}</p>
+              <div className={styles.workTechnoContainer}>{technos}</div>
             </div>
           </div>
         </div>

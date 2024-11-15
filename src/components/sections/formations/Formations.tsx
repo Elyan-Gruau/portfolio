@@ -17,7 +17,7 @@ export const Formations = () => {
         top={'33%'}
         left={'24%'}
         scale={'205%'}
-        deg={'248'}
+        deg={248}
         animationDelay={-1.1}
         gradient={['rgb(176 253 218)', 'rgb(255,111,0)']}
       />
