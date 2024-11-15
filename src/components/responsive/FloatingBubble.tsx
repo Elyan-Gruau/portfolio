@@ -1,27 +1,21 @@
 
 export interface FloatingBubbleProps{
-    top:number;
-    left:number;
-    deg:number;
-    gradient:string;
-    scale:string;
-    animationDelay:number;
-    relative:boolean;
+    top?:number;
+    left?:number;
+    deg?:number;
+    gradient: Array<string>;
+    scale?:string;
+    animationDelay?:number;
+    relative?:boolean;
 }
 
-export const FloatingBubble = (props) =>{
-    const top = !props.top ? "500px" : props.top;
-    const left = !props.left ? "500px" : props.left;
-    const deg = !props.deg ? 160 : props.deg;
-    const gradient = !props.gradient ? ["#ffffff", "#000000"] : props.gradient;
-    const scale = !props.scale ? "100%" : props.scale;
-    const animationDelay = !props.animationDelay ? "-8s" : props.animationDelay;
-    const isRelative = !props.relative ? false : props.relative;
+export const FloatingBubble = ({top = "500px", left = "500px",deg = 160, gradient = ["#ffffff", "#000000"],scale = "100%",animationDelay = "-8s",relative = false} : FloatingBubbleProps) =>{
+
 
     return (
 
         <div
-            className={"floatingBubble "+(isRelative? "relative" : "")}
+            className={"floatingBubble "+(relative? "relative" : "")}
             style={{
                 top:top,
                 left:left,
