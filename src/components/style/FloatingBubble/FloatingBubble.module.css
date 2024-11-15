@@ -1,0 +1,43 @@
+:root {
+  --floatingBubbleTransition: cubic-bezier(0.51, -0.64, 0.28, 1.63) 0.2s;
+}
+
+.floatingBubble {
+  height: 80px;
+  width: 80px;
+  background-color: #58d25a;
+  border-radius: 120px;
+  position: fixed;
+  z-index: 1;
+  top: 180px;
+  left: 326px;
+  /*transition: top var(--floatingBubbleTransition),left var(--floatingBubbleTransition) 0.5s,  all var(--floatingBubbleTransition) 0.2s;*/
+  /*box-shadow: rgba(255, 255, 255, 0.77) 1px 2px 10px -5px inset, black -1px -2px 8px -2px inset,*/
+  /*-1px -1px 5px -2px #ababab, 1px 1px 5px 1px black;*/
+  /*animation-delay: -5s;*/
+  animation: floating 20s ease-in-out infinite;
+  overflow: hidden;
+}
+.floatingBubble:hover {
+  /*transform: translateX(10px);*/
+  /*transform: scale3d(180%,150%,180%);*/
+  /*scale: 180%;*/
+  /*transition: all var(--floatingBubbleTransition) ;*/
+  /*filter: invert();*/
+  /*box-shadow: #58d25a 1px 1px 10px 0px;*/
+}
+.floatingBubble.relative {
+  position: absolute;
+  z-index: 0;
+}
+
+@keyframes floating {
+  0%, 100% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+}
+
+/*# sourceMappingURL=FloatingBubble.module.css.map */
