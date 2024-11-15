@@ -2,7 +2,7 @@ import './App.css';
 import './style/generalStyle.css';
 import './style/scrollBar.css';
 import './style/colors.css';
-import './style/glass.css';
+import './style/glass.module.scss';
 import './style/animation.css';
 import './style/tooltip.css';
 

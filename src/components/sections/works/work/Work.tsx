@@ -1,4 +1,5 @@
 import styles from './work.module.scss';
+import glass from './../.././../../style/glass.module.scss';
 import { Technology } from './Technology';
 export interface WorkProps {
   technolist: any;
@@ -54,7 +55,7 @@ export const Work = ({
         {/*<img className="workLogo" src={imageSrc+"_2.png"} alt={props.title}/>*/}
       </div>
 
-      <div className={`${styles.workDetailsContainer} ${styles.glass}`}>
+      <div className={`${styles.workDetailsContainer} ${glass.glass}`}>
         <div>
           <div className={styles.textContainer}>
             <h2 className={styles.title}>{title}</h2>
