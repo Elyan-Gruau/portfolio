@@ -1,20 +1,20 @@
-:root{
-    --color_react : #62D9FC;
-    --color_php : #beeee3;
-    --color_java: #d29251;
-    --color_javascript: #eeecbe ;
-    --color_javafx: #7dbbc9;
-    --color_html: #becfee;
-    --color_css: #d7beee;
-    --color_python:  #eebebe;
-    --color_sql: #e0a9c8;
-    --color_spring_boot: #b3be93;
-    --color_active_directory: #d25858;
-    --color_jsp: #6458d2;
-    --color_c: #d25899;
-    --color_git: #a5d258;
-    --color_android_java: #58d25a;
-    --color_allSkill: rgba(247, 214, 175, 0.51);
-    --color_allSkill_darker : #857463;
-    --col_allSkill_solid : #938371;
+:root {
+  --color_react: #62d9fc;
+  --color_php: #beeee3;
+  --color_java: #d29251;
+  --color_javascript: #eeecbe;
+  --color_javafx: #7dbbc9;
+  --color_html: #becfee;
+  --color_css: #d7beee;
+  --color_python: #eebebe;
+  --color_sql: #e0a9c8;
+  --color_spring_boot: #b3be93;
+  --color_active_directory: #d25858;
+  --color_jsp: #6458d2;
+  --color_c: #d25899;
+  --color_git: #a5d258;
+  --color_android_java: #58d25a;
+  --color_allSkill: rgba(247, 214, 175, 0.51);
+  --color_allSkill_darker: #857463;
+  --col_allSkill_solid: #938371;
 }

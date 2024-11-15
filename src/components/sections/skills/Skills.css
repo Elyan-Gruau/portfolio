@@ -1,32 +1,31 @@
-.skills .leftPart, .skills .rightPart{
-    min-width: 49%;
+.skills .leftPart,
+.skills .rightPart {
+  min-width: 49%;
 }
 
-.skills{
-    position: relative;
-    .leftPart{
-        display: flex;
-        flex-direction: column;
-    }
-    .rightPart{
-        display: flex;
-        flex-direction: column;
-    }
-
-}
-
-
-.skillCont{
+.skills {
+  position: relative;
+  .leftPart {
     display: flex;
-    flex-direction: row;
-    width: 90%;
-    max-width: 1100px;
-    justify-content: space-between;
-    margin-top: var(--cardContainerMargin);
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
-    z-index: 4;
-    position: relative;
-    background-color: transparent;
+    flex-direction: column;
+  }
+  .rightPart {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.skillCont {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  max-width: 1100px;
+  justify-content: space-between;
+  margin-top: var(--cardContainerMargin);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  z-index: 4;
+  position: relative;
+  background-color: transparent;
 }

@@ -2,37 +2,35 @@
 /*     SCROLL BAR  */
 /*******************/
 
-
 ::-webkit-scrollbar {
-    width: 4px;
-    height: 2px;
-
+  width: 4px;
+  height: 2px;
 }
 ::-webkit-scrollbar-button {
-    width: 0px;
-    height: 0px;
+  width: 0px;
+  height: 0px;
 }
 ::-webkit-scrollbar-thumb {
-    background: var(--color_allSkill);
-    border: 0px none #ffffff;
-    border-radius: 50px;
+  background: var(--color_allSkill);
+  border: 0px none #ffffff;
+  border-radius: 50px;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background-color: var(--color_allSkill);
+  background-color: var(--color_allSkill);
 }
 ::-webkit-scrollbar-thumb:active {
-    filter: brightness(1.2);
+  filter: brightness(1.2);
 }
 ::-webkit-scrollbar-track {
-    background: var(--footerBlack);
-    border: 0px none var(--footerBlack);
+  background: var(--footerBlack);
+  border: 0px none var(--footerBlack);
 }
 ::-webkit-scrollbar-track:hover {
-    background: var(--footerBlack);
+  background: var(--footerBlack);
 }
 ::-webkit-scrollbar-track:active {
-    background: var(--footerBlack);
+  background: var(--footerBlack);
 }
 ::-webkit-scrollbar-corner {
-    background: var(--White1);
+  background: var(--White1);
 }

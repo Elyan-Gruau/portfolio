@@ -1,79 +1,78 @@
-footer{
-    overflow: hidden;
-    display: flex;
-    height: 180px;
-    position: relative;
-    flex-direction: column;
-    bottom: 0;
-    z-index: 4;
-    width: 90%;
-    padding: 50px 10px 0px 10px;
+footer {
+  overflow: hidden;
+  display: flex;
+  height: 180px;
+  position: relative;
+  flex-direction: column;
+  bottom: 0;
+  z-index: 4;
+  width: 90%;
+  padding: 50px 10px 0px 10px;
+  margin: auto;
+
+  .lookLikeButton {
+    width: 100%;
     margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    grid-gap: 10px;
 
+    & a {
+      width: 40px;
+      height: 40px;
+      background-size: cover;
+      opacity: 0.8;
+      transition: opacity 0.2s;
+      animation: floatingButtons 10s ease-in-out infinite;
+      color: transparent;
+      text-decoration: none;
 
-    .lookLikeButton{
-        width: 100%;
-        margin: auto;
-        display: flex;
-        flex-wrap: nowrap;
-        flex-direction: row;
-        justify-content: center;
-        grid-gap: 10px;
+      &.button_github {
+        background-image: url('/public/img/icons/github.png');
+        animation-delay: -5s;
+      }
+      &.button_linkedin {
+        background-image: url('/public/img/icons/linkedin.png');
+        animation-delay: -8s;
+      }
+      &.button_mail {
+        background-image: url('/public/img/icons/email_full.png');
+        animation-delay: -1s;
+      }
 
-        & a{
-            width: 40px;
-            height: 40px;
-            background-size: cover;
-            opacity: 0.8;
-            transition: opacity 0.2s;
-            animation: floatingButtons 10s ease-in-out infinite;
-            color: transparent;
-            text-decoration: none;
-
-            &.button_github{
-                background-image: url("/public/img/icons/github.png");
-                animation-delay: -5s;
-            }
-            &.button_linkedin{
-                background-image: url("/public/img/icons/linkedin.png");
-                animation-delay: -8s;
-            }
-            &.button_mail{
-                background-image: url("/public/img/icons/email_full.png");
-                animation-delay: -1s;
-            }
-
-            &.button_github:hover, &.button_linkedin:hover, &.button_mail:hover{
-                opacity: 1;
-                transition: opacity 0.2s;
-            }
-        }
+      &.button_github:hover,
+      &.button_linkedin:hover,
+      &.button_mail:hover {
+        opacity: 1;
+        transition: opacity 0.2s;
+      }
     }
+  }
 
-    .author{
-        color: rgb(255 255 255 / 70%);
-        min-height: 30px;
-        height: fit-content;
-        text-align: center;
-        width: 100%;
-        letter-spacing: 2px;
-        padding-bottom: 20px;
+  .author {
+    color: rgb(255 255 255 / 70%);
+    min-height: 30px;
+    height: fit-content;
+    text-align: center;
+    width: 100%;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+  }
 
-    }
-
-    >.glass{
-        border-radius: 20px 20px 0 0;
-    }
+  > .glass {
+    border-radius: 20px 20px 0 0;
+  }
 }
 
 @keyframes floatingButtons {
+  0%,
+  100% {
+    transform: translateY(-5px);
+  }
 
-    0%,
-    100% {
-        transform: translateY(-5px);
-    }
-
-    50% {
-        transform: translateY(5px);
-    }
+  50% {
+    transform: translateY(5px);
+  }
 }

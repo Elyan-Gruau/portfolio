@@ -1,155 +1,154 @@
 @media only screen and (orientation: portrait) {
-    /* H T M L */
-    html{
-        width: 100%;
-        /*min-width: 0;*/
-        height: 100%;
+  /* H T M L */
+  html {
+    width: 100%;
+    /*min-width: 0;*/
+    height: 100%;
+  }
+
+  /* P R E S E N T A T I O N */
+  #profile {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+  }
+
+  .profilePic img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .profilePic {
+    width: 210px;
+    height: 210px;
+  }
+
+  .presentation {
+    /*background-image: linear-gradient(45deg, red, transparent);*/
+    /*background-clip: content-box;*/
+    /*background-origin: content-box;*/
+    /*background-position: bottom;*/
+    background-size: auto;
+    background-repeat: no-repeat;
+    /*position: relative;*/
+    /*z-index: 4;*/
+    box-shadow: 0px 4px 13px 4px #00000070;
+  }
+
+  .presentation h2 {
+    width: fit-content;
+    background-size: auto;
+    background-repeat: no-repeat;
+  }
+
+  .presentation h2:first-of-type {
+    margin-top: 10px;
+  }
+
+  .titles {
+    height: 200px;
+    padding: 0;
+    justify-content: flex-start;
+  }
+
+  /* M A I N */
+
+  main {
+    width: 100%;
+    /* background-color: #58d25a; */
+    padding: 0;
+    margin-bottom: 0;
+  }
+
+  /* F O R M A T I O N */
+  .formation {
+    width: 90%;
+  }
+
+  /* S K I L L */
+
+  .skillCont {
+    flex-direction: column !important;
+    width: 88%;
+    margin: auto;
+  }
+
+  .skillCont .leftPart,
+  .skillCont .rightPart {
+    width: 100%;
+  }
+
+  .skillCont .rightPart {
+    margin-top: 40px;
+  }
+
+  /* E X P E R I E N C E*/
+  .experiencesContainer {
+    height: 100vh;
+  }
+
+  .experience {
+    max-width: 90%;
+    height: fit-content;
+  }
+
+  /* W O R K*/
+  .work {
+    color: #ffffff;
+    /*width: 90%;*/
+    min-height: fit-content;
+  }
+
+  .imageContainer {
+    /*max-height: 300px;*/
+    width: 100%;
+    height: 100%;
+    /*height: fit-content;*/
+  }
+
+  /* N A V */
+  nav {
+    height: 80px;
+  }
+
+  /* P A N E L */
+  #panel {
+    width: 100%;
+  }
+
+  #panel .container {
+    margin: auto;
+
+    .menuButton {
+      width: initial;
+    }
+  }
+
+  /* C O N T A C T*/
+  #contactForm {
+    max-width: 90%;
+    min-width: 80%;
+    height: fit-content;
+
+    & textarea {
+      height: 100px;
     }
 
-    /* P R E S E N T A T I O N */
-    #profile {
-        flex-direction: column;
-        align-items: center;
-        padding-top: 80px;
+    & textarea::placeholder,
+    & input::placeholder {
+      color: rgba(255, 255, 255, 0.38);
+      opacity: 1; /* Firefox */
     }
+  }
 
-    .profilePic img {
-        width: 200px;
-        height: 200px;
-    }
+  /* F O O T E R*/
+  footer {
+    width: 94%;
+    position: relative;
+    height: 180px;
+  }
 
-    .profilePic {
-        width: 210px;
-        height: 210px;
-    }
-
-    .presentation{
-        /*background-image: linear-gradient(45deg, red, transparent);*/
-        /*background-clip: content-box;*/
-        /*background-origin: content-box;*/
-        /*background-position: bottom;*/
-        background-size: auto;
-        background-repeat: no-repeat;
-        /*position: relative;*/
-        /*z-index: 4;*/
-        box-shadow: 0px 4px 13px 4px #00000070;
-    }
-
-    .presentation h2{
-        width: fit-content;
-        background-size: auto;
-        background-repeat: no-repeat;
-    }
-
-    .presentation h2:first-of-type{
-        margin-top: 10px;
-    }
-
-    .titles{
-        height: 200px;
-        padding: 0;
-        justify-content: flex-start;
-    }
-
-    /* M A I N */
-
-    main{
-        width: 100%;
-        /* background-color: #58d25a; */
-        padding: 0;
-        margin-bottom: 0;
-    }
-
-    /* F O R M A T I O N */
-    .formation{
-        width: 90%;
-    }
-
-    /* S K I L L */
-
-    .skillCont{
-        flex-direction: column !important;
-        width: 88%;
-        margin: auto;
-    }
-
-    .skillCont .leftPart, .skillCont .rightPart{
-        width: 100%;
-    }
-
-    .skillCont .rightPart{
-        margin-top: 40px;
-    }
-
-    /* E X P E R I E N C E*/
-    .experiencesContainer{
-        height: 100vh;
-    }
-
-    .experience{
-        max-width: 90%;
-        height: fit-content;
-    }
-
-    /* W O R K*/
-    .work {
-        color: #ffffff;
-        /*width: 90%;*/
-        min-height: fit-content;
-    }
-
-    .imageContainer{
-        /*max-height: 300px;*/
-        width: 100%;
-        height: 100%;
-        /*height: fit-content;*/
-    }
-
-    /* N A V */
-    nav {
-        height: 80px;
-    }
-
-    /* P A N E L */
-    #panel {
-        width: 100%;
-    }
-
-    #panel .container{
-        margin: auto;
-
-        .menuButton{
-            width: initial;
-        }
-    }
-
-    /* C O N T A C T*/
-    #contactForm{
-        max-width: 90%;
-        min-width: 80%;
-        height: fit-content;
-
-        & textarea{
-            height: 100px;
-        }
-
-        & textarea::placeholder,& input::placeholder {
-            color: rgba(255, 255, 255, 0.38);
-            opacity: 1; /* Firefox */
-        }
-    }
-
-
-    /* F O O T E R*/
-    footer{
-        width: 94%;
-        position: relative;
-        height: 180px;
-    }
-
-    footer a{
-        margin : 0;
-    }
-
-
+  footer a {
+    margin: 0;
+  }
 }

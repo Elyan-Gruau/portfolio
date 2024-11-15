@@ -1,135 +1,127 @@
-.experiences{
-    display: flex;
+.experiences {
+  display: flex;
 }
 
-.experience{
-    position: relative;;
-    width: 378px;
-    /*452*/
-    /*min-height: 620px;*/
-    min-width: 270px;
-    /*650*/
-    color: white;
-    border-radius: var(--borderRadius);
-    margin: 0 20px;
-    /*aspect-ratio: 452/650;*/
-    z-index: 4;
-    height: fit-content;
+.experience {
+  position: relative;
+  width: 378px;
+  /*452*/
+  /*min-height: 620px;*/
+  min-width: 270px;
+  /*650*/
+  color: white;
+  border-radius: var(--borderRadius);
+  margin: 0 20px;
+  /*aspect-ratio: 452/650;*/
+  z-index: 4;
+  height: fit-content;
 
-    & h2.title{
-        padding-left: var(--boxPadding);
-    }
+  & h2.title {
+    padding-left: var(--boxPadding);
+  }
 
-    .textContainer{
-        padding: 0 var(--boxPadding);
-        display: flex;
-        flex-direction: column;
-    }
-
-    .date{
-        font-size: larger;
-        letter-spacing: 2px;
-        display: flex;
-    }
-    .title{
-        margin: 10px 0;
-    }
-
-    .type{
-        font-size: larger;
-        letter-spacing: 2px;
-    }
-
-    .status{
-        display: flex;
-        border-radius: var(--borderRadiusLabel);
-        background-color: #eedbc882;
-        align-items: center;
-        padding: 0 10px;
-        text-align: center;
-        font-variant: all-petite-caps;
-        color: #fbebe5;
-        font-size: medium;
-    }
-
-    .description{
-        text-align: left;
-        line-height: 1.4;
-        /*min-height: 200px;*/
-        font-size: medium;
-        letter-spacing: 1px;
-        color: rgba(255, 255, 255, 0.84);
-    }
-
-    .location{
-        margin-bottom: 20px;
-    }
-
-}
-
-
-
-.companyLogoContainer{
-    background-image: radial-gradient(#ffdabf, transparent);
-
-    height: fit-content;
+  .textContainer {
+    padding: 0 var(--boxPadding);
     display: flex;
-    border-radius: var(--borderRadius);
-    padding: 20px;
-    justify-content: center;
-    max-width: 100%;
-    /*aspect-ratio: 1/1;*/
-    box-shadow: 0px 5px 7px -6px black;
-    >img{
-        max-width: 90%;
-        height: auto;
-    }
-}
+    flex-direction: column;
+  }
 
-
-.experiencesContainer{
-    flex-direction: row;
-    max-width: 100%;
-    flex-wrap: wrap;
-    margin-top: var(--cardContainerMargin);
-    margin-left: auto;
-    margin-right: auto;
+  .date {
+    font-size: larger;
+    letter-spacing: 2px;
     display: flex;
-    justify-items: center;
-    justify-content: center;
-    overflow: hidden;
-    height: 75vh;
-}
+  }
+  .title {
+    margin: 10px 0;
+  }
 
-.experienceHeader{
+  .type {
+    font-size: larger;
+    letter-spacing: 2px;
+  }
+
+  .status {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-    >p{
-        margin: 2px 0;
-        font-size: larger;
-        color: rgba(255,255,255,0.9);
-    }
-}
-
-
-
-
-.location{
-    color: rgba(255,255,255,0.8);
-    margin: 0;
-    display: flex;
+    border-radius: var(--borderRadiusLabel);
+    background-color: #eedbc882;
     align-items: center;
-    flex-wrap: wrap;
-    &:before{
-        content: " ";
-        width: 20px;
-        height: 20px;
-        display: inline-block;
-        margin-right: 5px;
-        background-image: url("/public/img/icons/pin.png");
-        background-size: cover;
-    }
+    padding: 0 10px;
+    text-align: center;
+    font-variant: all-petite-caps;
+    color: #fbebe5;
+    font-size: medium;
+  }
+
+  .description {
+    text-align: left;
+    line-height: 1.4;
+    /*min-height: 200px;*/
+    font-size: medium;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.84);
+  }
+
+  .location {
+    margin-bottom: 20px;
+  }
 }
 
+.companyLogoContainer {
+  background-image: radial-gradient(#ffdabf, transparent);
+
+  height: fit-content;
+  display: flex;
+  border-radius: var(--borderRadius);
+  padding: 20px;
+  justify-content: center;
+  max-width: 100%;
+  /*aspect-ratio: 1/1;*/
+  box-shadow: 0px 5px 7px -6px black;
+  > img {
+    max-width: 90%;
+    height: auto;
+  }
+}
+
+.experiencesContainer {
+  flex-direction: row;
+  max-width: 100%;
+  flex-wrap: wrap;
+  margin-top: var(--cardContainerMargin);
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  overflow: hidden;
+  height: 75vh;
+}
+
+.experienceHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  > p {
+    margin: 2px 0;
+    font-size: larger;
+    color: rgba(255, 255, 255, 0.9);
+  }
+}
+
+.location {
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  &:before {
+    content: ' ';
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 5px;
+    background-image: url('/public/img/icons/pin.png');
+    background-size: cover;
+  }
+}

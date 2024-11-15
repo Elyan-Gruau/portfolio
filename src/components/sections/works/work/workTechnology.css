@@ -1,83 +1,86 @@
-.workTechnology{
-    display: flex;
-    min-width: 50px;
-    height: 30px;
-    background-color: rgb(0 0 0 / 10%);
-    border-radius: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    letter-spacing: 2px;
-    font-feature-settings: "pcap", "c2pc";
-    font-variant: all-petite-caps;
-    text-align: center;
-    justify-content: center;
-    margin: 0 5px 5px 0;
-    align-items: center;
-    /*box-shadow: 0px 5px 7px -6px #0000006b;*/
-    box-shadow: -2px 4px 7px -6px #000000 inset, 3px -2px 7px -6px #ffffff70 inset;
-    transition: all 0.5s;
+.workTechnology {
+  display: flex;
+  min-width: 50px;
+  height: 30px;
+  background-color: rgb(0 0 0 / 10%);
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  letter-spacing: 2px;
+  font-feature-settings: 'pcap', 'c2pc';
+  font-variant: all-petite-caps;
+  text-align: center;
+  justify-content: center;
+  margin: 0 5px 5px 0;
+  align-items: center;
+  /*box-shadow: 0px 5px 7px -6px #0000006b;*/
+  box-shadow:
+    -2px 4px 7px -6px #000000 inset,
+    3px -2px 7px -6px #ffffff70 inset;
+  transition: all 0.5s;
 
-    &:hover{
-        filter : brightness(110%);
-        box-shadow: 0px 5px 7px -6px #0000006b, -2px 3px 12px -6px #ffffff4a inset, 2px -3px 12px -6px #000000a1 inset;
-        transform: translateY(-1px) scale(1.02);
-        transition: all 0.2s;
-        cursor: default;
-        color: white;
-        background-color: var(--lightGlass);
-    }
+  &:hover {
+    filter: brightness(110%);
+    box-shadow:
+      0px 5px 7px -6px #0000006b,
+      -2px 3px 12px -6px #ffffff4a inset,
+      2px -3px 12px -6px #000000a1 inset;
+    transform: translateY(-1px) scale(1.02);
+    transition: all 0.2s;
+    cursor: default;
+    color: white;
+    background-color: var(--lightGlass);
+  }
 }
 
-.workTechnology
-
-.wt_toto{
-    background-color: #eebebe;
+.workTechnology .wt_toto {
+  background-color: #eebebe;
 }
 
-.wt_react{
-    background-color: var(--color_react);
+.wt_react {
+  background-color: var(--color_react);
 }
 
-.wt_java{
-    background-color: var(--color_java);
+.wt_java {
+  background-color: var(--color_java);
 }
 
-.wt_javafx{
-    background-color: var(--color_javafx);
+.wt_javafx {
+  background-color: var(--color_javafx);
 }
 
-.wt_html{
-    background-color: var(--color_html);
+.wt_html {
+  background-color: var(--color_html);
 }
 
-.wt_css{
-    background-color: var(--color_css);
+.wt_css {
+  background-color: var(--color_css);
 }
 
-.wt_javascript{
-    background-color: var(--color_javascript);
+.wt_javascript {
+  background-color: var(--color_javascript);
 }
 
-.wt_python{
-    background-color: var(--color_python);
+.wt_python {
+  background-color: var(--color_python);
 }
 
-.wt_php{
-    background-color: var(--color_php);
+.wt_php {
+  background-color: var(--color_php);
 }
 
-.wt_sql{
-    background-color: var(--color_sql);
+.wt_sql {
+  background-color: var(--color_sql);
 }
 
-.wt_spring_boot{
-    background-color: var(--color_spring_boot);
+.wt_spring_boot {
+  background-color: var(--color_spring_boot);
 }
 
-.wt_active_directory{
-    background-color: var(--color_active_directory);
+.wt_active_directory {
+  background-color: var(--color_active_directory);
 }
 
-.wt_jsp{
-    background-color: var(--blueMetal);
+.wt_jsp {
+  background-color: var(--blueMetal);
 }

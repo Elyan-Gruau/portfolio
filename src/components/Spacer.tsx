@@ -1,7 +1,3 @@
-export const Spacer = () =>{
-   return (
-       <div className="spacer">
-
-       </div>
-   );
-}
+export const Spacer = () => {
+  return <div className="spacer"></div>;
+};
