@@ -1,5 +1,6 @@
 import './footer.css';
 import { FloatingBubble } from '../style/FloatingBubble/FloatingBubble';
+import { Glass } from '../reusable/glass/Glass';
 export const Footer = () => {
   return (
     <footer id="contact">
@@ -12,7 +13,7 @@ export const Footer = () => {
         animationDelay={-2.5}
         gradient={['rgb(255,0,200)', 'rgb(0,81,255)']}
       />
-      <div className="glass">
+      <Glass>
         <div className="lookLikeButton">
           <a
             href="mailto:elyangruau.pro@gmail.com?subject=Entretient"
@@ -48,7 +49,7 @@ export const Footer = () => {
         <span className="author">
           Développé par Elyan GRUAU - Tous droits réservés © - 2024
         </span>
-      </div>
+      </Glass>
     </footer>
   );
 };

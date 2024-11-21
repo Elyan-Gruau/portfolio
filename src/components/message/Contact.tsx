@@ -1,5 +1,6 @@
 import './message.css';
 import { FloatingBubble } from '../style/FloatingBubble/FloatingBubble';
+import { Glass } from '../reusable/glass/Glass';
 export const Contact = () => {
   // top: 640.525px;
   // left: 289.824px;
@@ -25,7 +26,7 @@ export const Contact = () => {
           animationDelay={3}
           gradient={['rgb(178 43 149)', 'rgb(255, 183, 45)']}
         />
-        <div className="glass">
+        <Glass>
           <h2>Contact</h2>
           <form>
             <label htmlFor="email">Email</label>
@@ -48,7 +49,7 @@ export const Contact = () => {
               <button className="btnSender">Envoyer</button>
             </div>
           </form>
-        </div>
+        </Glass>
       </div>
     </div>
   );
