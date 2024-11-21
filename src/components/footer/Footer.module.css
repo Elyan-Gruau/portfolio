@@ -1,0 +1,35 @@
+footer {
+  overflow: hidden;
+  display: flex;
+  height: 180px;
+  position: relative;
+  flex-direction: column;
+  bottom: 0;
+  z-index: 4;
+  width: 90%;
+  padding: 50px 10px 0px 10px;
+  margin: auto;
+}
+footer .author {
+  color: rgba(255, 255, 255, 0.7);
+  min-height: 30px;
+  height: fit-content;
+  text-align: center;
+  width: 100%;
+  letter-spacing: 2px;
+  padding-bottom: 20px;
+}
+footer > .glass {
+  border-radius: 20px 20px 0 0;
+}
+
+@keyframes floatingButtons {
+  0%, 100% {
+    transform: translateY(-5px);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+}
+
+/*# sourceMappingURL=Footer.module.css.map */
