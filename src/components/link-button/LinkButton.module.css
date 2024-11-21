@@ -1,0 +1,37 @@
+.linkButton {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  grid-gap: 10px;
+}
+.linkButton a {
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+  animation: floatingButtons 10s ease-in-out infinite;
+  color: transparent;
+  text-decoration: none;
+}
+.linkButton a.github {
+  background-image: url("../../img/icons/github.png");
+  animation-delay: -5s;
+}
+.linkButton a.linkedin {
+  background-image: url("../../img/icons/linkedin.png");
+  animation-delay: -8s;
+}
+.linkButton a.mail {
+  background-image: url("../../img/icons/email_full.png");
+  animation-delay: -1s;
+}
+.linkButton a.github:hover, .linkButton a.linkedin:hover, .linkButton a.mail:hover {
+  opacity: 1;
+  transition: opacity 0.2s;
+}
+
+/*# sourceMappingURL=LinkButton.module.css.map */
