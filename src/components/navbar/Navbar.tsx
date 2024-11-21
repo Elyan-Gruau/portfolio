@@ -1,4 +1,5 @@
-import './navBar.css';
+import styles from './NavBar.module.scss';
+import { Glass } from '../reusable/glass/Glass';
 export const Navbar = () => {
   let navElement = document.getElementById('panel');
   let bodyElement;
@@ -45,30 +46,36 @@ export const Navbar = () => {
 
   return (
     <nav id="nav">
-      <div id="scrollProgress"></div>
-      <div className="contactContainer">
-        <div className="clickableLogo">
-          <a
-            href="https://www.linkedin.com/in/elyan-gruau/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img src="/portfolio/img/icons/linkedin.png" alt="linkedin" />
-          </a>
+      <Glass>
+        <div id="scrollProgress"></div>
+        <div className={styles.contactContainer}>
+          <div className="clickableLogo">
+            <a
+              href="https://www.linkedin.com/in/elyan-gruau/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src="/portfolio/img/icons/linkedin.png" alt="linkedin" />
+            </a>
+          </div>
         </div>
-      </div>
-      <div className="titleContainer">
-        <h1>Elyan GRUAU</h1>
-      </div>
-      <div className="menuContainer">
-        <button id="menuButton" className="menu closed" onClick={handlePanel}>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          menu
-        </button>
-      </div>
+        <div className={styles.titleContainer}>
+          <h1>Elyan GRUAU</h1>
+        </div>
+        <div className={styles.menuContainer}>
+          <button
+            id="menuButton"
+            className={`${styles.menu} ${styles.closed}`}
+            onClick={handlePanel}
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            menu
+          </button>
+        </div>
+      </Glass>
     </nav>
   );
 };

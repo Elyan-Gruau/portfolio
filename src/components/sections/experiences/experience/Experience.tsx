@@ -1,4 +1,5 @@
 import { Technology } from '../../works/work/Technology';
+import { Glass } from '../../../reusable/glass/Glass';
 
 export interface ExperienceProps {
   company: string;
@@ -38,7 +39,7 @@ export const Experience = ({
   return (
     <div className="experience movingBackground">
       {bubbles}
-      <div className="glass">
+      <Glass>
         <a
           className="companyLogoContainer"
           href={companyWebsite}
@@ -59,7 +60,7 @@ export const Experience = ({
           {/*<p>{props.company}</p>*/}
         </div>
         <div className="workTechnoContainer">{technos}</div>
-      </div>
+      </Glass>
     </div>
   );
 };

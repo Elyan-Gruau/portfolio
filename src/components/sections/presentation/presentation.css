@@ -94,7 +94,7 @@
   background-color: rgba(255, 255, 255, 0.24);
   backdrop-filter: blur(10px) saturate(180%);
   border-radius: 100%;
-  background-image: url('/public/img/icons/down-arrow.png');
+  background-image: url('/src/img/icons/down-arrow.png');
   /*background-size: contain;*/
   margin: auto;
   transition: scale 0.2s;
