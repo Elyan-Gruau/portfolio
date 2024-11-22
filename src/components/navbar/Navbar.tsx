@@ -1,5 +1,6 @@
 import styles from './NavBar.module.scss';
 import { Glass } from '../reusable/glass/Glass';
+import { MenuButton } from './menu-button/MenuButton';
 export const Navbar = () => {
   let navElement = document.getElementById('panel');
   let bodyElement;
@@ -17,24 +18,7 @@ export const Navbar = () => {
     // console.log("ok")
   };
 
-  const handlePanel = (e) => {
-    const panelElement = document.getElementById('panel');
-    let classlist = panelElement.classList;
-    let target = document.getElementById('menuButton');
-    // let targetClassList = target.classList;
-
-    if (classlist.contains('open')) {
-      //CLOSING THE PANEL
-      panelElement.classList.remove('open');
-      target.classList.remove('open');
-      // bodyElement.classList.remove("noScroll");
-    } else {
-      //OPENING THE PANEL
-      target.classList.add('open');
-      panelElement.classList.add('open');
-      // bodyElement.classList.add("noScroll");
-    }
-  };
+  const handlePanel = () => {};
 
   if (document.readyState === 'complete') {
     onPageLoad();
@@ -45,11 +29,11 @@ export const Navbar = () => {
   }
 
   return (
-    <nav id="nav">
+    <nav id="nav" className={styles.nav}>
       <Glass>
         <div id="scrollProgress"></div>
         <div className={styles.contactContainer}>
-          <div className="clickableLogo">
+          <div className={styles.clickableLogo}>
             <a
               href="https://www.linkedin.com/in/elyan-gruau/"
               target="_blank"
@@ -63,17 +47,7 @@ export const Navbar = () => {
           <h1>Elyan GRUAU</h1>
         </div>
         <div className={styles.menuContainer}>
-          <button
-            id="menuButton"
-            className={`${styles.menu} ${styles.closed}`}
-            onClick={handlePanel}
-          >
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            menu
-          </button>
+          <MenuButton onClick={handlePanel} />
         </div>
       </Glass>
     </nav>

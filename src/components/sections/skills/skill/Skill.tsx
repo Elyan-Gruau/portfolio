@@ -1,4 +1,4 @@
-import './skill.css';
+import styles from './Skill.module.scss';
 export const Skill = (props) => {
   //const name = props.name.replace(" ","_").replace("(","").replace(")","").toLowerCase();
   //const bar = renderBar("--CleanBlack");
@@ -12,14 +12,14 @@ export const Skill = (props) => {
   // }
 
   return (
-    <div className="skill ">
-      <div className="skillName">
+    <div className={styles.skill}>
+      <div className={styles.skillName}>
         <p>{props.name}</p>
       </div>
-      <div className="skillBarContainer tooltip">
-        <span className="tooltiptext">{props.value}/100</span>
-        <div className="skillBarGlass">
-          <div className="skillBarValue " style={barStyle}></div>
+      <div className={`${styles.skillBarContainer} ${styles.tooltip}`}>
+        <span className={styles.tooltiptext}>{props.value}/100</span>
+        <div className={styles.skillBarGlass}>
+          <div className={styles.skillBarValue} style={barStyle}></div>
         </div>
       </div>
     </div>

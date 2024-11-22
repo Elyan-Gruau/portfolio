@@ -8,12 +8,12 @@ export const Works = () => {
     'ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat ' +
     'nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
   return (
-    <section className="s4" id="work">
+    <section className={styles.s4} id="work">
       <h2>Travaux</h2>
       {/*<Search/>*/}
       {/*CARROUSEL AVEC BORD EN FONDU POUR INQIQUER LE SCROLL*/}
       {/*CARTE ? AFFICHER LE NOMBRE DE PARTICIPANT AVEC UN NOMBRE A CÔTE DUN BONHOME DE PERSONNE*/}
-      <div className="workContainer">
+      <div className={styles.workContainer}>
         <Work
           title="Kill Bique"
           date="2022"

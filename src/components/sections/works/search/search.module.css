@@ -28,7 +28,7 @@
   width: 50px;
   border-top-right-radius: var(--borderRadius);
   border-bottom-right-radius: var(--borderRadius);
-  background-image: url("/src/img/icons/search.png");
+  background-image: url("../../../../assets/img/icons/search.png");
   background-size: contain;
   background-color: var(--lightGlass);
 }

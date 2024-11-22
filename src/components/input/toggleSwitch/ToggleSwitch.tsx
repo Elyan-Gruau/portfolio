@@ -12,8 +12,8 @@ export const ToggleSwitch = ({
   id,
 }: ToggleSwitchProps) => {
   return (
-    <div className="toggleSwitch">
-      <label className="switch">
+    <div className={styles.toggleSwitch}>
+      <label className={styles.switch}>
         <input
           type="checkbox"
           id={'toggleSwitch_' + id}
@@ -23,7 +23,7 @@ export const ToggleSwitch = ({
             e.stopPropagation();
           }}
         />
-        <span className="slider"></span>
+        <span className={styles.slider}></span>
       </label>
       <span>{name}</span>
     </div>

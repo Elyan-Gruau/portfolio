@@ -10,7 +10,16 @@ footer {
   padding: 50px 10px 0px 10px;
   margin: auto;
 
+  .buttonContainer {
+    display: flex;
+    justify-content: center;
+    gap: 0.25rem;
+  }
 
+  .button {
+    width: fit-content;
+    margin: 0;
+  }
 
   .author {
     color: rgb(255 255 255 / 70%);
@@ -21,10 +30,13 @@ footer {
     letter-spacing: 2px;
     padding-bottom: 20px;
   }
+}
 
-  > .glass {
-    border-radius: 20px 20px 0 0;
-  }
+.container {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  border-radius: 20px 20px 0 0;
 }
 
 @keyframes floatingButtons {

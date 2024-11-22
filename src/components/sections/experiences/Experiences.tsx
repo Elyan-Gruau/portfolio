@@ -1,11 +1,11 @@
 import { Experience } from './experience/Experience';
-import './experiences.css';
+import styles from './Experiences.module.scss';
 import { FloatingBubble } from '../../style/FloatingBubble/FloatingBubble';
 export const Experiences = () => {
   return (
-    <section className="Experiences" id="experience">
+    <section className={styles.experiences} id="experience">
       <h2>EXPÉRIENCE</h2>
-      <div className="experiencesContainer">
+      <div className={styles.experiencesContainer}>
         <Experience
           title="Consultant Technique"
           type="Stage"

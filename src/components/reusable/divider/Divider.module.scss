@@ -1,0 +1,8 @@
+.divider {
+  display: flex;
+  margin: auto;
+  width: 50%;
+  height: 2px;
+  background-image: radial-gradient(white -20%, transparent 70%);
+  z-index: 5;
+}

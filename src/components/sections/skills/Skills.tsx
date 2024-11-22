@@ -1,10 +1,11 @@
 import { Skill } from './skill/Skill';
-import './Skills.css';
+import styles from './Skills.module.scss';
 import { FloatingBubble } from '../../style/FloatingBubble/FloatingBubble';
+import { Glass } from '../../reusable/glass/Glass';
 
 export const Skills = () => {
   return (
-    <section className="skills" id={'technology'}>
+    <section className={styles.skills} id={'technology'}>
       <h2>Technologies</h2>
       {/*TODO lors du hover d'une compétence, un bouton tout a droite pop permetant d'afficher les projet métant*/}
       {/*en oeuvre cette techo*/}
@@ -18,8 +19,8 @@ export const Skills = () => {
         animationDelay={-1.1}
         gradient={['rgb(176 253 218)', 'rgb(255,101,0)']}
       />
-      <div className="skillCont glass">
-        <div className="leftPart">
+      <Glass className={styles.skillCont}>
+        <div className={styles.leftPart}>
           <Skill name="Java" value="85" />
           <Skill name="JavaScript" value="68" />
           <Skill name="HTML" value="75" />
@@ -27,7 +28,7 @@ export const Skills = () => {
           <Skill name="React" value="45" />
           <Skill name="Android (Java)" value="60" />
         </div>
-        <div className="rightPart">
+        <div className={styles.rightPart}>
           <Skill name="PHP" value="60" />
           <Skill name="SQL" value="70" />
           <Skill name="Python" value="65" />
@@ -35,7 +36,7 @@ export const Skills = () => {
           <Skill name="C" value="50" />
           <Skill name="Git" value="75" />
         </div>
-      </div>
+      </Glass>
     </section>
   );
 };

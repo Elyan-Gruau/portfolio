@@ -1,6 +1,7 @@
 import styles from './work.module.scss';
 import glass from './../.././../../style/glass.module.scss';
 import { Technology } from './Technology';
+import { Glass } from '../../../reusable/glass/Glass';
 export interface WorkProps {
   technolist: any;
   displayImageInRow: boolean;
@@ -55,13 +56,13 @@ export const Work = ({
         {/*<img className="workLogo" src={imageSrc+"_2.png"} alt={props.title}/>*/}
       </div>
 
-      <div className={`${styles.workDetailsContainer} ${glass.glass}`}>
-        <div>
+      <div className={`${styles.workDetailsContainer}`}>
+        <Glass>
           <div className={styles.textContainer}>
             <h2 className={styles.title}>{title}</h2>
             <div className={styles.workHeader}>
               <h3 className={styles.date}>{date}</h3>
-              <p className={styles.person_count}>{person_count}</p>
+              <p className={styles.personCount}>{person_count}</p>
               <p className={`${styles.state} ${stateComplement}`}>{state}</p>
             </div>
             <div className={styles.scrollable}>
@@ -69,7 +70,7 @@ export const Work = ({
               <div className={styles.workTechnoContainer}>{technos}</div>
             </div>
           </div>
-        </div>
+        </Glass>
       </div>
     </div>
   );

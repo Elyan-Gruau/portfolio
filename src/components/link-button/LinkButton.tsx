@@ -18,16 +18,16 @@ export const LinkButton = ({
   title,
   target,
   rel,
-  iconType,
+  icon,
   className,
 }: LinkButtonProps) => {
   return (
-    <div className={`${styles.linkButton} ${className}`}>
+    <div className={`${styles.linkButton} ${className} `}>
       <a
         href={href}
         target={target ?? '_blank'}
         rel={rel ?? 'noreferrer'}
-        className={styles[iconType]}
+        className={styles[icon]}
       >
         {title}
       </a>

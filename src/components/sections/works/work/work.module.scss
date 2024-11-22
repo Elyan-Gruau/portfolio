@@ -103,14 +103,14 @@
   grid-gap: 40px;
 }
 
-#work {
+.work {
   background-image: linear-gradient(180deg, #101113 15%, var(--ColSectionWork));
   .title {
     text-align: left;
     margin: 0;
   }
 
-  :is(.date, .person_count, .state) {
+  :is(.date, .personCount, .state) {
     margin: 0;
     color: var(--White2);
   }
@@ -122,14 +122,14 @@
     line-height: 30px;
   }
 
-  .person_count {
+  .personCount {
     display: flex;
 
     &:after {
       content: '';
       height: 100%;
       aspect-ratio: 1/1;
-      background-image: url('../../../../img/icons/person.png');
+      background-image: url('../../../../assets/img/icons/person.png');
       background-repeat: no-repeat;
       background-size: contain;
       display: inline-block;

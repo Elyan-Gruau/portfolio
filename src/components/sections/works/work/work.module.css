@@ -95,31 +95,31 @@
   grid-gap: 40px;
 }
 
-#work {
+.work {
   background-image: linear-gradient(180deg, #101113 15%, var(--ColSectionWork));
 }
-#work .title {
+.work .title {
   text-align: left;
   margin: 0;
 }
-#work :is(.date, .person_count, .state) {
+.work :is(.date, .personCount, .state) {
   margin: 0;
   color: var(--White2);
 }
-#work .description {
+.work .description {
   text-align: left;
   font-size: larger;
   letter-spacing: 1px;
   line-height: 30px;
 }
-#work .person_count {
+.work .personCount {
   display: flex;
 }
-#work .person_count:after {
+.work .personCount:after {
   content: "";
   height: 100%;
   aspect-ratio: 1/1;
-  background-image: url("../../../../img/icons/person.png");
+  background-image: url("../../../../assets/img/icons/person.png");
   background-repeat: no-repeat;
   background-size: contain;
   display: inline-block;
@@ -127,7 +127,7 @@
   width: 23px;
   filter: drop-shadow(0px 0px 1px white);
 }
-#work .state {
+.work .state {
   letter-spacing: 1px;
   font-variant: all-petite-caps;
   background-color: var(--WhiteDarker);
@@ -137,13 +137,13 @@
   display: flex;
   align-items: center;
 }
-#work .state.finished {
+.work .state.finished {
   background-color: rgba(133, 255, 222, 0.3);
 }
-#work .state.inDev {
+.work .state.inDev {
   background-color: rgba(255, 255, 255, 0.32);
 }
-#work .workLogo {
+.work .workLogo {
   max-width: 100%;
   max-height: 100%;
   border-radius: var(--borderRadius);
@@ -153,7 +153,7 @@
   /*transition:  -moz-filter, -ms-filter, -o-filter, -webkit-filter, filter 0.5s ;*/
   /*border: 2px solid rgba(255, 255, 255, 0.45);*/
 }
-#work .scrollable {
+.work .scrollable {
   height: 225px;
   overflow: hidden scroll;
   padding-top: 0px;

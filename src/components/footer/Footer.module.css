@@ -10,6 +10,15 @@ footer {
   padding: 50px 10px 0px 10px;
   margin: auto;
 }
+footer .buttonContainer {
+  display: flex;
+  justify-content: center;
+  gap: 0.25rem;
+}
+footer .button {
+  width: fit-content;
+  margin: 0;
+}
 footer .author {
   color: rgba(255, 255, 255, 0.7);
   min-height: 30px;
@@ -19,7 +28,11 @@ footer .author {
   letter-spacing: 2px;
   padding-bottom: 20px;
 }
-footer > .glass {
+
+.container {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
   border-radius: 20px 20px 0 0;
 }
 

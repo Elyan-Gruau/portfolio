@@ -1,9 +1,10 @@
 import { Technology } from '../../works/work/Technology';
 import { Glass } from '../../../reusable/glass/Glass';
+import styles from '../Experiences.module.scss';
 
 export interface ExperienceProps {
   company: string;
-  technolist: any;
+  technolist: any; //todo
   title: string;
   location: string;
   desc: string;
@@ -37,29 +38,29 @@ export const Experience = ({
     }
   }
   return (
-    <div className="experience movingBackground">
+    <div className={`${styles.experience} ${styles.movingBackground}`}>
       {bubbles}
       <Glass>
         <a
-          className="companyLogoContainer"
+          className={styles.companyLogoContainer}
           href={companyWebsite}
           target="_blank"
           rel="noreferrer"
         >
           <img src={imgPath} alt={company} />
         </a>
-        <h2 className="title">{title}</h2>
-        <div className="textContainer">
-          <div className="experienceHeader">
-            <p className="date">{date}</p>
-            <p className="type">{type}</p>
-            <p className="status">{status}</p>
+        <h2 className={styles.title}>{title}</h2>
+        <div className={styles.textContainer}>
+          <div className={styles.experienceHeader}>
+            <p className={styles.date}>{date}</p>
+            <p className={styles.type}>{type}</p>
+            <p className={styles.status}>{status}</p>
           </div>
-          <p className="description">{desc}</p>
-          <p className="location">{location}</p>
+          <p className={styles.description}>{desc}</p>
+          <p className={styles.location}>{location}</p>
           {/*<p>{props.company}</p>*/}
         </div>
-        <div className="workTechnoContainer">{technos}</div>
+        <div className={styles.workTechnoContainer}>{technos}</div>
       </Glass>
     </div>
   );

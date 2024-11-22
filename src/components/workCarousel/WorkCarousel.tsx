@@ -1,4 +1,4 @@
-import './workCarousel.css';
+import styles from './WorkCarousel.module.scss';
 import { useState } from 'react';
 import { Work } from '../sections/works/work/Work';
 import { CarouselButton } from './CarouselButton';
@@ -41,7 +41,7 @@ export const WorkCarousel = ({}: WorkCarouselProps) => {
   return (
     <>
       <section
-        className="workCarousel"
+        className={styles.workCarousel}
         // style={
         // {backgroundImage: "url(\"/portfolio/img/projects/"+worksData[current].title+".png\")"}
         //      {backgroundImage: "linear-gradient("+worksData[current].gradientColors[0]+","+worksData[current].gradientColors[1]+")"}
@@ -50,7 +50,7 @@ export const WorkCarousel = ({}: WorkCarouselProps) => {
         id={'work'}
       >
         {/*<h2>Travaux</h2>*/}
-        <div className="workContainerGrid">
+        <div className={styles.workContainerGrid}>
           {cards}
           {/*<FloatingBubble*/}
           {/*    relative={true}*/}
@@ -68,7 +68,7 @@ export const WorkCarousel = ({}: WorkCarouselProps) => {
           {/*    animationDelay={-2.5}/>*/}
         </div>
       </section>
-      <div className="workContainerFooter"></div>
+      <div className={styles.workContainerFooter}></div>
     </>
   );
 };

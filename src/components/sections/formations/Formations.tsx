@@ -1,15 +1,21 @@
 import { Formation } from './formation/Formation';
 import { FloatingBubble } from '../../style/FloatingBubble/FloatingBubble';
+import { Glass } from '../../reusable/glass/Glass';
+import styles from './formation/Formation.module.scss';
 
 function FormationLink() {
-  return <div className="formationLink glass"></div>;
+  return (
+    <Glass className={styles.formationLink}>
+      <></>
+    </Glass>
+  );
 }
 
 export const Formations = () => {
   return (
     //     BARRE HORIZONTALE MINIMALISTE AVEC MES EXPERIENCES
     // Ajout d'un bouton en savoir plus qui amène vers linkedin
-    <section className="formations">
+    <section className={styles.formations}>
       <h2>Formation</h2>
       <FloatingBubble
         key={'ConsSkillsBubble8'}
@@ -21,8 +27,8 @@ export const Formations = () => {
         animationDelay={-1.1}
         gradient={['rgb(176 253 218)', 'rgb(255,111,0)']}
       />
-      <div className="formationsCont">
-        <div className="lifeLine"></div>
+      <div className={styles.formationsCont}>
+        <div className={styles.lifeline}></div>
         <Formation
           title="Baccalauréat général"
           subtitle="Équivalent BAC S"

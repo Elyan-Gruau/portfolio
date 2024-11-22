@@ -18,18 +18,20 @@
   text-decoration: none;
 }
 .linkButton a.github {
-  background-image: url("../../img/icons/github.png");
+  background-image: url('../../assets/img/icons/github.png');
   animation-delay: -5s;
 }
 .linkButton a.linkedin {
-  background-image: url("../../img/icons/linkedin.png");
+  background-image: url('../../assets/img/icons/linkedin.png');
   animation-delay: -8s;
 }
 .linkButton a.mail {
-  background-image: url("../../img/icons/email_full.png");
+  background-image: url('../../assets/img/icons/email_full.png');
   animation-delay: -1s;
 }
-.linkButton a.github:hover, .linkButton a.linkedin:hover, .linkButton a.mail:hover {
+.linkButton a.github:hover,
+.linkButton a.linkedin:hover,
+.linkButton a.mail:hover {
   opacity: 1;
   transition: opacity 0.2s;
 }

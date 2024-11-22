@@ -10,13 +10,11 @@
   /*background-color: #5c5b632b;*/
   /*background-image: ;*/
   /*background-size: 160px 160px;*/
-  background: 160px 160px url('../../../img/white_noise.png');
+  background: 160px 160px url("../../../assets/img/white_noise.png");
   /*, 100% 100% radial-gradient( white , transparent) no-repeat*/
   /*background-position: ;*/
   /*opacity: 0.1;*/
-  box-shadow:
-    0px 0px 11px -10px #ffffff inset,
-    0px 0px 12px -8px black;
+  box-shadow: 0px 0px 11px -10px #ffffff inset, 0px 0px 12px -8px black;
 }
 
 /*# sourceMappingURL=Glass.module.css.map */

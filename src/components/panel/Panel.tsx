@@ -1,4 +1,4 @@
-import './panel.css';
+import styles from './Panel.module.scss';
 import ToggleSwitch from '../input/toggleSwitch/ToggleSwitch.tsx';
 
 export interface PanelProps {}
@@ -18,21 +18,21 @@ export const Panel = ({}: PanelProps) => {
 
   return (
     <div id="panel" className={state}>
-      <div className="container">
-        <a className="menuButton" href="#work">
+      <div className={styles.container}>
+        <a className={styles.menuButton} href="#work">
           TRAVAUX
         </a>
-        <a className="menuButton" href="#technology">
+        <a className={styles.menuButton} href="#technology">
           TECHNOLOGIES
         </a>
-        <a className="menuButton" href="#experience">
+        <a className={styles.menuButton} href="#experience">
           EXPÉRIENCE
         </a>
-        <a className="menuButton" href="#contactForm">
+        <a className={styles.menuButton} href="#contactForm">
           CONTACT
         </a>
         <a
-          className="menuButton"
+          className={styles.menuButton}
           href="/portfolio/docs/GRUAU_Elyan_CV.pdf"
           target="_blank"
           rel="noreferrer"
@@ -40,8 +40,8 @@ export const Panel = ({}: PanelProps) => {
           Curiculum
         </a>
       </div>
-      <div className="panelFooter">
-        <div className="settingsContainer">
+      <div className={styles.panelFooter}>
+        <div className={styles.settingsContainer}>
           {/*<ToggleSwitch*/}
           {/*    name="Animations"*/}
           {/*    disabled={true}*/}
@@ -54,12 +54,12 @@ export const Panel = ({}: PanelProps) => {
           {/*    id="lightMode"*/}
           {/*/>*/}
         </div>
-        <div className="contactContainer">
-          <a className="phone" href="tel:+33650085321">
+        <div className={styles.contactContainer}>
+          <a className={styles.phone} href="tel:+33650085321">
             06 50 08 53 21
           </a>
           <a
-            className="mail"
+            className={styles.mail}
             href="mailto:elyangruau.pro@gmail.com?subject=Entretient"
           >
             elyangruau.pro@gmail.com
@@ -69,7 +69,3 @@ export const Panel = ({}: PanelProps) => {
     </div>
   );
 };
-
-function hello() {
-  console.log('hello');
-}

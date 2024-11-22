@@ -1,0 +1,165 @@
+#panel {
+  width: 50vw;
+  max-width: 524px;
+  height: 100vh;
+  background-image: url("../../assets/img/white_noise.png");
+  background-size: 160px 160px;
+  backdrop-filter: blur(20px);
+  background-color: rgba(0, 0, 0, 0.23);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  /* top: 60px; */
+  bottom: 0;
+  z-index: 100;
+  right: -100vh;
+  transition: all 0.8s;
+  padding-top: 60px;
+  box-shadow: 1px 1px 7px 3px rgba(30, 30, 30, 0.4901960784);
+}
+
+#panel.open {
+  right: 0;
+  transition: 0.4s cubic-bezier(0, 0.54, 0, 1.03) right;
+}
+#panel.open .menuButton {
+  /*animation-duration: 1.8s;*/
+  /*animation-name: menuButtonFadeIn;*/
+  /*&:nth-child(5){*/
+  /*    animation-delay: -0.1s;*/
+  /*}*/
+  /*&:nth-child(4){*/
+  /*    animation-delay: -0.25s;*/
+  /*}*/
+  /*&:nth-child(3){*/
+  /*    animation-delay: -0.4s;*/
+  /*}*/
+  /*&:nth-child(2){*/
+  /*    animation-delay: -0.55s;*/
+  /*}*/
+  /*&:nth-child(1){*/
+  /*    animation-delay: -0.70s;*/
+  /*}*/
+}
+
+#panel .container a {
+  color: rgba(255, 255, 255, 0.6);
+  font-feature-settings: "pcap", "c2pc";
+  font-variant: all-petite-caps;
+  display: flex;
+  width: 75%;
+  min-width: fit-content;
+  padding: 10px 0;
+  font-size: xx-large;
+  text-decoration: none;
+  letter-spacing: 5px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  transition: 0.1s all ease;
+}
+#panel .container a:after {
+  content: "";
+  width: 0px;
+  height: 4px;
+  position: absolute;
+  right: -55px;
+  top: 51%;
+}
+
+#panel a:hover {
+  color: #fff;
+  transform: translateX(-20px);
+  transition: 0.2s ease;
+}
+#panel a:hover:after {
+  background-color: var(--color_allSkill);
+  width: 15px;
+  transition: width 0.3s ease;
+}
+
+#panel .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40vw;
+  margin: auto auto auto 100px;
+  padding-top: 60px;
+}
+
+#panel.open a {
+  /*color : #641277;*/
+}
+
+/* S E T I N G S */
+#panel .settingsContainer {
+  width: 100%;
+  /*height: 50px;*/
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  border-width: 2px 0 0 0;
+  border-style: solid;
+  /*border-top: 2px solid var(--CleanBlack);*/
+  border-image: linear-gradient(177deg, rgba(0, 0, 0, 0) 0%, var(--WhiteDarker) 51%, rgba(0, 0, 0, 0) 100%) 1;
+  padding: 5px 0px;
+}
+
+/*C O N T A C T*/
+#panel .contactContainer {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#panel .contactContainer a {
+  letter-spacing: 1px;
+  color: rgba(255, 255, 255, 0.6);
+  font-feature-settings: "pcap", "c2pc";
+  font-variant: all-petite-caps;
+  display: flex;
+  width: fit-content;
+  text-decoration: none;
+}
+
+#panel .contactContainer a:hover {
+  transform: none;
+}
+
+#panel a.phone:before,
+#panel a.mail:before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-right: 5px;
+  background-size: cover;
+}
+
+a.phone:before {
+  background-image: url("../../assets/img/icons/phone.png");
+}
+
+a.mail:before {
+  background-image: url("../../assets/img/icons/mail.png");
+}
+
+#panel .phone,
+#panel .mail {
+  font-size: medium;
+}
+
+@keyframes menuButtonFadeIn {
+  0% {
+    transform: translateX(1000px);
+    opacity: 0;
+  }
+}
+
+/*# sourceMappingURL=Panel.module.css.map */

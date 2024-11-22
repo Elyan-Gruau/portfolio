@@ -20,7 +20,7 @@ export const FloatingBubble = ({
 }: FloatingBubbleProps) => {
   return (
     <div
-      className={'floatingBubble ' + (relative ? 'relative' : '')}
+      className={`${styles.floatingBubble} ${relative ? styles.relative : null}`}
       style={{
         top: top,
         left: left,

@@ -1,4 +1,4 @@
-import './message.css';
+import styles from './Contact.module.scss';
 import { FloatingBubble } from '../style/FloatingBubble/FloatingBubble';
 import { Glass } from '../reusable/glass/Glass';
 export const Contact = () => {
@@ -8,8 +8,11 @@ export const Contact = () => {
   // scale: 2.49309;
   // animation-delay: -0.164447s;
   return (
-    <div className="contactFormContainer">
-      <div id="contactForm" className="movingBackground">
+    <div className={styles.contactFormContainer}>
+      <div
+        id="contactForm"
+        className={`${styles.contactForm} movingBackground`}
+      >
         <FloatingBubble
           relative={true}
           top={'4%'}
@@ -45,8 +48,8 @@ export const Contact = () => {
               placeholder="Ce formulaire pourra bientôt vous satisfaire."
             />
             {/*Rencontrons-nous !*/}
-            <div className="buttonContainer">
-              <button className="btnSender">Envoyer</button>
+            <div className={styles.buttonContainer}>
+              <button className={styles.btnSender}>Envoyer</button>
             </div>
           </form>
         </Glass>
