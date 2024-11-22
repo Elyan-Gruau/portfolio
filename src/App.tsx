@@ -21,7 +21,7 @@ import { BubbleMaker } from './components/responsive/BubbleMaker';
 import { WorkCarousel } from './components/workCarousel/WorkCarousel';
 import { Footer } from './components/footer/Footer';
 import { Navbar } from './components/navbar/Navbar.tsx';
-import React from 'react';
+import React, { useState } from 'react';
 
 export const App = () => {
   //*** FADE IN ***/
@@ -109,12 +109,18 @@ export const App = () => {
   //     // card.addEventListener("mouseleave", resetStyles);
   // }
 
+  const [isPanelOpen, setIsPanelOpen] = useState<boolean>(false);
+
+  const handleMenuClicked = () => {
+    setIsPanelOpen((prev) => !prev);
+  };
+
   return (
     <div className="App">
       <header>
-        <Navbar />
+        <Navbar isMenuOpened={isPanelOpen} onMenuClicked={handleMenuClicked} />
       </header>
-      <Panel />
+      <Panel isOpen={isPanelOpen} />
       <Presentation />
       <main>
         {/*<Divider/>*/}

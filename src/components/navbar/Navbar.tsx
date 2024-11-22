@@ -1,7 +1,12 @@
 import styles from './NavBar.module.scss';
 import { Glass } from '../reusable/glass/Glass';
 import { MenuButton } from './menu-button/MenuButton';
-export const Navbar = () => {
+
+export interface Navbar {
+  isMenuOpened: boolean;
+  onMenuClicked: () => void;
+}
+export const Navbar = ({ isMenuOpened, onMenuClicked }: Navbar) => {
   let navElement = document.getElementById('panel');
   let bodyElement;
 
@@ -47,7 +52,7 @@ export const Navbar = () => {
           <h1>Elyan GRUAU</h1>
         </div>
         <div className={styles.menuContainer}>
-          <MenuButton onClick={handlePanel} />
+          <MenuButton onClick={onMenuClicked} isClosed={isMenuOpened} />
         </div>
       </Glass>
     </nav>

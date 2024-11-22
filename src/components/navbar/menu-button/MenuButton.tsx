@@ -28,7 +28,7 @@ export const MenuButton = ({ onClick, isClosed }: MenuButtonProps) => {
   return (
     <button
       className={`${styles.menuButton} ${isClosed ? styles.open : ''}`}
-      onClick={handlePanel}
+      onClick={onClick}
     >
       <span></span>
       <span></span>

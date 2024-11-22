@@ -1,11 +1,13 @@
 import styles from './Panel.module.scss';
 import ToggleSwitch from '../input/toggleSwitch/ToggleSwitch.tsx';
 
-export interface PanelProps {}
+export interface PanelProps {
+  isOpen: boolean;
+}
 
-export const Panel = ({}: PanelProps) => {
-  let state = 'closed';
-
+export const Panel = ({ isOpen }: PanelProps) => {
+  let className = isOpen ? styles.open : '';
+  console.log(className);
   const changeColorMode = () => {
     const htmlElement = document.getElementsByTagName('html')[0];
     const classList = htmlElement.classList;
@@ -17,7 +19,7 @@ export const Panel = ({}: PanelProps) => {
   };
 
   return (
-    <div id="panel" className={state}>
+    <div id="panel" className={`${styles.panel} ${className}`}>
       <div className={styles.container}>
         <a className={styles.menuButton} href="#work">
           TRAVAUX
