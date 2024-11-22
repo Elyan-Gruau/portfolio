@@ -1,16 +1,16 @@
 import styles from './LinkButton.module.scss';
 
-type relType = 'noReferrer';
-type targetType = '_self' | '_blank' | '_parent';
-type iconType = 'mail' | 'github' | 'linkedin';
+export type RelType = 'noReferrer';
+export type TargetType = '_self' | '_blank' | '_parent';
+export type IconType = 'mail' | 'github' | 'linkedin';
 
 export interface LinkButtonProps {
   href: string;
   title: string;
-  target?: targetType;
-  rel?: relType;
+  target?: TargetType;
+  rel?: RelType;
   className?: string;
-  icon?: iconType;
+  icon?: IconType;
 }
 
 export const LinkButton = ({

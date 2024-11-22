@@ -1,5 +1,5 @@
 import styles from './Panel.module.scss';
-import ToggleSwitch from '../input/toggleSwitch/ToggleSwitch.tsx';
+import { PanelButton } from './panel-button/PanelButton';
 
 export interface PanelProps {
   isOpen: boolean;
@@ -21,26 +21,16 @@ export const Panel = ({ isOpen }: PanelProps) => {
   return (
     <div id="panel" className={`${styles.panel} ${className}`}>
       <div className={styles.container}>
-        <a className={styles.menuButton} href="#work">
-          TRAVAUX
-        </a>
-        <a className={styles.menuButton} href="#technology">
-          TECHNOLOGIES
-        </a>
-        <a className={styles.menuButton} href="#experience">
-          EXPÉRIENCE
-        </a>
-        <a className={styles.menuButton} href="#contactForm">
-          CONTACT
-        </a>
-        <a
-          className={styles.menuButton}
-          href="/portfolio/docs/GRUAU_Elyan_CV.pdf"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Curiculum
-        </a>
+        <PanelButton title={'TRAVAUX'} href={'#work'} />
+        <PanelButton title={'TECHNOLOGIES'} href={'#technology'} />
+        <PanelButton title={'EXPÉRIENCE'} href={'#experience'} />
+        <PanelButton title={'CONTACT'} href={'#contactForm'} />
+        <PanelButton
+          title={'Curiculum'}
+          href={'/portfolio/docs/GRUAU_Elyan_CV.pdf'}
+          target={'_blank'}
+          rel={'noReferrer'}
+        />
       </div>
       <div className={styles.panelFooter}>
         <div className={styles.settingsContainer}>

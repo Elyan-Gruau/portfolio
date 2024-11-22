@@ -1,0 +1,26 @@
+.panelButton {
+  color: rgba(255, 255, 255, 0.6);
+  font-feature-settings: "pcap", "c2pc";
+  font-variant: all-petite-caps;
+  display: flex;
+  width: 75%;
+  min-width: fit-content;
+  padding: 10px 0;
+  font-size: xx-large;
+  text-decoration: none;
+  letter-spacing: 5px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  transition: 0.1s all ease;
+}
+.panelButton:after {
+  content: "";
+  width: 0px;
+  height: 4px;
+  position: absolute;
+  right: -55px;
+  top: 51%;
+}
+
+/*# sourceMappingURL=PanelButton.module.css.map */
