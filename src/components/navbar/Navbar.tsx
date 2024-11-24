@@ -35,26 +35,24 @@ export const Navbar = ({ isMenuOpened, onMenuClicked }: Navbar) => {
 
   return (
     <nav id="nav" className={styles.nav}>
-      <Glass>
-        <div id="scrollProgress"></div>
-        <div className={styles.contactContainer}>
-          <div className={styles.clickableLogo}>
-            <a
-              href="https://www.linkedin.com/in/elyan-gruau/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src="/portfolio/img/icons/linkedin.png" alt="linkedin" />
-            </a>
-          </div>
+      {/*<div id="scrollProgress"></div>*/}
+      <div className={styles.contactContainer}>
+        <div className={styles.clickableLogo}>
+          <a
+            href="https://www.linkedin.com/in/elyan-gruau/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src="/portfolio/img/icons/linkedin.png" alt="linkedin" />
+          </a>
         </div>
-        <div className={styles.titleContainer}>
-          <h1>Elyan GRUAU</h1>
-        </div>
-        <div className={styles.menuContainer}>
-          <MenuButton onClick={onMenuClicked} isClosed={isMenuOpened} />
-        </div>
-      </Glass>
+      </div>
+      <div className={styles.titleContainer}>
+        <h1>Elyan GRUAU</h1>
+      </div>
+      <div className={styles.menuContainer}>
+        <MenuButton onClick={onMenuClicked} isClosed={isMenuOpened} />
+      </div>
     </nav>
   );
 };

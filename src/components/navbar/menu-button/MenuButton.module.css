@@ -45,8 +45,7 @@
   top: 8px;
   /*background-color: #62D9FC;*/
 }
-.menuButton span:nth-child(2),
-.menuButton span #menuButton span:nth-child(3) {
+.menuButton span:nth-child(2), .menuButton span:nth-child(3) {
   top: 18px;
   /*background-color: #a40b6e;*/
 }
@@ -59,7 +58,7 @@
   left: 50%;
 }
 
-.menuButton.open .menuButton.open span:nth-child(2) {
+.menuButton.open span:nth-child(2) {
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   -o-transform: rotate(45deg);
@@ -77,6 +76,12 @@
   top: 18px;
   width: 0%;
   left: 50%;
+}
+
+.menuButton.open span:first-child {
+  left: 50%;
+  top: 18px;
+  width: 0;
 }
 
 /*# sourceMappingURL=MenuButton.module.css.map */
