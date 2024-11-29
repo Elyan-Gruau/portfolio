@@ -56,7 +56,8 @@
   /*position: absolute;*/
   /*background-color: #0B59A4;*/
 }
-.formation .lifeline {
+
+.lifeline {
   /* display: flex; */
   /* background-color: aqua; */
   width: 0px;
@@ -89,7 +90,7 @@
   height: 20px;
   display: inline-block;
   margin-right: 5px;
-  background-image: url("../../../../img/icons/award.png");
+  background-image: url("../../../../assets/img/icons/award.png");
   background-size: cover;
 }
 
@@ -105,6 +106,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  gap: 0.5em;
 }
 
 .formationLink.glass {
@@ -112,6 +114,23 @@
   background-color: rgba(0, 0, 0, 0.168627451);
   width: 3px;
   border-radius: 0;
+}
+
+.location {
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.location:before {
+  content: " ";
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-right: 5px;
+  background-image: url("../../../../assets/img/icons/pin.png");
+  background-size: cover;
 }
 
 /*# sourceMappingURL=Formation.module.css.map */

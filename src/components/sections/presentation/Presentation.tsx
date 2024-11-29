@@ -9,6 +9,7 @@ export const Presentation = () => {
         <div className={styles.titles}>
           <h2 id="firstTitle"> Étudiant Développeur</h2>
           <p>Passionné d'informatique et d'UX</p>
+          {/* ADD a (+) glass button to display a more precise description */}
         </div>
       </div>
       <a className={styles.bubble} href="#work">

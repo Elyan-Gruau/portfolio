@@ -7,6 +7,7 @@ export interface FloatingBubbleProps {
   scale?: string;
   animationDelay?: number;
   relative?: boolean;
+  className?: string;
 }
 
 export const FloatingBubble = ({
@@ -17,10 +18,11 @@ export const FloatingBubble = ({
   scale = '100%',
   animationDelay = '-8s',
   relative = false,
+  className,
 }: FloatingBubbleProps) => {
   return (
     <div
-      className={`${styles.floatingBubble} ${relative ? styles.relative : null}`}
+      className={`${styles.floatingBubble} ${relative ? styles.relative : null} ${className}`}
       style={{
         top: top,
         left: left,

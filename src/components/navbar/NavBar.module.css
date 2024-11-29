@@ -86,4 +86,8 @@ nav a {
   z-index: -1;
 }
 
+.bubble {
+  z-index: 0;
+}
+
 /*# sourceMappingURL=NavBar.module.css.map */

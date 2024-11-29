@@ -22,7 +22,7 @@ export const Contact = () => {
         />
         <FloatingBubble
           relative={true}
-          top={'76%'}
+          top={'78%'}
           left={'91%'}
           scale={'150%'}
           deg={69}

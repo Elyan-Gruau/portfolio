@@ -57,7 +57,7 @@ export const Work = ({
       </div>
 
       <div className={`${styles.workDetailsContainer}`}>
-        <Glass>
+        <Glass className={styles.glass}>
           <div className={styles.textContainer}>
             <h2 className={styles.title}>{title}</h2>
             <div className={styles.workHeader}>

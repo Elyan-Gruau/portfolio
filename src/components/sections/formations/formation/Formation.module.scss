@@ -63,21 +63,21 @@
     /*position: absolute;*/
     /*background-color: #0B59A4;*/
   }
+}
 
-  .lifeline {
-    /* display: flex; */
-    /* background-color: aqua; */
-    width: 0px;
-    height: 797px;
-    position: relative;
-    top: 0;
-    left: 0;
-    z-index: 3;
-    border: 1px dotted white;
-    transform: translate(0px, -24px);
-    margin-top: -797px;
-    display: none;
-  }
+.lifeline {
+  /* display: flex; */
+  /* background-color: aqua; */
+  width: 0px;
+  height: 797px;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  border: 1px dotted white;
+  transform: translate(0px, -24px);
+  margin-top: -797px;
+  display: none;
 }
 
 .mention {
@@ -98,7 +98,7 @@
     height: 20px;
     display: inline-block;
     margin-right: 5px;
-    background-image: url('../../../../img/icons/award.png');
+    background-image: url('../../../../assets/img/icons/award.png');
     background-size: cover;
   }
 }
@@ -115,6 +115,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  gap: 0.5em;
 }
 
 .formationLink.glass {
@@ -122,4 +123,21 @@
   background-color: #0000002b;
   width: 3px;
   border-radius: 0;
+}
+
+.location {
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  &:before {
+    content: ' ';
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 5px;
+    background-image: url('../../../../assets/img/icons/pin.png');
+    background-size: cover;
+  }
 }
