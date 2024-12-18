@@ -2,8 +2,10 @@ import styles from './work.module.scss';
 import glass from './../.././../../style/glass.module.scss';
 import { Technology } from './Technology';
 import { Glass } from '../../../reusable/glass/Glass';
-export interface WorkProps {
-  technolist: any;
+import { useState } from 'react';
+
+export type WorkType = {
+  technolist: string[];
   displayImageInRow: boolean;
   bgImgName: string;
   bgGradient?: string;
@@ -12,6 +14,10 @@ export interface WorkProps {
   date: string;
   person_count: number;
   description: string;
+};
+
+export interface WorkProps {
+  work: WorkType;
 }
 export const Work = ({
   technolist,
@@ -24,14 +30,14 @@ export const Work = ({
   description,
   displayImageInRow = false,
 }: WorkProps) => {
+  const [isOpen, setIsOpen] = useState<boolean>(false);
   let imageSrc = '/portfolio/img/projects/' + bgImgName;
   const technos = [];
   const technoIterrator = technolist;
+  console.log('bgGradient', bgGradient);
   const computedBgGradient =
-    bgGradient == null
-      ? 'linear-gradient(138deg, #ffffff, #000000)'
-      : bgGradient;
-
+    bgGradient ?? 'linear-gradient(138deg, #ffffff, #000000)';
+  console.log('computedBgGradient', computedBgGradient);
   if (technoIterrator != null) {
     for (let i = 0; i < technoIterrator.length; i++) {
       technos.push(
@@ -46,10 +52,18 @@ export const Work = ({
   let stateComplement = state === 'terminé' ? 'finished' : 'inDev';
   // stateComplement = "toto";
 
+  const handleOnClick = (e) => {
+    setIsOpen((prev) => !prev);
+  };
+
   return (
-    <div className={styles.work} key={'COMP_ID_WORK_' + title}>
+    <div
+      className={`${styles.work} ${isOpen ? styles.open : ''}`}
+      key={'COMP_ID_WORK_' + title}
+      onClick={handleOnClick}
+    >
       <div
-        className={styles.imageContainer}
+        className={`${styles.imageContainer}`}
         style={{ backgroundImage: computedBgGradient }}
       >
         <img className={styles.workLogo} src={imageSrc} alt={title} />
@@ -60,12 +74,12 @@ export const Work = ({
         <Glass className={styles.glass}>
           <div className={styles.textContainer}>
             <h2 className={styles.title}>{title}</h2>
-            <div className={styles.workHeader}>
+            <div className={`${styles.workHeader}`}>
               <h3 className={styles.date}>{date}</h3>
               <p className={styles.personCount}>{person_count}</p>
               <p className={`${styles.state} ${stateComplement}`}>{state}</p>
             </div>
-            <div className={styles.scrollable}>
+            <div className={`${styles.scrollable}`}>
               <p className={styles.description}>{description}</p>
               <div className={styles.workTechnoContainer}>{technos}</div>
             </div>

@@ -22,7 +22,7 @@ export const Panel = ({ isOpen }: PanelProps) => {
     <div id="panel" className={`${styles.panel} ${className}`}>
       <div className={styles.container}>
         <PanelButton title={'TRAVAUX'} href={'#work'} />
-        <PanelButton title={'TECHNOLOGIES'} href={'#technology'} />
+        <PanelButton title={'TECHNOLOGIES'} href={'#technologies'} />
         <PanelButton title={'EXPÉRIENCE'} href={'#experience'} />
         <PanelButton title={'CONTACT'} href={'#contactForm'} />
         <PanelButton

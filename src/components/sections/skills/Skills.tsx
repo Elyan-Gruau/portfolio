@@ -5,7 +5,7 @@ import { Glass } from '../../reusable/glass/Glass';
 
 export const Skills = () => {
   return (
-    <section className={styles.skills} id={'technology'}>
+    <section className={styles.skills} id={'technologies'}>
       <h2>Technologies</h2>
       {/*TODO lors du hover d'une compétence, un bouton tout a droite pop permetant d'afficher les projet métant*/}
       {/*en oeuvre cette techo*/}

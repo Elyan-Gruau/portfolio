@@ -1,0 +1,11 @@
+.workContainer {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: var(--cardContainerMargin);
+  /*margin-left: auto;*/
+  /*margin-right: auto;*/
+  grid-gap: 40px;
+}

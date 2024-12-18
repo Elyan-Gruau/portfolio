@@ -21,23 +21,23 @@
   width: 100%;
   border-radius: 20px;
 }
-.work:hover > .glass > .imageContainer > .workLogo {
+.work.open > .glass > .imageContainer > .workLogo {
   filter: opacity(1) saturate(1) !important;
   /*background-color: rgba(255, 255, 255, 0.63);*/
   transition: -moz-filter, -ms-filter, -o-filter, -webkit-filter, filter 0.2s;
 }
-.work:hover > .workDetailsContainer {
+.work.open > .workDetailsContainer {
   transform: rotateY(0deg) rotateZ(0deg) translateZ(172.5px);
   transition: 0.4s all;
   opacity: 1;
 }
-.work:hover > .imageContainer {
+.work.open > .imageContainer {
   transform: rotateY(0deg) rotateX(90deg) translateZ(-172.5px);
   /*transform: none;*/
   /*opacity: 0.1;*/
   transition: 0.4s all;
 }
-.work:hover > .imageContainer > img {
+.work.open > .imageContainer > img {
   max-height: 110%;
   max-width: 110%;
 }
@@ -83,20 +83,8 @@
   justify-content: space-around;
 }
 
-.workContainer {
-  display: flex;
-  flex-direction: row;
-  max-width: 100%;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: var(--cardContainerMargin);
-  /*margin-left: auto;*/
-  /*margin-right: auto;*/
-  grid-gap: 40px;
-}
-
 .work {
-  background-image: linear-gradient(180deg, #101113 15%, var(--ColSectionWork));
+  cursor: pointer;
 }
 .work .title {
   text-align: left;
@@ -189,6 +177,10 @@
 
 .work .glass {
   /*background-image: radial-gradient(rgba(58,255,255,0.5) -42%, #0000001a 100%);*/
+}
+
+.display {
+  background: #0b59a4;
 }
 
 /*# sourceMappingURL=work.module.css.map */
