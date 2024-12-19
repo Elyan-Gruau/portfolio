@@ -1,0 +1,29 @@
+.container {
+  width: 5rem;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container .logo {
+  padding: 0.5rem;
+  transition: transform 0.5s;
+}
+.container .logo img {
+  width: fit-content;
+  max-width: 100%;
+}
+.container .name {
+  color: transparent;
+}
+.container:hover .name {
+  color: var(--color_allSkill);
+  transition: color 0.5s;
+}
+.container:hover .logo {
+  transform: translateY(-0.5rem);
+  transition: transform 0.5s;
+}
+
+/*# sourceMappingURL=ImagedTechnology.module.css.map */

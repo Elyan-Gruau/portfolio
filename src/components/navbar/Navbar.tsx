@@ -36,14 +36,14 @@ export const Navbar = ({ isMenuOpened, onMenuClicked }: Navbar) => {
 
   return (
     <nav id="nav" className={styles.nav}>
-      <FloatingBubble
-        relative={true}
-        top={'4%'}
-        left={'10%'}
-        scale={'150%'}
-        gradient={['rgb(255 73 73)', 'rgb(255 161 0)']}
-        className={styles.bubble}
-      />
+      {/*<FloatingBubble*/}
+      {/*  relative={true}*/}
+      {/*  top={'4%'}*/}
+      {/*  left={'10%'}*/}
+      {/*  scale={'150%'}*/}
+      {/*  gradient={['rgb(255 73 73)', 'rgb(255 161 0)']}*/}
+      {/*  className={styles.bubble}*/}
+      {/*/>*/}
       {/*<div id="scrollProgress"></div>*/}
       <div className={styles.contactContainer}>
         <div className={styles.clickableLogo}>

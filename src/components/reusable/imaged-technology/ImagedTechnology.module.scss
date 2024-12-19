@@ -1,0 +1,36 @@
+.container {
+  $time: 0.5s;
+
+  width: 5rem;
+  height: fit-content;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .logo {
+    padding: 0.5rem;
+    transition: transform $time;
+    img {
+      width: fit-content;
+      max-width: 100%;
+    }
+  }
+
+  .name {
+    color: transparent;
+  }
+
+  &:hover {
+    .name {
+      color: var(--color_allSkill);
+      transition: color $time;
+    }
+
+    .logo {
+      transform: translateY(-0.5rem);
+      transition: transform $time;
+    }
+  }
+}

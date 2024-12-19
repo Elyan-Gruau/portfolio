@@ -30,4 +30,11 @@
   background-color: transparent;
 }
 
+.container {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
 /*# sourceMappingURL=Skills.module.css.map */
