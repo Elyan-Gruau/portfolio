@@ -1,9 +1,5 @@
-.skills .leftPart,
-.skills .rightPart {
-  min-width: 49%;
-}
-
 .skills {
+  gap: 0.5rem;
   position: relative;
 }
 .skills .leftPart {
@@ -15,26 +11,47 @@
   flex-direction: column;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: var(--cardContainerMargin);
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .skillCont {
   display: flex;
   flex-direction: row;
   width: 90%;
   max-width: 1100px;
   justify-content: space-between;
-  margin-top: var(--cardContainerMargin);
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   padding: 20px;
+  gap: 1rem;
   z-index: 4;
   position: relative;
   background-color: transparent;
 }
 
-.container {
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skillContainer {
   display: flex;
   gap: 0.5rem;
-  flex-wrap: wrap;
+  flex-direction: column;
+}
+.skillContainer .title {
+  text-align: center;
+}
+.skillContainer .skills {
+  display: flex;
   flex-direction: row;
+  gap: 0.5rem;
+  flex-wrap: wrap;
 }
 
 /*# sourceMappingURL=Skills.module.css.map */

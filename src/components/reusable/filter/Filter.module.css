@@ -1,0 +1,42 @@
+.container {
+  gap: 0.125rem;
+  padding: 2px;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: auto;
+}
+.container button {
+  border: none;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.56);
+  padding: 0;
+}
+.container button .glass {
+  padding: 0.5rem 1rem;
+  filter: brightness(1);
+}
+.container button:hover {
+  filter: brightness(1.1);
+}
+.container button:active, .container button:active .glass {
+  filter: brightness(0.9);
+}
+.container button[aria-selected=true] .glass {
+  color: white;
+}
+.container button[aria-selected=false] .glass {
+  box-shadow: none;
+  background-color: transparent;
+  background-image: none;
+}
+.container button:first-of-type {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.container button:last-of-type {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+/*# sourceMappingURL=Filter.module.css.map */

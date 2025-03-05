@@ -1,9 +1,7 @@
-.skills .leftPart,
-.skills .rightPart {
-  min-width: 49%;
-}
+@use './../../../style/_tokens.scss';
 
 .skills {
+  gap: tokens.$space-050;
   position: relative;
   .leftPart {
     display: flex;
@@ -15,24 +13,48 @@
   }
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: var(--cardContainerMargin);
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .skillCont {
   display: flex;
   flex-direction: row;
   width: 90%;
   max-width: 1100px;
   justify-content: space-between;
-  margin-top: var(--cardContainerMargin);
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
+
   padding: 20px;
+  gap: tokens.$space-100;
   z-index: 4;
   position: relative;
   background-color: transparent;
 }
 
-.container {
+.buttonContainer {
   display: flex;
-  gap: 0.5rem;
-  flex-wrap: wrap;
-  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.skillContainer {
+  display: flex;
+  gap: tokens.$space-050;
+  flex-direction: column;
+
+  .title {
+    text-align: center;
+  }
+
+  .skills {
+    display: flex;
+    flex-direction: row;
+    gap: tokens.$space-050;
+    flex-wrap: wrap;
+  }
 }

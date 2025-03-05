@@ -1,19 +1,21 @@
+@use './../../../style/_tokens.scss' as tokens;
+
 .experiences {
   display: flex;
   flex-direction: column;
+  gap: tokens.$space-100;
 }
 
 .experience {
   position: relative;
-  width: 378px;
+  width: 450px;
   /*452*/
   /*min-height: 620px;*/
   min-width: 270px;
   /*650*/
   color: white;
   border-radius: var(--borderRadius);
-  margin: 0 20px;
-  /*aspect-ratio: 452/650;*/
+  aspect-ratio: 1/1.1615;
   z-index: 4;
   height: fit-content;
 
@@ -94,7 +96,7 @@
   display: flex;
   justify-items: center;
   justify-content: center;
-  //overflow: hidden;
+  gap: tokens.$space-200;
   height: 75vh;
 }
 

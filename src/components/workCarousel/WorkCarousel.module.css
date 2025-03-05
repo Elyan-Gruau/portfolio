@@ -53,7 +53,7 @@
 }
 @media (min-width: 1090px) {
   .workContainerGrid {
-    width: 1090px;
+    width: fit-content;
     grid-template-columns: repeat(3, 1fr);
   }
   .workContainerGrid > :nth-child(1n) {

@@ -1,0 +1,49 @@
+@use './../../../style/_tokens.scss';
+
+.container {
+  gap: tokens.$space-025;
+  padding: 2px;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: auto;
+
+  button {
+    border: none;
+    background-color: transparent;
+
+    color: rgba(255, 255, 255, 0.56);
+    padding: 0;
+
+    .glass {
+      padding: tokens.$space-050 tokens.$space-100;
+      filter: brightness(1);
+    }
+
+    &:hover {
+      filter: brightness(1.1);
+    }
+    &:active,
+    &:active .glass {
+      filter: brightness(0.9);
+    }
+    &[aria-selected='true'] .glass {
+      //background-color: rgba(95, 95, 95, 0.53);
+      color: white;
+    }
+    &[aria-selected='false'] .glass {
+      box-shadow: none;
+      background-color: transparent;
+      background-image: none;
+    }
+
+    &:first-of-type {
+      border-top-left-radius: 15px;
+      border-bottom-left-radius: 15px;
+    }
+    &:last-of-type {
+      border-top-right-radius: 15px;
+      border-bottom-right-radius: 15px;
+    }
+  }
+}

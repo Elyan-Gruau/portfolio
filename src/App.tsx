@@ -129,9 +129,9 @@ export const App = () => {
         <Spacer />
         <Divider />
 
-        <Formations />
-        <Spacer />
-        <Divider />
+        {/*<Formations />*/}
+        {/*<Spacer />*/}
+        {/*<Divider />*/}
 
         <Skills />
         <Spacer />
