@@ -45,9 +45,16 @@ export const Experiences = () => {
           company="Requirement Yogi"
           companyWebsite="https://www.requirementyogi.com/"
           status="En production"
-          location="400 Av. Roumanille Bâtiment 6, 06410 Biot"
+          location="535 Rte des Lucioles, 06560 Valbonne"
           date="04-08/2022"
-          technolist={['java', 'react', 'Typescript', 'sql', 'git']}
+          technolist={[
+            'java',
+            'react',
+            'sping boot',
+            'Typescript',
+            'sql',
+            'git',
+          ]}
           bubbles={[
             <FloatingBubble
               key={'ConsTechBubble1'}
