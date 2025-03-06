@@ -20,7 +20,7 @@ import { ResponsiveStyle } from './components/responsive/responsive-style/Respon
 import { BubbleMaker } from './components/responsive/BubbleMaker';
 import { WorkCarousel } from './components/workCarousel/WorkCarousel';
 import { Footer } from './components/footer/Footer';
-import { Navbar } from './components/navbar/Navbar.tsx';
+import { Navbar } from './components/navbar/Navbar';
 import React, { useState } from 'react';
 
 export const App = () => {
