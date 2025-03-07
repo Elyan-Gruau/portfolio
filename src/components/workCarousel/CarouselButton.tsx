@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 
 export interface CarouselButton {
   index: number;
@@ -8,7 +8,7 @@ export interface CarouselButton {
 export const CarouselButton = ({ index, action, active }: CarouselButton) => {
   const [isSelected, setIsSelected] = useState(active);
 
-  const handleClick = (e) => {
+  const handleClick = (e : React.MouseEvent) => {
     setIsSelected(!isSelected);
     action(index);
   };

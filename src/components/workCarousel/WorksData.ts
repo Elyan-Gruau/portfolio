@@ -1,4 +1,4 @@
-import Work, { WorkType } from '../sections/works/work/Work.tsx';
+import { WorkType } from '../sections/works/work/Work.tsx';
 
 const worksData: WorkType[] = [
   {
@@ -9,7 +9,6 @@ const worksData: WorkType[] = [
     person_count: 8,
     state: 'terminé',
     technolist: ['java', 'javaFx'],
-    gradientColors: ['rgb(21 38 43)', '#000000'],
     bgGradient: 'linear-gradient(172deg, rgb(243 185 185), rgb(38 33 24))',
     bgImgName: 'kill bique_transp.png',
     displayImageInRow: false,
@@ -24,7 +23,6 @@ const worksData: WorkType[] = [
     state: 'en cours',
     technolist: ['react', 'css'],
     displayImageInRow: false,
-    gradientColors: ['rgb(25 48 47)', '#000000'],
     bgImgName: 'portfolio_transp.png',
     bgGradient: 'linear-gradient(138deg, rgb(255 247 240), rgb(75 73 78))',
     bubbles: [],
@@ -39,7 +37,6 @@ const worksData: WorkType[] = [
     link: 'https://iut-git.unice.fr/pt102004/sae4_2a',
     technolist: ['react', 'java', 'spring boot', 'SQL', 'Active Directory'],
     displayImageInRow: false,
-    gradientColors: ['rgb(109 121 183)', 'rgb(255 255 255)'],
     bgImgName: 'saexpress_transp.png',
     bgGradient: 'linear-gradient(193deg, rgb(255 179 84), rgb(134 177 238))',
     bubbles: [],
@@ -53,7 +50,7 @@ const worksData: WorkType[] = [
     state: 'terminé',
     technolist: ['java', 'Android (Java)', 'spring boot', 'Maven'],
     displayImageInRow: true,
-    gradientColors: ['rgb(48 30 7)', '#2a2a2a'],
+    // gradientColors: ['rgb(48 30 7)', '#2a2a2a'],
     bgImgName: 'instagrans phones.png',
     bgGradient: 'linear-gradient(138deg, rgb(172 138 110), rgb(29 21 14))',
     bubbles: [],
@@ -67,7 +64,6 @@ const worksData: WorkType[] = [
     state: 'En cours',
     technolist: ['REACT', 'JS', 'CSS'],
     displayImageInRow: false,
-    gradientColors: ['rgb(19 64 53)', '#2d2d2d'],
     bgImgName: 'calculator_transp.png',
     bgGradient: 'linear-gradient(138deg, rgb(110 172 154) -25%, rgb(3 15 27))',
     bubbles: [],
@@ -81,7 +77,6 @@ const worksData: WorkType[] = [
     state: 'terminé',
     technolist: ['PHP', 'HTML', 'CSS', 'SQL'],
     displayImageInRow: false,
-    gradientColors: ['rgb(19 64 53)', '#2d2d2d'],
     bgImgName: 'la babouce_transp.png',
     bgGradient: 'linear-gradient(138deg, rgb(110 172 154) -25%, rgb(3 15 27))',
   },

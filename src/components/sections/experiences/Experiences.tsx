@@ -1,6 +1,6 @@
 import { Experience } from './experience/Experience.tsx';
 import styles from './Experiences.module.scss';
-import { FloatingBubble } from '../../style/FloatingBubble/FloatingBubble.tsx';
+
 export const Experiences = () => {
   return (
     <section className={styles.experiences} id="experience">
@@ -26,16 +26,14 @@ export const Experiences = () => {
             'git',
           ]}
           bubbles={[
-            <FloatingBubble
-              key={'ConsTechBubble1'}
-              relative={true}
-              top={'22%'}
-              left={'85%'}
-              scale={'135%'}
-              deg={123}
-              animationDelay={-2.6}
-              gradient={['rgb(106 170 254)', 'rgb(255,214,152)']}
-            />,
+            {
+              relative:true,
+              top:'22%',
+              left:'85%',
+              scale:'135%',
+              deg:123,
+              animationDelay:-2.6,
+            gradient:['rgb(106 170 254)', 'rgb(255,214,152)'],}
           ]}
         />
         <Experience
@@ -56,16 +54,15 @@ export const Experiences = () => {
             'git',
           ]}
           bubbles={[
-            <FloatingBubble
-              key={'ConsTechBubble1'}
-              relative={true}
-              top={'22%'}
-              left={'85%'}
-              scale={'135%'}
-              deg={123}
-              animationDelay={-2.6}
-              gradient={['rgb(106 170 254)', 'rgb(255,214,152)']}
-            />,
+            {
+              relative:true,
+              top:'22%',
+              left:'85%',
+              scale:'135%',
+              deg:123,
+              animationDelay:-2.6,
+            gradient:['rgb(106 170 254)', 'rgb(255,214,152)'],
+            }
           ]}
         />
 

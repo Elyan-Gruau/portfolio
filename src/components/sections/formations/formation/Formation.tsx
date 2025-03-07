@@ -4,7 +4,7 @@ import { Glass } from '@reusable/glass/Glass.tsx';
 export interface FormationProps {
   title: string;
   subtitle: string;
-  mention: string;
+  mention?: string;
   desc: string;
   year: string; //TODO : change to object : start, end
   location: string;

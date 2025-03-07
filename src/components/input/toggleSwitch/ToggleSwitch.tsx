@@ -1,4 +1,4 @@
-import './toggleSwitch.css';
+import styles from './toggleSwitch.module.scss';
 export interface ToggleSwitchProps {
   id: number;
   name: string;

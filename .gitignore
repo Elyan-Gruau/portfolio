@@ -33,3 +33,4 @@ V3React/portfolio/node_modules/.cache/default-development/index.pack.old
 V3React/portfolio/node_modules/.cache/.eslintcache
 *.pack
 *.map
+/dist

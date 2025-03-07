@@ -2,21 +2,20 @@ import styles from './WorkCarousel.module.scss';
 import { useState } from 'react';
 import { Work } from '../sections/works/work/Work.tsx';
 import { CarouselButton } from './CarouselButton.tsx';
-import worksData from './WorksData.tsx';
-import { FloatingBubble } from '../style/FloatingBubble/FloatingBubble.tsx';
+import worksData from './WorksData.ts';
 
 export interface WorkCarouselProps {}
 export const WorkCarousel = ({}: WorkCarouselProps) => {
   const [current, setCurrent] = useState(0);
 
-  const setCard = (index) => {
+  const setCard = (index:number) => {
     setCurrent(index);
   };
 
   let cards = [];
   let carouselButtons = [];
 
-  for (var i = 0; i < worksData.length; i++) {
+  for (let i = 0; i < worksData.length; i++) {
     const workItem = worksData[i];
     cards.push(
       <Work
@@ -30,7 +29,7 @@ export const WorkCarousel = ({}: WorkCarouselProps) => {
         technolist={workItem.technolist}
         bgImgName={workItem.bgImgName}
         bgGradient={workItem.bgGradient}
-      />
+              />
     );
 
     carouselButtons.push(

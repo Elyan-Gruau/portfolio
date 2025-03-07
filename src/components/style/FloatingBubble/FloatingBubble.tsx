@@ -1,16 +1,20 @@
 import styles from './FloatingBubble.module.scss';
-export interface FloatingBubbleProps {
+
+export type FloatingBubbleType = {
   top?: string;
   left?: string;
   deg?: number;
-  gradient: Array<string>;
+  gradient?: string[];
   scale?: string;
   animationDelay?: number;
   relative?: boolean;
   className?: string;
 }
 
-export const FloatingBubble = ({
+
+type FloatingBubbleProps = FloatingBubbleType;
+
+const FloatingBubble = ({
   top = '500px',
   left = '500px',
   deg = 160,
@@ -40,3 +44,5 @@ export const FloatingBubble = ({
     ></div>
   );
 };
+
+export default FloatingBubble;

@@ -1,6 +1,7 @@
 import styles from './Contact.module.scss';
-import { FloatingBubble } from '../style/FloatingBubble/FloatingBubble.tsx';
 import { Glass } from '../reusable/glass/Glass.tsx';
+import FloatingBubble from '@components/style/FloatingBubble/FloatingBubble.tsx';
+
 export const Contact = () => {
   // top: 640.525px;
   // left: 289.824px;
@@ -38,7 +39,7 @@ export const Contact = () => {
               id="email"
               placeholder="best@compagny.com"
               pattern="/^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/"
-              size="30"
+              size={30}
               required
             />
 

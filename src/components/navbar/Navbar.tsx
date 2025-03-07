@@ -1,7 +1,5 @@
 import styles from './NavBar.module.scss';
-import { Glass } from '../reusable/glass/Glass.tsx';
 import { MenuButton } from './menu-button/MenuButton.tsx';
-import { FloatingBubble } from '../style/FloatingBubble/FloatingBubble.tsx';
 
 export interface Navbar {
   isMenuOpened: boolean;

@@ -1,7 +1,8 @@
 import styles from './Footer.module.scss';
-import { FloatingBubble } from '../style/FloatingBubble/FloatingBubble.tsx';
 import { Glass } from '../reusable/glass/Glass.tsx';
 import { LinkButton } from '../link-button/LinkButton.tsx';
+import FloatingBubble from '@components/style/FloatingBubble/FloatingBubble.tsx';
+
 export const Footer = () => {
   return (
     <footer id="contact">

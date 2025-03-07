@@ -3,7 +3,8 @@ export interface ButtonProps {
   onClick: () => void;
 }
 
-const Button = ({ title, onClick }) => {
+
+const Button = ({ title, onClick }:ButtonProps) => {
   return <button onClick={onClick}>{title}</button>;
 };
 

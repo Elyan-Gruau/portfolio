@@ -1,7 +1,9 @@
 import { Formation } from './formation/Formation.tsx';
-import { FloatingBubble } from '../../style/FloatingBubble/FloatingBubble.tsx';
-import { Glass } from '../../reusable/glass/Glass.tsx';
+import { Glass } from '@reusable/glass/Glass.tsx';
 import styles from './formation/Formation.module.scss';
+import React from 'react';
+import FloatingBubble from '@components/style/FloatingBubble/FloatingBubble.tsx';
+
 
 function FormationLink() {
   return (
@@ -43,8 +45,7 @@ export const Formations = () => {
           subtitle="Diplome Universitaire de Technologie Informatique"
           year="2021 - 2023"
           desc="Parcours Réalisation d’applications : conception, développement, validation"
-          location="IUT Nice Côte d'Azur, 06000 Nice"
-        />
+          location="IUT Nice Côte d'Azur, 06000 Nice"      />
 
         <FormationLink />
         <Formation

@@ -1,8 +1,8 @@
 import styles from './work.module.scss';
 import { Technology } from './Technology.tsx';
 import { Glass } from '@reusable/glass/Glass.tsx';
-import { useState } from 'react';
-import { FloatingBubbleProps } from '@components/style/FloatingBubble/FloatingBubble.tsx';
+import React, { useState } from 'react';
+import { FloatingBubbleType } from '@components/style/FloatingBubble/FloatingBubble.tsx';
 
 export type WorkType = {
   technolist: string[];
@@ -14,9 +14,8 @@ export type WorkType = {
   date: string;
   person_count: number;
   description: string;
-  gradientColors : string[];
   link?: string;
-  bubbles? : FloatingBubbleProps[];
+  bubbles? : FloatingBubbleType[];
 
 };
 
@@ -54,7 +53,7 @@ export const Work = ({
   let stateComplement = state === 'terminé' ? 'finished' : 'inDev';
   // stateComplement = "toto";
 
-  const handleOnClick = (e) => {
+  const handleOnClick = (e : React.MouseEvent) => {
     setIsOpen((prev) => !prev);
   };
 

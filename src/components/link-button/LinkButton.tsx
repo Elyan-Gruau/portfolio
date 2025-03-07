@@ -18,7 +18,7 @@ export const LinkButton = ({
   title,
   target,
   rel,
-  icon,
+  icon = 'mail',
   className,
 }: LinkButtonProps) => {
   return (

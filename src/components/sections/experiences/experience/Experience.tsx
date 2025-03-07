@@ -1,7 +1,8 @@
 import { Technology } from '../../works/work/Technology.tsx';
-import { Glass } from '../../../reusable/glass/Glass.tsx';
+import { Glass } from '@reusable/glass/Glass.tsx';
 import styles from '../Experiences.module.scss';
-import { FloatingBubbleProps } from '@components/style/FloatingBubble/FloatingBubble.tsx';
+import FloatingBubble, { FloatingBubbleType } from '@components/style/FloatingBubble/FloatingBubble.tsx';
+
 
 export interface ExperienceProps {
   company: string;
@@ -13,7 +14,7 @@ export interface ExperienceProps {
   type: string;
   date: string;
   companyWebsite: string;
-  bubbles?: FloatingBubbleProps[];
+  bubbles?: FloatingBubbleType[];
 }
 export const Experience = ({
   bubbles = [],
@@ -42,7 +43,9 @@ export const Experience = ({
   }
   return (
     <div className={`${styles.experience} ${styles.movingBackground}`}>
-      {bubbles}
+      {bubbles.map((bubbleProps) => (
+        <FloatingBubble {...bubbleProps} />
+      ))}
       <Glass>
         <a
           className={styles.companyLogoContainer}

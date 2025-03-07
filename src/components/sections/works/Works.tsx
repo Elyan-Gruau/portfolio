@@ -1,7 +1,7 @@
 import { Search } from './search/Search.tsx';
 import { Work } from './work/Work.tsx';
 import styles from './WorkContainer.module.scss';
-import worksData from '../../workCarousel/WorksData.tsx';
+import worksData from '../../workCarousel/WorksData.ts';
 
 export const Works = () => {
   const lorem =
@@ -17,7 +17,7 @@ export const Works = () => {
       {/*CARTE ? AFFICHER LE NOMBRE DE PARTICIPANT AVEC UN NOMBRE A CÔTE DUN BONHOME DE PERSONNE*/}
       <div className={styles.workContainer}>
         {worksData.map((data) => (
-          <Work work={data} />
+          <Work {...data} />
         ))}
       </div>
     </section>

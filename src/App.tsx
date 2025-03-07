@@ -12,12 +12,12 @@ import { Works } from './components/sections/works/Works.tsx';
 import { Skills } from './components/sections/skills/Skills.tsx';
 import { Formations } from './components/sections/formations/Formations.tsx';
 import { Contact } from './components/message/Contact.tsx';
-import { Spacer } from './components/reusable/spacer/Spacer.tsx';
-import { Divider } from './components/reusable/divider/Divider.tsx';
+import { Spacer } from '@reusable/spacer/Spacer.tsx';
+import { Divider } from '@reusable/divider/Divider.tsx';
 import { Experiences } from './components/sections/experiences/Experiences.tsx';
 import { Panel } from './components/panel/Panel.tsx';
 import { ResponsiveStyle } from './components/responsive/responsive-style/ResponsiveStyle.tsx';
-import { BubbleMaker } from './components/responsive/BubbleMaker.tsx';
+
 import { WorkCarousel } from './components/workCarousel/WorkCarousel.tsx';
 import { Footer } from './components/footer/Footer.tsx';
 import { Navbar } from './components/navbar/Navbar.tsx';
@@ -27,18 +27,7 @@ export const App = () => {
   //*** FADE IN ***/
   let elementsWithAnimation;
 
-  function isElementInViewport(element) {
-    var rect = element.getBoundingClientRect();
 
-    // Vérifie si l'élément est entièrement visible à l'écran
-    return (
-      rect.top >= -600 &&
-      rect.left >= 0 &&
-      rect.bottom <=
-        (window.innerHeight || document.documentElement.clientHeight) &&
-      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-    );
-  }
 
   const onPageLoad = () => {
     window.addEventListener('scroll', onScroll);
@@ -50,8 +39,10 @@ export const App = () => {
     if (!window.matchMedia('(prefers-color-scheme: dark)').matches) {
       const htmlElement = document.getElementsByTagName('html')[0];
       htmlElement.classList.add('lightMode');
-      const toggleSwitch = document.getElementById('toggleSwitch_lightMode');
-      toggleSwitch.checked = true;
+      const toggleSwitch = document.querySelector<HTMLInputElement>("#toggleSwitch_lightMode");
+      if(toggleSwitch){
+        toggleSwitch.checked = true;
+      }
       console.log('lightMode detected');
     }
   };
@@ -77,7 +68,7 @@ export const App = () => {
     onPageLoad();
   } else {
     window.addEventListener('load', onPageLoad);
-  }
+  }WorkCarousel
 
   // /**** 3D EFFECT ****/
   // const card = document.querySelector(".toto");
