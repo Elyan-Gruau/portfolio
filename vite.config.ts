@@ -37,4 +37,7 @@ export default defineConfig({
   esbuild: {
     logLevel: 'error', // Cache les warnings
   },
+  build: {
+    outDir: 'dist',
+  },
 });
