@@ -64,7 +64,7 @@
   height: 300px;
   width: 300px;
   border-radius: 180px;
-  backdrop-filter: invert(#ffffff) blur(5px) hue-rotate(94deg) brightness(0.9);
+  backdrop-filter: /*invert(#ffffff)*/ blur(5px) hue-rotate(94deg) brightness(0.9);
   filter: drop-shadow(0px 0px 10px var(--brown2));
   /*opacity: 0.5%;*/
 }

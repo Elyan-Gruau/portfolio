@@ -2,19 +2,18 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 import * as path from 'node:path';
-import viteSharp from 'vite-plugin-sharp';
 
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [
     react(),
-    viteSharp({
-      filter: /\.(png|jpg)$/, //Target png and jpg files
-      compress: {
-        webp: { quality: 80 }, // Convert to webp with 80% quality
-      },
-      cache: '.vite-cache/images',
-    }),
+    // viteSharp({
+    //   filter: /\.(png|jpg)$/, //Target png and jpg files
+    //   compress: {
+    //     webp: { quality: 80 }, // Convert to webp with 80% quality
+    //   },
+    //   cache: '.vite-cache/images',
+    // }),
   ],
   resolve: {
     alias: {
