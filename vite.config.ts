@@ -38,6 +38,6 @@ export default defineConfig({
     logLevel: 'error', // Cache les warnings
   },
   build: {
-    outDir: 'dist',
+    outDir: 'build',
   },
 });
