@@ -1,12 +1,12 @@
 import styles from './Formation.module.scss';
-import { Glass } from '../../../reusable/glass/Glass.tsx';
+import { Glass } from '@reusable/glass/Glass.tsx';
 
 export interface FormationProps {
   title: string;
   subtitle: string;
   mention: string;
   desc: string;
-  year: number;
+  year: string; //TODO : change to object : start, end
   location: string;
 }
 export const Formation = ({

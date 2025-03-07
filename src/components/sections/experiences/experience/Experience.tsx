@@ -1,6 +1,7 @@
 import { Technology } from '../../works/work/Technology.tsx';
 import { Glass } from '../../../reusable/glass/Glass.tsx';
 import styles from '../Experiences.module.scss';
+import { FloatingBubbleProps } from '@components/style/FloatingBubble/FloatingBubble.tsx';
 
 export interface ExperienceProps {
   company: string;
@@ -11,9 +12,11 @@ export interface ExperienceProps {
   status: string;
   type: string;
   date: string;
+  companyWebsite: string;
+  bubbles?: FloatingBubbleProps[];
 }
 export const Experience = ({
-  bubbles,
+  bubbles = [],
   companyWebsite,
   company,
   technolist,

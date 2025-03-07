@@ -1,4 +1,4 @@
-import styles from "./Presentation.module.scss";
+import styles from "@sections/presentation/Presentation.module.scss";
 export const Presentation = () => {
   return (
     <section className={`${styles.presentation}`}>

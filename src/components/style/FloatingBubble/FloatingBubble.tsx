@@ -16,7 +16,7 @@ export const FloatingBubble = ({
   deg = 160,
   gradient = ['#ffffff', '#000000'],
   scale = '100%',
-  animationDelay = '-8s',
+  animationDelay = -8,
   relative = false,
   className,
 }: FloatingBubbleProps) => {

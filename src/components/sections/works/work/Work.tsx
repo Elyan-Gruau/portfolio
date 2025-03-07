@@ -1,8 +1,8 @@
 import styles from './work.module.scss';
-import glass from '../../../../style/glass.module.scss';
 import { Technology } from './Technology.tsx';
-import { Glass } from '../../../reusable/glass/Glass.tsx';
+import { Glass } from '@reusable/glass/Glass.tsx';
 import { useState } from 'react';
+import { FloatingBubbleProps } from '@components/style/FloatingBubble/FloatingBubble.tsx';
 
 export type WorkType = {
   technolist: string[];
@@ -14,11 +14,13 @@ export type WorkType = {
   date: string;
   person_count: number;
   description: string;
+  gradientColors : string[];
+  link?: string;
+  bubbles? : FloatingBubbleProps[];
+
 };
 
-export interface WorkProps {
-  work: WorkType;
-}
+export type WorkProps = WorkType;
 export const Work = ({
   technolist,
   bgImgName,
