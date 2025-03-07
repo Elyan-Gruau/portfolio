@@ -1,0 +1,29 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+
+  ],
+  "compilerOptions": {
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitReturns": false,
+    "allowImportingTsExtensions": true,
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": ["src/components/*"],
+      "@reusable/*": ["src/components/reusable/*"],
+      "@utils/*": ["src/utils/*"],
+      "@assets/*": ["src/assets/*"],
+      "@engine/*": ["src/engine/*"],
+      "@hooks/*": ["src/hooks/*"],
+    }
+  },
+  "rules": {
+    "no-unused-vars": "warn" // En fait, ce n'est pas TypeScript mais ESLint qui gère ce genre de règles.
+  }
+}
+
+
