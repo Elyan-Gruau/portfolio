@@ -27,7 +27,7 @@ export const Panel = ({ isOpen }: PanelProps) => {
         <PanelButton title={'CONTACT'} href={'#contactForm'} />
         <PanelButton
           title={'Curiculum'}
-          href={'/portfolio/docs/GRUAU_Elyan_CV.pdf'}
+          href={'/docs/GRUAU_Elyan_CV.pdf'}
           target={'_blank'}
           rel={'noReferrer'}
         />

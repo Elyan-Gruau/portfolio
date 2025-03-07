@@ -4,12 +4,11 @@ import Filters, { Filter } from '../../reusable/filter/Filters.tsx';
 import filters from '../../reusable/filter/Filters.tsx';
 import { useState } from 'react';
 
-const DATABASE_MAIN_TECHNOLOGIES = ['POSTGRESQL'];
+const DATABASE_MAIN_TECHNOLOGIES = ['Postgresql'];
 const DATABASE_TECHNOLOGIES = [
   ...DATABASE_MAIN_TECHNOLOGIES,
-  'MONGODB',
-  'MYSQL',
-  'SQLITE',
+  'Mongodb',
+  'Mysql',
 ];
 
 const BACKEND_MAIN_TECHNOLOGIES = ['Java', 'Springboot', 'Maven'];

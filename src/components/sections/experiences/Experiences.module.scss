@@ -97,7 +97,7 @@
   justify-items: center;
   justify-content: center;
   gap: tokens.$space-200;
-  height: 75vh;
+  min-height: 75vh;
 }
 
 .experienceHeader {

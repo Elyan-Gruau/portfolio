@@ -52,7 +52,7 @@ export const Navbar = ({ isMenuOpened, onMenuClicked }: Navbar) => {
             target="_blank"
             rel="noreferrer"
           >
-            <img src="/portfolio/img/icons/linkedin.png" alt="linkedin" />
+            <img src="/img/icons/linkedin.png" alt="linkedin" />
           </a>
         </div>
       </div>

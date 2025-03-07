@@ -31,7 +31,7 @@ export const Work = ({
   displayImageInRow = false,
 }: WorkProps) => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
-  let imageSrc = '/portfolio/img/projects/' + bgImgName;
+  let imageSrc = '/img/projects/' + bgImgName;
   const technos = [];
   const technoIterrator = technolist;
   console.log('bgGradient', bgGradient);

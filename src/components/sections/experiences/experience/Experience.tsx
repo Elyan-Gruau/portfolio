@@ -24,7 +24,7 @@ export const Experience = ({
   type,
   date,
 }: ExperienceProps) => {
-  let imgPath = '/portfolio/img/companies/' + company + '.png';
+  let imgPath = '/img/companies/' + company + '.png';
   const technos = [];
   const technoIterrator = technolist;
   if (technoIterrator != null) {
