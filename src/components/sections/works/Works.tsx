@@ -1,7 +1,7 @@
-import { Search } from './search/Search';
-import { Work } from './work/Work';
+import { Search } from './search/Search.tsx';
+import { Work } from './work/Work.tsx';
 import styles from './WorkContainer.module.scss';
-import worksData from '../../workCarousel/WorksData';
+import worksData from '../../workCarousel/WorksData.tsx';
 
 export const Works = () => {
   const lorem =

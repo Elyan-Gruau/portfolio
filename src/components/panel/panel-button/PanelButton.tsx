@@ -1,5 +1,5 @@
 import styles from './PanelButton.module.scss';
-import { RelType, TargetType } from '../../link-button/LinkButton';
+import { RelType, TargetType } from '../../link-button/LinkButton.tsx';
 export interface PanelButtonProps {
   title: string;
   href: string;

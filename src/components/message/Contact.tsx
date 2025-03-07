@@ -1,6 +1,6 @@
 import styles from './Contact.module.scss';
-import { FloatingBubble } from '../style/FloatingBubble/FloatingBubble';
-import { Glass } from '../reusable/glass/Glass';
+import { FloatingBubble } from '../style/FloatingBubble/FloatingBubble.tsx';
+import { Glass } from '../reusable/glass/Glass.tsx';
 export const Contact = () => {
   // top: 640.525px;
   // left: 289.824px;

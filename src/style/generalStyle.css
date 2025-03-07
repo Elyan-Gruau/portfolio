@@ -1,8 +1,8 @@
 @font-face {
   font-family: 'Monsterat';
   src:
-    url('../../public/font/Montserrat-VariableFont_wght.ttf') format('tff'),
-    url('../../public/font/Montserrat-VariableFont_wght.ttf') format('tff');
+    url('../../viteu/public/font/Montserrat-VariableFont_wght.ttf') format('tff'),
+    url('../../viteu/public/font/Montserrat-VariableFont_wght.ttf') format('tff');
 }
 
 :root {

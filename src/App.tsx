@@ -6,22 +6,22 @@ import './style/glass.module.scss';
 import './style/animation.css';
 import './style/tooltip.css';
 
-import { Presentation } from './components/sections/presentation/Presentation';
+import { Presentation } from './components/sections/presentation/Presentation.tsx';
 
-import { Works } from './components/sections/works/Works';
-import { Skills } from './components/sections/skills/Skills';
-import { Formations } from './components/sections/formations/Formations';
-import { Contact } from './components/message/Contact';
-import { Spacer } from './components/reusable/spacer/Spacer';
-import { Divider } from './components/reusable/divider/Divider';
-import { Experiences } from './components/sections/experiences/Experiences';
-import { Panel } from './components/panel/Panel';
-import { ResponsiveStyle } from './components/responsive/responsive-style/ResponsiveStyle';
-import { BubbleMaker } from './components/responsive/BubbleMaker';
-import { WorkCarousel } from './components/workCarousel/WorkCarousel';
-import { Footer } from './components/footer/Footer';
-import { Navbar } from './components/navbar/Navbar';
-import React, { useState } from 'react';
+import { Works } from './components/sections/works/Works.tsx';
+import { Skills } from './components/sections/skills/Skills.tsx';
+import { Formations } from './components/sections/formations/Formations.tsx';
+import { Contact } from './components/message/Contact.tsx';
+import { Spacer } from './components/reusable/spacer/Spacer.tsx';
+import { Divider } from './components/reusable/divider/Divider.tsx';
+import { Experiences } from './components/sections/experiences/Experiences.tsx';
+import { Panel } from './components/panel/Panel.tsx';
+import { ResponsiveStyle } from './components/responsive/responsive-style/ResponsiveStyle.tsx';
+import { BubbleMaker } from './components/responsive/BubbleMaker.tsx';
+import { WorkCarousel } from './components/workCarousel/WorkCarousel.tsx';
+import { Footer } from './components/footer/Footer.tsx';
+import { Navbar } from './components/navbar/Navbar.tsx';
+import { useState } from 'react';
 
 export const App = () => {
   //*** FADE IN ***/

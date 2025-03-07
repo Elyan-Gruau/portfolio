@@ -1,4 +1,4 @@
-import Work, { WorkType } from '../sections/works/work/Work';
+import Work, { WorkType } from '../sections/works/work/Work.tsx';
 
 const worksData: WorkType[] = [
   {

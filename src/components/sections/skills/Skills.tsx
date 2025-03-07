@@ -1,7 +1,7 @@
 import styles from './Skills.module.scss';
-import ImagedTechnology from '../../reusable/imaged-technology/ImagedTechnology';
-import Filters, { Filter } from '../../reusable/filter/Filters';
-import filters from '../../reusable/filter/Filters';
+import ImagedTechnology from '../../reusable/imaged-technology/ImagedTechnology.tsx';
+import Filters, { Filter } from '../../reusable/filter/Filters.tsx';
+import filters from '../../reusable/filter/Filters.tsx';
 import { useState } from 'react';
 
 const DATABASE_MAIN_TECHNOLOGIES = ['POSTGRESQL'];

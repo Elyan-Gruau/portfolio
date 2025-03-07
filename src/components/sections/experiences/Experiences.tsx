@@ -1,6 +1,6 @@
-import { Experience } from './experience/Experience';
+import { Experience } from './experience/Experience.tsx';
 import styles from './Experiences.module.scss';
-import { FloatingBubble } from '../../style/FloatingBubble/FloatingBubble';
+import { FloatingBubble } from '../../style/FloatingBubble/FloatingBubble.tsx';
 export const Experiences = () => {
   return (
     <section className={styles.experiences} id="experience">

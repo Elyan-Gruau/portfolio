@@ -1,5 +1,5 @@
 import styles from './Formation.module.scss';
-import { Glass } from '../../../reusable/glass/Glass';
+import { Glass } from '../../../reusable/glass/Glass.tsx';
 
 export interface FormationProps {
   title: string;

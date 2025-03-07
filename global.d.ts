@@ -1,4 +1,5 @@
-declare module '*.module.css' {
-    const classes: { [key: string]: string };
-    export default classes;
+// src/global.d.ts
+declare module '*.module.scss' {
+    const classes: { [key: string]: string }
+    export default classes
 }

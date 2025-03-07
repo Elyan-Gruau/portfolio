@@ -1,5 +1,5 @@
 import styles from './ImagedTechnology.module.scss';
-import { Glass } from '../glass/Glass';
+import { Glass } from '../glass/Glass.tsx';
 
 export interface ImagedTechnologyProps {
   name: string;

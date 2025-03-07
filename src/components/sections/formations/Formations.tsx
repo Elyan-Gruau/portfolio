@@ -1,6 +1,6 @@
-import { Formation } from './formation/Formation';
-import { FloatingBubble } from '../../style/FloatingBubble/FloatingBubble';
-import { Glass } from '../../reusable/glass/Glass';
+import { Formation } from './formation/Formation.tsx';
+import { FloatingBubble } from '../../style/FloatingBubble/FloatingBubble.tsx';
+import { Glass } from '../../reusable/glass/Glass.tsx';
 import styles from './formation/Formation.module.scss';
 
 function FormationLink() {

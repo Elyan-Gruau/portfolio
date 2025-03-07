@@ -1,6 +1,6 @@
 import styles from './Filter.module.scss';
 import { useState } from 'react';
-import { Glass } from '../glass/Glass';
+import { Glass } from '../glass/Glass.tsx';
 
 export interface Filter {
   label: string;

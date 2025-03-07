@@ -1,5 +1,5 @@
-import { Technology } from '../../works/work/Technology';
-import { Glass } from '../../../reusable/glass/Glass';
+import { Technology } from '../../works/work/Technology.tsx';
+import { Glass } from '../../../reusable/glass/Glass.tsx';
 import styles from '../Experiences.module.scss';
 
 export interface ExperienceProps {

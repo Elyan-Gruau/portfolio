@@ -1,5 +1,5 @@
 import styles from './Panel.module.scss';
-import { PanelButton } from './panel-button/PanelButton';
+import { PanelButton } from './panel-button/PanelButton.tsx';
 
 export interface PanelProps {
   isOpen: boolean;

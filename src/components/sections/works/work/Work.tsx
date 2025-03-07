@@ -1,7 +1,7 @@
 import styles from './work.module.scss';
-import glass from './../.././../../style/glass.module.scss';
-import { Technology } from './Technology';
-import { Glass } from '../../../reusable/glass/Glass';
+import glass from '../../../../style/glass.module.scss';
+import { Technology } from './Technology.tsx';
+import { Glass } from '../../../reusable/glass/Glass.tsx';
 import { useState } from 'react';
 
 export type WorkType = {

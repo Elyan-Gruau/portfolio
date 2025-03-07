@@ -1,9 +1,9 @@
 import styles from './WorkCarousel.module.scss';
 import { useState } from 'react';
-import { Work } from '../sections/works/work/Work';
-import { CarouselButton } from './CarouselButton';
-import worksData from './WorksData';
-import { FloatingBubble } from '../style/FloatingBubble/FloatingBubble';
+import { Work } from '../sections/works/work/Work.tsx';
+import { CarouselButton } from './CarouselButton.tsx';
+import worksData from './WorksData.tsx';
+import { FloatingBubble } from '../style/FloatingBubble/FloatingBubble.tsx';
 
 export interface WorkCarouselProps {}
 export const WorkCarousel = ({}: WorkCarouselProps) => {
